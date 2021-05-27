@@ -2,5 +2,7 @@
 
 
 int main() {
-    int population;
+
+
+    return 0;
 }
