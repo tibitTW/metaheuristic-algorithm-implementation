@@ -1,3 +1,3 @@
 # ga
 
-Genetic Algorithm inplement on C.
+Genetic Algorithm inplemented on C.
