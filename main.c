@@ -22,13 +22,20 @@ int generatePopulation() {
 
 // output best result in current iteration
 void displayCurrentBestResult(int tmp_max_fitness_index) {
-    printf("Current best chromosome : [ ");
+    printf("Best chromosome in this iteration : [ ");
     for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
         printf("%d ", P[tmp_max_fitness_index][i]);
     }
     printf("]\n");
-    printf("Current best fitness : %d\n", best_fitness);
-    printf("\n------------------------------\n\n");
+    printf("Best fitness in this iteration : %d\n\n", fitness[tmp_max_fitness_index]);
+
+    printf("Best chromosome ever : [ ");
+    for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
+        printf("%d ", best_chromosome[i]);
+    }
+    printf("]\n");
+    printf("Best fitness ever : %d\n\n", best_fitness);
+    printf("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n");
 }
 
 // return fitness of chromosome
@@ -53,6 +60,24 @@ void onePointCrossOver(int chromo_idx1, int chromo_idx2) {
     }
 }
 
+void displayP() {
+    for (int i = 0; i < POPSIZE; i++) {
+        for (int ii = 0; ii < CHROMOSOME_LENGTH; ii++) {
+            printf("%d ", P[i][ii]);
+        }
+        printf("\n");
+    }
+}
+
+void displayPtmp() {
+    for (int i = 0; i < POPSIZE; i++) {
+        for (int ii = 0; ii < CHROMOSOME_LENGTH; ii++) {
+            printf("%d ", P[i][ii]);
+        }
+        printf("\n");
+    }
+}
+
 int main() {
     // make random seed
     srand(time(NULL));
@@ -73,9 +98,9 @@ int main() {
         }
 
         if (fitness[tmp_max_fitness_index] > best_fitness) {
+            best_fitness = fitness[tmp_max_fitness_index];
             for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
                 best_chromosome[i] = P[tmp_max_fitness_index][i];
-                best_fitness = fitness[i];
             }
         }
 
@@ -96,12 +121,15 @@ int main() {
         }
 
         for (int new_chromo_i = 0; new_chromo_i < POPSIZE; new_chromo_i++) {
-            int selected_position = rand() * fitness_sum / RAND_MAX, selected_idx = 0;
-            while (selected_position > 0) {
-                selected_position -= fitness[selected_idx];
+            int flag, selected_idx = 0, fitness_sum_currently = 0;
+            flag = rand() * fitness_sum / RAND_MAX;
+            while (fitness_sum_currently + fitness[selected_idx] < flag) {
+                fitness_sum_currently += fitness[selected_idx];
                 selected_idx++;
             }
-            
+            if (selected_idx == 20) {
+                selected_idx--;
+            }
             for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
                 P_tmp[new_chromo_i][i] = P[selected_idx][i];
             }
@@ -113,7 +141,7 @@ int main() {
                 P[chromo_i][i] = P_tmp[chromo_i][i];
             }
         }
-        
+
         // crossover //
         int crossover_idx_tmp = -1;
         for (int i = 0; i < POPSIZE; i++) {
@@ -138,7 +166,7 @@ int main() {
             }
         }
     }
-    
+
     // OUTPUT BEST RESULT
 
     return 0;
