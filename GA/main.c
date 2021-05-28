@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <string.h>
+#include <time.h>
 
-#include "gaconfig.h"
+#include "config.h"
 
-
-int P[POPSIZE][CHROMOSOME_LENGTH];
-int P_tmp[POPSIZE][CHROMOSOME_LENGTH];
-int fitness[POPSIZE];
-int best_fitness = 0, best_chromosome[CHROMOSOME_LENGTH] = {0};
+int P[POPSIZE][CHROMOSOME_LENGTH], P_tmp[POPSIZE][CHROMOSOME_LENGTH],
+    fitness[POPSIZE], best_fitness = 0,
+                      best_chromosome[CHROMOSOME_LENGTH] = {0};
 
 // generate random chromosome to entire population
 int generatePopulation() {
@@ -27,7 +25,8 @@ void displayCurrentBestResult(int tmp_max_fitness_index) {
         printf("%d ", P[tmp_max_fitness_index][i]);
     }
     printf("]\n");
-    printf("Best fitness in this iteration : %d\n\n", fitness[tmp_max_fitness_index]);
+    printf("Best fitness in this iteration : %d\n\n",
+           fitness[tmp_max_fitness_index]);
 
     printf("Best chromosome ever : [ ");
     for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
@@ -87,7 +86,6 @@ int main() {
 
     // iteration part
     for (int iter_count = 0; iter_count < ITERATION_COUNT; iter_count++) {
-
         // calculate fitness
         int tmp_max_fitness_index = 0;
         for (int i = 0; i < POPSIZE; i++) {
@@ -105,7 +103,7 @@ int main() {
         }
 
         // output current iteratoin count, best chromosome and its fitness
-        printf("Iteration count : %d\n", iter_count+1);
+        printf("Iteration count : %d\n", iter_count + 1);
         displayCurrentBestResult(tmp_max_fitness_index);
 
         // find the best solution, end the iteration early

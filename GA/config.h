@@ -1,3 +1,7 @@
+///////////////////////////////////
+// ALL PARAMETERS SHOULD BE HERE //
+///////////////////////////////////
+
 // pop-size should be even
 #define POPSIZE 20
 #define CHROMOSOME_LENGTH 20
