@@ -1,0 +1,600 @@
+Iteration count : 1
+Current best chromosome : [ 1 0 0 0 1 1 1 1 1 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 2
+Current best chromosome : [ 1 0 0 1 1 1 0 1 1 1 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 3
+Current best chromosome : [ 1 1 1 0 1 1 1 0 0 0 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 4
+Current best chromosome : [ 1 1 1 0 1 1 1 0 0 1 ]
+Current best fitness : 1
+
+------------------------------
+
+Iteration count : 5
+Current best chromosome : [ 1 1 0 1 1 1 1 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 6
+Current best chromosome : [ 1 1 0 1 1 1 1 1 1 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 7
+Current best chromosome : [ 1 1 0 1 1 0 1 1 1 1 ]
+Current best fitness : 1
+
+------------------------------
+
+Iteration count : 8
+Current best chromosome : [ 1 1 0 1 1 0 1 1 1 1 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 9
+Current best chromosome : [ 1 1 0 1 1 0 1 1 1 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 10
+Current best chromosome : [ 1 1 0 1 1 1 1 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 11
+Current best chromosome : [ 1 1 0 1 1 0 1 1 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 12
+Current best chromosome : [ 1 1 0 0 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 13
+Current best chromosome : [ 1 1 0 0 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 14
+Current best chromosome : [ 1 1 1 0 0 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 15
+Current best chromosome : [ 1 1 0 0 1 1 0 1 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 16
+Current best chromosome : [ 1 1 0 1 1 1 0 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 17
+Current best chromosome : [ 1 1 1 0 1 0 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 18
+Current best chromosome : [ 1 0 0 1 1 1 1 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 19
+Current best chromosome : [ 2 1 0 0 1 1 0 1 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 20
+Current best chromosome : [ 2 0 0 1 1 0 1 1 1 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 21
+Current best chromosome : [ 1 0 1 1 1 1 1 0 1 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 22
+Current best chromosome : [ 2 1 0 0 1 0 1 0 1 1 ]
+Current best fitness : 3
+
+------------------------------
+
+Iteration count : 23
+Current best chromosome : [ 1 0 1 1 1 1 0 1 0 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 24
+Current best chromosome : [ 1 0 1 1 1 0 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 25
+Current best chromosome : [ 1 0 1 1 1 1 1 1 0 1 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 26
+Current best chromosome : [ 1 0 1 1 1 1 1 1 0 1 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 27
+Current best chromosome : [ 2 1 0 0 1 0 0 1 1 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 28
+Current best chromosome : [ 3 0 1 1 1 0 0 1 0 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 29
+Current best chromosome : [ 3 0 1 1 1 0 0 1 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 30
+Current best chromosome : [ 3 0 1 1 0 1 0 1 0 1 ]
+Current best fitness : 2
+
+------------------------------
+
+Iteration count : 31
+Current best chromosome : [ 3 0 1 1 0 1 1 1 0 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 32
+Current best chromosome : [ 3 1 1 0 1 1 0 1 0 0 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 33
+Current best chromosome : [ 1 1 0 1 1 1 1 0 0 0 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 34
+Current best chromosome : [ 1 1 0 1 1 1 1 0 0 0 ]
+Current best fitness : 1
+
+------------------------------
+
+Iteration count : 35
+Current best chromosome : [ 1 1 0 1 1 0 1 0 0 0 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 36
+Current best chromosome : [ 1 1 0 1 1 1 1 0 0 0 ]
+Current best fitness : 3
+
+------------------------------
+
+Iteration count : 37
+Current best chromosome : [ 1 1 0 1 1 1 1 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 38
+Current best chromosome : [ 2 0 0 1 1 1 0 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 39
+Current best chromosome : [ 2 1 1 1 0 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 40
+Current best chromosome : [ 2 1 1 1 0 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 41
+Current best chromosome : [ 3 0 0 1 0 1 0 1 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 42
+Current best chromosome : [ 1 1 0 1 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 43
+Current best chromosome : [ 1 1 0 1 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 44
+Current best chromosome : [ 1 1 1 1 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 45
+Current best chromosome : [ 2 1 0 1 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 46
+Current best chromosome : [ 1 1 0 1 1 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 47
+Current best chromosome : [ 1 1 0 1 1 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 48
+Current best chromosome : [ 2 0 1 0 0 1 0 1 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 49
+Current best chromosome : [ 2 0 0 1 1 1 0 0 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 50
+Current best chromosome : [ 0 1 0 1 1 1 1 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 51
+Current best chromosome : [ 1 1 0 1 1 1 0 0 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 52
+Current best chromosome : [ 2 1 0 1 0 0 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 53
+Current best chromosome : [ 1 1 0 1 1 0 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 54
+Current best chromosome : [ 2 0 0 0 1 1 0 0 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 55
+Current best chromosome : [ 2 1 0 1 0 0 1 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 56
+Current best chromosome : [ 1 1 0 1 1 0 0 1 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 57
+Current best chromosome : [ 1 1 0 1 1 0 0 1 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 58
+Current best chromosome : [ 1 1 0 1 1 0 1 0 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 59
+Current best chromosome : [ 1 1 1 1 1 0 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 60
+Current best chromosome : [ 1 1 1 1 1 0 1 0 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 61
+Current best chromosome : [ 1 0 1 1 0 0 0 1 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 62
+Current best chromosome : [ 1 0 1 1 0 0 1 1 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 63
+Current best chromosome : [ 1 0 1 1 1 1 0 0 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 64
+Current best chromosome : [ 1 0 1 1 1 1 0 0 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 65
+Current best chromosome : [ 1 0 1 1 1 0 0 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 66
+Current best chromosome : [ 1 0 1 1 0 1 0 1 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 67
+Current best chromosome : [ 1 1 1 0 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 68
+Current best chromosome : [ 0 1 1 1 1 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 69
+Current best chromosome : [ 0 1 1 1 1 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 70
+Current best chromosome : [ 1 1 1 1 1 1 0 1 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 71
+Current best chromosome : [ 1 0 0 1 1 0 0 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 72
+Current best chromosome : [ 2 0 0 0 1 1 0 0 1 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 73
+Current best chromosome : [ 1 0 1 1 1 1 0 0 0 0 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 74
+Current best chromosome : [ 1 1 1 1 1 0 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 75
+Current best chromosome : [ 1 0 0 1 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 76
+Current best chromosome : [ 1 0 0 1 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 77
+Current best chromosome : [ 1 1 0 1 1 1 0 1 1 1 ]
+Current best fitness : 3
+
+------------------------------
+
+Iteration count : 78
+Current best chromosome : [ 1 1 1 1 1 1 0 0 0 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 79
+Current best chromosome : [ 1 0 0 1 1 1 1 1 0 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 80
+Current best chromosome : [ 1 0 0 1 1 1 1 1 0 1 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 81
+Current best chromosome : [ 1 0 0 1 1 1 1 1 1 1 ]
+Current best fitness : 3
+
+------------------------------
+
+Iteration count : 82
+Current best chromosome : [ 1 0 0 1 1 1 1 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 83
+Current best chromosome : [ 1 0 0 1 1 1 1 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 84
+Current best chromosome : [ 2 0 0 0 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 85
+Current best chromosome : [ 2 0 0 0 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 86
+Current best chromosome : [ 2 0 0 0 1 1 0 1 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 87
+Current best chromosome : [ 3 0 1 0 0 1 0 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 88
+Current best chromosome : [ 3 1 0 0 1 1 0 0 1 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 89
+Current best chromosome : [ 2 0 0 0 1 1 1 0 1 1 ]
+Current best fitness : 6
+
+------------------------------
+
+Iteration count : 90
+Current best chromosome : [ 2 1 1 1 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 91
+Current best chromosome : [ 2 1 0 0 1 1 1 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 92
+Current best chromosome : [ 2 1 0 0 1 1 1 0 1 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 93
+Current best chromosome : [ 2 0 1 1 1 1 0 0 1 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 94
+Current best chromosome : [ 2 0 1 1 1 1 0 0 1 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 95
+Current best chromosome : [ 2 0 1 1 1 1 0 1 1 1 ]
+Current best fitness : 8
+
+------------------------------
+
+Iteration count : 96
+Current best chromosome : [ 3 0 1 1 1 1 0 0 0 1 ]
+Current best fitness : 8
+
+------------------------------
+
+Iteration count : 97
+Current best chromosome : [ 3 0 1 1 1 1 0 0 1 1 ]
+Current best fitness : 4
+
+------------------------------
+
+Iteration count : 98
+Current best chromosome : [ 3 0 1 1 1 1 0 1 0 1 ]
+Current best fitness : 5
+
+------------------------------
+
+Iteration count : 99
+Current best chromosome : [ 3 1 1 1 1 1 0 0 0 1 ]
+Current best fitness : 7
+
+------------------------------
+
+Iteration count : 100
+Current best chromosome : [ 3 1 1 0 0 1 1 0 1 1 ]
+Current best fitness : 5
+
+------------------------------
+

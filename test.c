@@ -1,17 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
-
 
 int main() {
-    srand(time(NULL));
-
-    for (int i = 0; i < 100; i++) {
-        int point = rand() * 2 / RAND_MAX;
-        printf("%d\n", point);
-    }
-
+    int a = 0, b = 1;
+    printf("%d ^ %d : %d\n", a, 0, a^0);
+    printf("%d ^ %d : %d\n", a, 1, a^1);
+    printf("%d ^ %d : %d\n", b, 0, b^0);
+    printf("%d ^ %d : %d\n", b, 1, b^1);
 
     return 0;
 }

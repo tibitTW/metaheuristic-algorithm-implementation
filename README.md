@@ -17,3 +17,11 @@ This program uses Genetic Algorithm to solve One Max problem.
 
 * `iteration count` : equals to generations count
 
+
+
+
+
+```pseudocode
+
+```
+
