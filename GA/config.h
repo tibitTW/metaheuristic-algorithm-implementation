@@ -8,6 +8,5 @@
 #define ITERATION_COUNT 100
 
 // during iteration
-#define SELECTION_COUNT 4
 #define CROSSOVER_RATE 0.6
 #define MUTATION_RATE 0.6
