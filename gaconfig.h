@@ -1,6 +1,6 @@
 // pop-size should be even
 #define POPSIZE 20
-#define CHROMOSOME_LENGTH 10
+#define CHROMOSOME_LENGTH 20
 #define ITERATION_COUNT 100
 
 // during iteration
