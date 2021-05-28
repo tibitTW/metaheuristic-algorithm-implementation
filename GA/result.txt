@@ -1,900 +1,2700 @@
 Iteration count : 1
-Best chromosome in this iteration : [ 0 1 1 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 0 1 1 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 ]
-Best fitness ever : 12
+Best chromosome ever : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness ever : 34
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 2
-Best chromosome in this iteration : [ 0 1 1 0 0 1 0 0 1 1 0 1 1 1 0 1 1 1 0 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 0 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 0 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 0 1 1 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 ]
-Best fitness ever : 12
+Best chromosome ever : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness ever : 34
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 3
-Best chromosome in this iteration : [ 0 1 1 0 0 1 0 0 1 1 0 1 1 1 0 1 1 1 0 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 0 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 0 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 ]
-Best fitness ever : 12
+Best chromosome ever : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness ever : 34
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 4
-Best chromosome in this iteration : [ 0 1 1 0 0 1 0 0 1 1 0 1 1 1 0 1 1 1 0 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 0 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 0 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 0 1 1 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 ]
-Best fitness ever : 12
+Best chromosome ever : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness ever : 34
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 5
-Best chromosome in this iteration : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness in this iteration : 13
+Best chromosome in this iteration : [ 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 0 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 0 0 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness ever : 13
+Best chromosome ever : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness ever : 34
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 6
-Best chromosome in this iteration : [ 0 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness ever : 13
+Best chromosome ever : [ 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 1 ]
+Best fitness ever : 34
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 7
-Best chromosome in this iteration : [ 0 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness ever : 13
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 8
-Best chromosome in this iteration : [ 0 1 1 1 0 0 0 1 0 1 1 1 1 0 1 1 0 0 1 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness ever : 13
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 9
-Best chromosome in this iteration : [ 0 1 1 1 0 0 0 1 0 1 1 1 1 0 1 1 0 0 1 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness ever : 13
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 10
-Best chromosome in this iteration : [ 0 1 1 0 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 ]
-Best fitness in this iteration : 12
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 1 0 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 ]
-Best fitness ever : 13
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 11
-Best chromosome in this iteration : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 12
-Best chromosome in this iteration : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 0 1 1 0 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 13
-Best chromosome in this iteration : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 0 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 32
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 14
-Best chromosome in this iteration : [ 1 1 1 1 1 0 0 1 1 0 0 1 1 1 1 0 0 1 0 1 ]
-Best fitness in this iteration : 13
+Best chromosome in this iteration : [ 1 1 1 0 1 0 0 1 1 0 0 0 1 1 1 1 1 0 1 0 1 1 0 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 ]
+Best fitness in this iteration : 31
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 15
-Best chromosome in this iteration : [ 1 1 1 1 1 1 0 0 0 1 0 0 1 1 0 1 1 1 0 1 ]
-Best fitness in this iteration : 13
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 0 0 1 0 1 1 0 0 0 1 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 16
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 0 1 0 0 1 1 0 1 1 1 0 1 ]
-Best fitness in this iteration : 13
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 17
-Best chromosome in this iteration : [ 1 0 0 0 1 0 1 0 0 1 1 1 1 1 1 1 1 1 0 1 ]
-Best fitness in this iteration : 13
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 18
-Best chromosome in this iteration : [ 1 1 0 1 0 0 1 0 0 1 1 1 1 1 1 1 1 1 0 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 19
-Best chromosome in this iteration : [ 1 1 1 0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 0 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 20
-Best chromosome in this iteration : [ 1 1 1 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 0 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 33
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 21
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 0 0 1 1 1 1 0 1 1 1 1 0 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 22
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 0 0 1 1 1 1 0 1 1 1 1 0 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 23
-Best chromosome in this iteration : [ 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 1 1 1 0 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness ever : 15
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 24
-Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 ]
-Best fitness ever : 16
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 25
-Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 17
+Best chromosome ever : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 ]
+Best fitness ever : 35
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 26
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 36
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 27
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 1 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 36
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 28
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 0 1 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 34
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 36
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 29
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 1 0 1 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 36
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 30
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 31
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 32
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 0 1 0 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 33
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 0 1 0 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 34
-Best chromosome in this iteration : [ 1 1 0 0 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 35
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 36
-Best chromosome in this iteration : [ 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 37
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 38
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 38
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 39
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 40
-Best chromosome in this iteration : [ 1 1 0 0 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 41
-Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 42
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 0 1 0 1 0 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 43
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 44
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 45
-Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 0 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 46
-Best chromosome in this iteration : [ 1 1 1 0 0 1 1 1 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 47
-Best chromosome in this iteration : [ 1 1 1 0 0 1 1 1 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 0 0 0 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 48
-Best chromosome in this iteration : [ 1 1 1 0 0 1 1 1 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 49
-Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 50
-Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 51
-Best chromosome in this iteration : [ 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 52
-Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 0 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 53
-Best chromosome in this iteration : [ 1 1 1 1 1 0 1 0 1 1 0 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 0 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 54
-Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 0 1 0 1 1 1 0 1 0 0 0 1 1 1 1 0 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 35
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 55
-Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 0 0 0 1 0 1 1 1 1 0 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 56
-Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 0 0 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 57
-Best chromosome in this iteration : [ 1 1 0 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 58
-Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 59
-Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 36
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 60
-Best chromosome in this iteration : [ 1 0 0 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 61
-Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 62
-Best chromosome in this iteration : [ 1 0 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 63
-Best chromosome in this iteration : [ 1 1 0 1 1 0 1 0 1 1 0 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 64
-Best chromosome in this iteration : [ 1 1 1 1 1 0 1 0 1 1 0 0 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 65
-Best chromosome in this iteration : [ 1 1 1 1 1 0 0 0 1 1 0 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 66
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 67
-Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 0 1 0 1 0 1 0 1 1 1 1 0 ]
-Best fitness in this iteration : 14
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 68
-Best chromosome in this iteration : [ 1 1 1 1 1 0 1 0 1 1 0 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 15
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 69
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 0 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 70
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 71
-Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 0 1 0 1 1 0 1 0 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 0 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 72
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 73
-Best chromosome in this iteration : [ 1 1 1 1 0 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 74
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 75
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 76
-Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 77
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 78
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 79
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 80
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 ]
-Best fitness in this iteration : 16
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 81
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 82
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 83
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 84
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 85
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 86
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 87
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 88
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 89
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 90
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 91
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 92
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 93
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 ]
-Best fitness in this iteration : 17
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 94
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 95
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 96
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 97
-Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 98
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 18
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 38
 
-Best chromosome ever : [ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 ]
-Best fitness ever : 18
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 99
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 19
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness ever : 19
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Iteration count : 100
-Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness in this iteration : 19
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 0 1 0 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
 
-Best chromosome ever : [ 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
-Best fitness ever : 19
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 101
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 102
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness ever : 39
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 103
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 104
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 105
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 106
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 0 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 107
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 0 1 0 0 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 108
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 1 0 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 109
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 110
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 1 1 0 1 0 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 111
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 112
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 113
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 114
+Best chromosome in this iteration : [ 1 1 1 1 1 0 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 1 1 0 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 115
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 116
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 117
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 118
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 119
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 120
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 121
+Best chromosome in this iteration : [ 0 1 1 1 1 0 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 122
+Best chromosome in this iteration : [ 0 1 1 1 1 0 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 123
+Best chromosome in this iteration : [ 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 124
+Best chromosome in this iteration : [ 1 1 1 1 0 1 0 1 1 0 1 1 0 0 1 1 1 0 0 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 125
+Best chromosome in this iteration : [ 1 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 0 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 126
+Best chromosome in this iteration : [ 1 1 0 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 127
+Best chromosome in this iteration : [ 1 1 0 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 128
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 129
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 130
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 131
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 132
+Best chromosome in this iteration : [ 0 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 133
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 134
+Best chromosome in this iteration : [ 1 1 0 0 0 0 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 135
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 0 1 1 1 0 0 1 1 1 0 1 1 1 1 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 136
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 0 1 0 1 1 1 1 0 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 ]
+Best fitness in this iteration : 36
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 137
+Best chromosome in this iteration : [ 1 0 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 138
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 1 0 0 0 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 139
+Best chromosome in this iteration : [ 1 1 0 0 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 1 0 1 0 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 140
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 0 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 1 1 0 0 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 141
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 1 0 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 0 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 142
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 143
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 144
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 145
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 146
+Best chromosome in this iteration : [ 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 147
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 148
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 149
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 150
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 151
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 152
+Best chromosome in this iteration : [ 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 153
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 154
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 0 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 155
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 156
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 157
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 0 1 0 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 158
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 159
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 160
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 161
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 162
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 163
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 164
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 165
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 166
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 167
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 168
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 169
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 170
+Best chromosome in this iteration : [ 1 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 171
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 172
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 173
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 174
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 175
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 176
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 177
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 178
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 179
+Best chromosome in this iteration : [ 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 180
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 181
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 37
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 182
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 0 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 183
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 184
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 185
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 186
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 187
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 188
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 ]
+Best fitness ever : 41
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 189
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 190
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 191
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 192
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 193
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 194
+Best chromosome in this iteration : [ 1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 195
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 196
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 197
+Best chromosome in this iteration : [ 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 198
+Best chromosome in this iteration : [ 0 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 199
+Best chromosome in this iteration : [ 0 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 200
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 201
+Best chromosome in this iteration : [ 1 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 202
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 203
+Best chromosome in this iteration : [ 1 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 204
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 205
+Best chromosome in this iteration : [ 1 1 0 1 1 1 0 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 206
+Best chromosome in this iteration : [ 1 1 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 207
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 38
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 208
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 209
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 210
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 211
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 212
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 213
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 39
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 214
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 215
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 216
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 217
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 218
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 1 0 1 0 1 1 1 0 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 219
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 220
+Best chromosome in this iteration : [ 1 0 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 221
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 222
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 1 0 1 0 1 1 1 0 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 223
+Best chromosome in this iteration : [ 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 224
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 225
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 226
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 227
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 228
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 229
+Best chromosome in this iteration : [ 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 230
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 231
+Best chromosome in this iteration : [ 1 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 232
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0 0 1 1 0 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 233
+Best chromosome in this iteration : [ 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0 0 1 1 0 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 234
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 42
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 235
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 44
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 236
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 237
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 238
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 239
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 240
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 241
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 242
+Best chromosome in this iteration : [ 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 243
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 244
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 245
+Best chromosome in this iteration : [ 1 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 246
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 247
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 248
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 249
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 250
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 251
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 252
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 253
+Best chromosome in this iteration : [ 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 254
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 255
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 256
+Best chromosome in this iteration : [ 1 0 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 257
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 258
+Best chromosome in this iteration : [ 1 1 0 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 259
+Best chromosome in this iteration : [ 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 260
+Best chromosome in this iteration : [ 1 0 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 40
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 261
+Best chromosome in this iteration : [ 1 0 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 262
+Best chromosome in this iteration : [ 1 0 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 263
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 264
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 265
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 266
+Best chromosome in this iteration : [ 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 267
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 268
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 269
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 270
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 271
+Best chromosome in this iteration : [ 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 272
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 273
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 274
+Best chromosome in this iteration : [ 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 275
+Best chromosome in this iteration : [ 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 276
+Best chromosome in this iteration : [ 1 1 0 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 277
+Best chromosome in this iteration : [ 1 1 0 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 278
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 279
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 280
+Best chromosome in this iteration : [ 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 281
+Best chromosome in this iteration : [ 1 0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 282
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 283
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 284
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 285
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 286
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 44
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 287
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 288
+Best chromosome in this iteration : [ 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 289
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 41
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 290
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 291
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 292
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 293
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 294
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 295
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 296
+Best chromosome in this iteration : [ 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 297
+Best chromosome in this iteration : [ 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 43
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 298
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 299
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Iteration count : 300
+Best chromosome in this iteration : [ 1 1 0 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ]
+Best fitness in this iteration : 42
+
+Best chromosome ever : [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 ]
+Best fitness ever : 44
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

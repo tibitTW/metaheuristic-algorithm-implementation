@@ -29,6 +29,3 @@ do iteration_count times:
 
 output best chromosome
 ```
-
-
-
