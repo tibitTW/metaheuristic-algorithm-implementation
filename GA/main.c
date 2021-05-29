@@ -6,11 +6,11 @@
 #include "config.h"
 
 int P[POPSIZE][CHROMOSOME_LENGTH], P_tmp[POPSIZE][CHROMOSOME_LENGTH],
-    fitness[POPSIZE], best_fitness = 0,
-                      best_chromosome[CHROMOSOME_LENGTH] = {0};
+    fitness[POPSIZE];
+int best_fitness = 0, best_chromosome[CHROMOSOME_LENGTH] = {0};
 
 // generate random chromosome to entire population
-int generatePopulation() {
+void generatePopulation() {
     for (int chromo_i = 0; chromo_i < POPSIZE; chromo_i++) {
         for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
             P[chromo_i][i] = rand() * 2 / RAND_MAX;
@@ -19,18 +19,19 @@ int generatePopulation() {
 }
 
 // output best result in current iteration
-void displayCurrentBestResult(int tmp_max_fitness_index) {
-    printf("Best chromosome in this iteration : [ ");
+void displayIterationResult(int iter_count, int tmp_max_fitness_index) {
+    printf("###  Iteration count : %d  ###\n", iter_count);
+    printf("Best chromosome in this iteration : [");
     for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
-        printf("%d ", P[tmp_max_fitness_index][i]);
+        printf("%d", P[tmp_max_fitness_index][i]);
     }
     printf("]\n");
     printf("Best fitness in this iteration : %d\n\n",
            fitness[tmp_max_fitness_index]);
 
-    printf("Best chromosome ever : [ ");
+    printf("Best chromosome ever : [");
     for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
-        printf("%d ", best_chromosome[i]);
+        printf("%d", best_chromosome[i]);
     }
     printf("]\n");
     printf("Best fitness ever : %d\n\n", best_fitness);
@@ -46,34 +47,25 @@ int calculateFitness(int *chromosome) {
     return fitness;
 }
 
-// do "one point crossover" for two chromosomes
-void onePointCrossOver(int chromo_idx1, int chromo_idx2) {
+// one point crossover for two chromosomes
+void onePointCrossOver(int *chromo_1, int *chromo_2) {
     // point : the index to do crossover
     int point = rand() * 10 / RAND_MAX;
 
     int tmp;
     for (int i = point; i < CHROMOSOME_LENGTH; i++) {
-        tmp = P[chromo_idx1][i];
-        P[chromo_idx1][i] = P[chromo_idx2][i];
-        P[chromo_idx2][i] = tmp;
+        tmp = chromo_1[i];
+        chromo_1[i] = chromo_2[i];
+        chromo_2[i] = tmp;
     }
 }
 
-void displayP() {
-    for (int i = 0; i < POPSIZE; i++) {
-        for (int ii = 0; ii < CHROMOSOME_LENGTH; ii++) {
-            printf("%d ", P[i][ii]);
+void mutation() {
+    for (int chromo_i = 0; chromo_i < POPSIZE; chromo_i++) {
+        if ((rand() / (float)RAND_MAX) > MUTATION_RATE) {
+            int mutation_idx = rand() * CHROMOSOME_LENGTH / RAND_MAX;
+            P[chromo_i][mutation_idx] ^= 1;
         }
-        printf("\n");
-    }
-}
-
-void displayPtmp() {
-    for (int i = 0; i < POPSIZE; i++) {
-        for (int ii = 0; ii < CHROMOSOME_LENGTH; ii++) {
-            printf("%d ", P[i][ii]);
-        }
-        printf("\n");
     }
 }
 
@@ -103,8 +95,7 @@ int main() {
         }
 
         // output current iteratoin count, best chromosome and its fitness
-        printf("Iteration count : %d\n", iter_count + 1);
-        displayCurrentBestResult(tmp_max_fitness_index);
+        displayIterationResult(iter_count + 1, tmp_max_fitness_index);
 
         // find the best solution, end the iteration early
         if (best_fitness == CHROMOSOME_LENGTH) {
@@ -142,12 +133,12 @@ int main() {
 
         // crossover //
         int crossover_idx_tmp = -1;
-        for (int i = 0; i < POPSIZE; i++) {
+        for (int chromo_i = 0; chromo_i < POPSIZE; chromo_i++) {
             if ((rand() / (float)RAND_MAX) > CROSSOVER_RATE) {
                 if (crossover_idx_tmp == -1) {
-                    crossover_idx_tmp = i;
+                    crossover_idx_tmp = chromo_i;
                 } else {
-                    onePointCrossOver(crossover_idx_tmp, i);
+                    onePointCrossOver(P[crossover_idx_tmp], P[chromo_i]);
                     crossover_idx_tmp = -1;
                 }
             }
@@ -156,13 +147,7 @@ int main() {
         // mutation //
         // if a chromosome mutations, one bit of this chromosome will change
         // (1 -> 0 or 0 -> 1)
-        for (int i = 0; i < POPSIZE; i++) {
-            if ((rand() / (float)RAND_MAX) > MUTATION_RATE) {
-                // do mutation
-                int mutation_idx = rand() * CHROMOSOME_LENGTH / RAND_MAX;
-                P[i][mutation_idx] ^= 1;
-            }
-        }
+        mutation();
     }
 
     // OUTPUT BEST RESULT
