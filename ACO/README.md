@@ -2,15 +2,16 @@
 
 ## Process
 
-- [x] turn dataset to relation matrix
+- [x] turn dataset to city distance relation matrix (*passed)
     - [x] read location to `cityLocatoin[][]`
     - [x] turn `cityLocation[][]` to **relation matrix**
-- [x] ants
-    - [x] design `artificial ant`
-    - [x] generate `artificial ant`  population
-- [x] create pheromone relation matrix
+- [x] ants (initialize tables)
+    - [x] `AntsCurrentCity[]`
+    - [x] `AntsPathLengthAccumulation[]`
+    - [x] `AntsVisitedCity[POP_SIZE][CITY_DIM]`
+- [x] create pheromone relation matrix (*failed :<)
 - [ ] in iteration:
-    - [ ] solution construction (*most complex part)
+    - [x] solution construction (*most complex part)
     - [ ] update pheromone
     - [ ] local search (optional)
 
