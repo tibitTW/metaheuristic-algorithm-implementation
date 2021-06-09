@@ -7,7 +7,6 @@
 #define num_f 0.000167
 #define power 2
 int main() {
-    printf("%.20lf", pow(0.000167, 2));
-
+    printf("hello world!\n");
     return 0;
 }
