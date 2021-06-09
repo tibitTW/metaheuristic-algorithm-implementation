@@ -8,7 +8,6 @@
 
 double calculateCityDistance(int x1, int y1, int x2, int y2);
 double calculateExceptedValue(double tau, double eta);
-double updateExceptedValueTable();
 
 int main() {
     srand(time(NULL));
@@ -49,11 +48,17 @@ int main() {
 
     /* TODO : CONSTRUCT POPULATION ARRAY OF ANTS */
 
-    // "AntsCurrentCity" : record which city this ant current at
-    // "AntsPathLengthAccumulation" : record path length of this ant has passed
-    // "AntsVisitedCity" : initizl value is 0, if the value is 1 means this ant has visited the ith city
-    int AntsCurrentCity[POPULATION_SIZE], AntsPathLengthAccumulation[POPULATION_SIZE], AntsVisitedCity[POPULATION_SIZE][CITY_DIMENSION],
-        AntsVisitedCityOrder[POPULATION_SIZE][CITY_DIMENSION];
+    // record which city this ant current at
+    int AntsCurrentCity[ANT_POPULATION];
+
+    // record path length of this ant has passed
+    double AntsPathLengthAccumulation[ANT_POPULATION];
+
+    // initizl value is 0, if the value is 1 means this ant has visited the ith city
+    int AntsVisitedCity[ANT_POPULATION][CITY_DIMENSION];
+
+    // record the order of cities this ant visited
+    int AntsVisitedCityOrder[ANT_POPULATION][CITY_DIMENSION];
 
     /* ENDO : CONSTRUCT POPULATION ARRAY OF ANTS */
 
@@ -73,7 +78,7 @@ int main() {
     /* TODO : CREATE ARRAYS AND VARIABLES FOR REPEATLY USAGE */
 
     // construct excepted value table
-    // column:: |  excepted value  |  probability  |  probability accmulation |
+    // |  excepted value  |  probability  |  probability accmulation |
     double exceptedValueTable[CITY_DIMENSION][3];
 
     /* ENDO : CREATE ARRAYS AND VARIABLES FOR REPEATLY USAGE */
@@ -85,12 +90,12 @@ int main() {
         /* TODO : INITIALIZE ANTS */
 
         // reset accumulation array to all zero
-        for (int i = 0; i < POPULATION_SIZE; i++) {
+        for (int i = 0; i < ANT_POPULATION; i++) {
             AntsPathLengthAccumulation[i] = 0;
         }
 
         // reset visited city record of ants to all zero
-        for (int i = 0; i < POPULATION_SIZE; i++) {
+        for (int i = 0; i < ANT_POPULATION; i++) {
             for (int j = 0; j < CITY_DIMENSION; j++) {
                 AntsVisitedCity[i][j] = 0;
             }
@@ -98,7 +103,7 @@ int main() {
 
         // generate a new ant population
         // every ant will place in a random city
-        for (int i = 0; i < POPULATION_SIZE; i++) {
+        for (int i = 0; i < ANT_POPULATION; i++) {
             AntsCurrentCity[i] = rand() % CITY_DIMENSION;
             AntsVisitedCity[i][AntsCurrentCity[i]] = 1;
             AntsVisitedCityOrder[i][0] = AntsCurrentCity[i];
@@ -108,7 +113,7 @@ int main() {
 
         /* TODO : LET EVERY ANTS FIND AN COMPLETE PATH */
 
-        for (int ant_i = 0; ant_i < POPULATION_SIZE; ant_i++) {
+        for (int ant_i = 0; ant_i < ANT_POPULATION; ant_i++) {
             for (int visited_city_cnt = 1; visited_city_cnt < CITY_DIMENSION; visited_city_cnt++) {
 
                 /* TODO : GENERATE EXCEPTED VALUE TABLE */
@@ -120,11 +125,12 @@ int main() {
                         exceptedValueTable[city_idx][0] = -1;
                     } else {
                         expected_value = calculateExceptedValue(PheromoneRelationMatrix[AntsCurrentCity[ant_i]][city_idx],
-                                                                1 / cityDistanceRelationMatrix[ant_i][city_idx]);
+                                                                1.0 / cityDistanceRelationMatrix[AntsCurrentCity[ant_i]][city_idx]);
                         exceptedValueTable[city_idx][0] = expected_value;
                         sum_of_expected_value += expected_value;
                     }
                 }
+
                 // convert "excepted value" to "probability" and "probability accmulation"
                 for (int city_idx = 0; city_idx < CITY_DIMENSION; city_idx++) {
                     if (exceptedValueTable[city_idx][0] == -1) {
@@ -139,10 +145,19 @@ int main() {
 
                 /* ENDO : GENERATE EXCEPTED VALUE TABLE */
 
+                /* output excepted value table FOR DEBUG */
+                // for (int i = 0; i < CITY_DIMENSION; i++) {
+                //     for (int j = 0; j < 3; j++) {
+                //         printf("%20.12lf\t", exceptedValueTable[i][j]);
+                //     }
+                //     printf("\n");
+                // }
+                // printf("----------------------------------------\n");
+
                 /* TODO : PICK NEXT CITY */
 
                 // generate random number
-                float rdn = rand() / (float)RAND_MAX;
+                double rdn = rand() / (float)RAND_MAX;
                 int next_city_i = 0;
                 while (next_city_i < CITY_DIMENSION) {
                     if (exceptedValueTable[next_city_i][2] > rdn) {
@@ -159,21 +174,50 @@ int main() {
             }
         }
 
-        for (int i = 0; i < CITY_DIMENSION; i++) {
-            printf("%d\n", AntsVisitedCityOrder[0][i]);
-        }
-
         /* ENDO : LET EVERY ANTS FIND AN COMPLETE PATH */
+
+        /* output order of visited city FOR DEBUG */
+        // for (int i = 0; i < CITY_DIMENSION; i++) {
+        //     printf("%d\n", AntsVisitedCityOrder[0][i]);
+        // }
+
+        for (int i = 0; i < ANT_POPULATION; i++) {
+            printf("%lf\n", AntsPathLengthAccumulation[i]);
+        }
 
         /* TODO : UPDATE PHEROMONE RELATION MATRIX */
 
-        NULL;
+        // step1 : reduce
+        for (int i = 0; i < CITY_DIMENSION; i++) {
+            for (int j = 0; j < CITY_DIMENSION; j++) {
+                if (i != j) {
+                    PheromoneRelationMatrix[i][j] *= (1 - EVAPORATION_FACTOR);
+                    PheromoneRelationMatrix[i][j] =
+                        (PheromoneRelationMatrix[i][j] > MIN_PHEROMONE_AMOUNT) ? PheromoneRelationMatrix[i][j] : MIN_PHEROMONE_AMOUNT;
+                }
+            }
+        }
+
+        // step2 : addup newly pheromone
+        for (int ant_i = 0; ant_i < ANT_POPULATION; ant_i++) {
+            double average_pheromone = 1 / AntsPathLengthAccumulation[ant_i];
+            for (int c_i = 0; c_i < CITY_DIMENSION - 1; c_i++) {
+                PheromoneRelationMatrix[AntsVisitedCityOrder[ant_i][c_i]][AntsVisitedCityOrder[ant_i][c_i + 1]] +=
+                    average_pheromone * cityDistanceRelationMatrix[AntsVisitedCityOrder[ant_i][c_i]][AntsVisitedCityOrder[ant_i][c_i + 1]];
+            }
+        }
 
         /* ENDO : UPDATE PHEROMONE RELATION MATRIX */
 
         /* TODO : UPDATE BEST(SHORTEST) PATH */
 
-        NULL;
+        double shortest_path = AntsPathLengthAccumulation[0];
+        for (int ant_i = 0; ant_i < ANT_POPULATION; ant_i++) {
+            printf("%lf\n", AntsPathLengthAccumulation[ant_i]);
+            shortest_path = shortest_path < AntsPathLengthAccumulation[ant_i] ? shortest_path : AntsPathLengthAccumulation[ant_i];
+        }
+        printf("Shortest path length : %lf", shortest_path);
+        printf("----------------------------------------------------\n");
 
         /* ENDO : UPDATE BEST(SHORTEST) PATH */
     }

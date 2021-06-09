@@ -4,9 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-#define num_f 0.000167
-#define power 2
 int main() {
-    printf("hello world!\n");
+    printf("%d", 1 > 0 ? 1 : 0);
     return 0;
 }
