@@ -10,10 +10,17 @@
     - [x] `AntsPathLengthAccumulation[]`
     - [x] `AntsVisitedCity[POP_SIZE][CITY_DIM]`
 - [x] create pheromone relation matrix (*failed :<)
-- [ ] in iteration:
+- [x] in iteration:
     - [x] solution construction (*most complex part)
-    - [ ] update pheromone
+    - [x] update pheromone
     - [ ] local search (optional)
 
-# 原理
+# Todo List
+
+- [ ] 檢查邏輯錯誤
+- [ ] 增加 log
+
+
+
+
 
