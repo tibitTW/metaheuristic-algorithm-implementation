@@ -1,5 +1,5 @@
 #define CITY_DIM 51 // city dimension
-#define ANT_POPULATION 100
+#define ANT_POPULATION 1000
 #define ITERATION_COUNT 50
 #define PHERO_OF_ANT_CARRIED 50
 #define PHERO_CONTROL_FACTOR 2

@@ -229,7 +229,8 @@ int main() {
         //         printf(", ");
         // }
         printf("Iteration %2d : Shortest path length : %lf\n", iter_count, shortest_path);
-        // printf("----------------------------------------------------\n");
+
+        printf("----------------------------------------------------\n");
 
         /* ENDO : UPDATE BEST(SHORTEST) PATH */
     }
