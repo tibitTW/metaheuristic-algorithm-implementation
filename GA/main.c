@@ -4,8 +4,7 @@
 
 #include "config.h"
 
-int P[POPSIZE][CHROMOSOME_LENGTH], P_tmp[POPSIZE][CHROMOSOME_LENGTH],
-    fitness[POPSIZE];
+int P[POPSIZE][CHROMOSOME_LENGTH], P_tmp[POPSIZE][CHROMOSOME_LENGTH], fitness[POPSIZE];
 int best_fitness = 0, best_chromosome[CHROMOSOME_LENGTH] = {0};
 
 // generate random chromosome to entire population
@@ -25,8 +24,7 @@ void displayIterationResult(int iter_count, int tmp_max_fitness_index) {
         printf("%d", P[tmp_max_fitness_index][i]);
     }
     printf("]\n");
-    printf("Best fitness in this iteration : %d\n\n",
-           fitness[tmp_max_fitness_index]);
+    printf("Best fitness in this iteration : %d\n\n", fitness[tmp_max_fitness_index]);
 
     printf("Best chromosome ever : [");
     for (int i = 0; i < CHROMOSOME_LENGTH; i++) {
