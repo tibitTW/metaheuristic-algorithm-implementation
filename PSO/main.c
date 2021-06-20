@@ -11,7 +11,7 @@
 #define PTC_AMOUNT 20
 #define MAP_UPPER_BOUND 40
 #define MAP_LOWER_BOUND -40
-#define ITER_COUNT 30
+#define ITER_COUNT 50
 #define INERTIA_WEIGHT 1
 #define P_LEARNING_FACTOR 2
 #define G_LEARNING_FACTOR 2
@@ -87,7 +87,7 @@ int main() {
     for (int iter = 0; iter < ITER_COUNT; iter++) {
 
         // output current position
-        printf("Round %d\n", iter + 1);
+        printf("Round : %d\n", iter + 1);
         for (int ptc_i = 0; ptc_i < PTC_AMOUNT; ptc_i++) {
             for (int xi = 0; xi < X_DIM; xi++) {
                 printf("%lf\t", ptcsPos[ptc_i][xi]);
