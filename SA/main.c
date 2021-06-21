@@ -6,6 +6,7 @@
 #define BIT_SIZE 100
 #define ITER_MAX 1000
 #define DEFAULTE_TEMP 200
+#define TEMP_LOWER_BOUND 20
 #define TEMP_COLLDOWN_RATE 0.98
 
 int Evaluate(int *bitArr) {
@@ -91,6 +92,7 @@ int main() {
         best_fitness = best_fitness > fitness ? best_fitness : fitness;
 
         temp *= TEMP_COLLDOWN_RATE;
+        temp = temp > TEMP_LOWER_BOUND ? temp : TEMP_LOWER_BOUND;
     }
 
     printf("\n--------------------------\n");
