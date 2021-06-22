@@ -1,1003 +1,2003 @@
-Round    1, temp = 200.000000, fitness =  55
-Round    2, temp = 196.000000, fitness =  55
-Round    3, temp = 192.080000, fitness =  54
-Round    4, temp = 188.238400, fitness =  55
-Round    5, temp = 184.473632, fitness =  55
-Round    6, temp = 180.784159, fitness =  55
-Round    7, temp = 177.168476, fitness =  55
-Round    8, temp = 173.625107, fitness =  55
-Round    9, temp = 170.152605, fitness =  55
-Round   10, temp = 166.749552, fitness =  55
-Round   11, temp = 163.414561, fitness =  55
-Round   12, temp = 160.146270, fitness =  56
-Round   13, temp = 156.943345, fitness =  55
-Round   14, temp = 153.804478, fitness =  56
-Round   15, temp = 150.728388, fitness =  56
-Round   16, temp = 147.713821, fitness =  56
-Round   17, temp = 144.759544, fitness =  56
-Round   18, temp = 141.864353, fitness =  56
-Round   19, temp = 139.027066, fitness =  57
-Round   20, temp = 136.246525, fitness =  57
-Round   21, temp = 133.521594, fitness =  56
-Round   22, temp = 130.851162, fitness =  56
-Round   23, temp = 128.234139, fitness =  56
-Round   24, temp = 125.669456, fitness =  56
-Round   25, temp = 123.156067, fitness =  56
-Round   26, temp = 120.692946, fitness =  56
-Round   27, temp = 118.279087, fitness =  56
-Round   28, temp = 115.913505, fitness =  56
-Round   29, temp = 113.595235, fitness =  56
-Round   30, temp = 111.323330, fitness =  56
-Round   31, temp = 109.096864, fitness =  56
-Round   32, temp = 106.914927, fitness =  56
-Round   33, temp = 104.776628, fitness =  56
-Round   34, temp = 102.681096, fitness =  56
-Round   35, temp = 100.627474, fitness =  56
-Round   36, temp = 98.614924, fitness =  56
-Round   37, temp = 96.642626, fitness =  56
-Round   38, temp = 94.709773, fitness =  56
-Round   39, temp = 92.815578, fitness =  56
-Round   40, temp = 90.959266, fitness =  56
-Round   41, temp = 89.140081, fitness =  56
-Round   42, temp = 87.357279, fitness =  56
-Round   43, temp = 85.610134, fitness =  56
-Round   44, temp = 83.897931, fitness =  56
-Round   45, temp = 82.219972, fitness =  55
-Round   46, temp = 80.575573, fitness =  55
-Round   47, temp = 78.964061, fitness =  56
-Round   48, temp = 77.384780, fitness =  55
-Round   49, temp = 75.837085, fitness =  55
-Round   50, temp = 74.320343, fitness =  55
-Round   51, temp = 72.833936, fitness =  55
-Round   52, temp = 71.377257, fitness =  55
-Round   53, temp = 69.949712, fitness =  55
-Round   54, temp = 68.550718, fitness =  55
-Round   55, temp = 67.179704, fitness =  55
-Round   56, temp = 65.836109, fitness =  55
-Round   57, temp = 64.519387, fitness =  55
-Round   58, temp = 63.229000, fitness =  55
-Round   59, temp = 61.964420, fitness =  55
-Round   60, temp = 60.725131, fitness =  55
-Round   61, temp = 59.510629, fitness =  55
-Round   62, temp = 58.320416, fitness =  55
-Round   63, temp = 57.154008, fitness =  55
-Round   64, temp = 56.010927, fitness =  55
-Round   65, temp = 54.890709, fitness =  55
-Round   66, temp = 53.792895, fitness =  55
-Round   67, temp = 52.717037, fitness =  55
-Round   68, temp = 51.662696, fitness =  55
-Round   69, temp = 50.629442, fitness =  55
-Round   70, temp = 49.616853, fitness =  55
-Round   71, temp = 48.624516, fitness =  55
-Round   72, temp = 47.652026, fitness =  55
-Round   73, temp = 46.698985, fitness =  55
-Round   74, temp = 45.765006, fitness =  56
-Round   75, temp = 44.849706, fitness =  56
-Round   76, temp = 43.952712, fitness =  56
-Round   77, temp = 43.073657, fitness =  56
-Round   78, temp = 42.212184, fitness =  56
-Round   79, temp = 41.367940, fitness =  56
-Round   80, temp = 40.540582, fitness =  56
-Round   81, temp = 39.729770, fitness =  56
-Round   82, temp = 38.935175, fitness =  56
-Round   83, temp = 38.156471, fitness =  56
-Round   84, temp = 37.393342, fitness =  56
-Round   85, temp = 36.645475, fitness =  56
-Round   86, temp = 35.912565, fitness =  56
-Round   87, temp = 35.194314, fitness =  56
-Round   88, temp = 34.490428, fitness =  56
-Round   89, temp = 33.800619, fitness =  56
-Round   90, temp = 33.124607, fitness =  56
-Round   91, temp = 32.462115, fitness =  55
-Round   92, temp = 31.812872, fitness =  55
-Round   93, temp = 31.176615, fitness =  55
-Round   94, temp = 30.553083, fitness =  55
-Round   95, temp = 29.942021, fitness =  55
-Round   96, temp = 29.343181, fitness =  55
-Round   97, temp = 28.756317, fitness =  55
-Round   98, temp = 28.181191, fitness =  55
-Round   99, temp = 27.617567, fitness =  55
-Round  100, temp = 27.065215, fitness =  55
-Round  101, temp = 26.523911, fitness =  55
-Round  102, temp = 25.993433, fitness =  55
-Round  103, temp = 25.473564, fitness =  55
-Round  104, temp = 24.964093, fitness =  55
-Round  105, temp = 24.464811, fitness =  55
-Round  106, temp = 23.975515, fitness =  55
-Round  107, temp = 23.496005, fitness =  55
-Round  108, temp = 23.026085, fitness =  55
-Round  109, temp = 22.565563, fitness =  55
-Round  110, temp = 22.114252, fitness =  55
-Round  111, temp = 21.671967, fitness =  55
-Round  112, temp = 21.238527, fitness =  55
-Round  113, temp = 20.813757, fitness =  55
-Round  114, temp = 20.397482, fitness =  55
-Round  115, temp = 20.000000, fitness =  55
-Round  116, temp = 20.000000, fitness =  55
-Round  117, temp = 20.000000, fitness =  55
-Round  118, temp = 20.000000, fitness =  55
-Round  119, temp = 20.000000, fitness =  55
-Round  120, temp = 20.000000, fitness =  55
-Round  121, temp = 20.000000, fitness =  55
-Round  122, temp = 20.000000, fitness =  55
-Round  123, temp = 20.000000, fitness =  55
-Round  124, temp = 20.000000, fitness =  55
-Round  125, temp = 20.000000, fitness =  55
-Round  126, temp = 20.000000, fitness =  55
-Round  127, temp = 20.000000, fitness =  55
-Round  128, temp = 20.000000, fitness =  55
-Round  129, temp = 20.000000, fitness =  55
-Round  130, temp = 20.000000, fitness =  55
-Round  131, temp = 20.000000, fitness =  55
-Round  132, temp = 20.000000, fitness =  55
-Round  133, temp = 20.000000, fitness =  55
-Round  134, temp = 20.000000, fitness =  55
-Round  135, temp = 20.000000, fitness =  55
-Round  136, temp = 20.000000, fitness =  55
-Round  137, temp = 20.000000, fitness =  55
-Round  138, temp = 20.000000, fitness =  55
-Round  139, temp = 20.000000, fitness =  55
-Round  140, temp = 20.000000, fitness =  55
-Round  141, temp = 20.000000, fitness =  55
-Round  142, temp = 20.000000, fitness =  55
-Round  143, temp = 20.000000, fitness =  55
-Round  144, temp = 20.000000, fitness =  55
-Round  145, temp = 20.000000, fitness =  55
-Round  146, temp = 20.000000, fitness =  55
-Round  147, temp = 20.000000, fitness =  55
-Round  148, temp = 20.000000, fitness =  55
-Round  149, temp = 20.000000, fitness =  55
-Round  150, temp = 20.000000, fitness =  55
-Round  151, temp = 20.000000, fitness =  55
-Round  152, temp = 20.000000, fitness =  55
-Round  153, temp = 20.000000, fitness =  55
-Round  154, temp = 20.000000, fitness =  55
-Round  155, temp = 20.000000, fitness =  55
-Round  156, temp = 20.000000, fitness =  55
-Round  157, temp = 20.000000, fitness =  55
-Round  158, temp = 20.000000, fitness =  55
-Round  159, temp = 20.000000, fitness =  55
-Round  160, temp = 20.000000, fitness =  55
-Round  161, temp = 20.000000, fitness =  55
-Round  162, temp = 20.000000, fitness =  55
-Round  163, temp = 20.000000, fitness =  55
-Round  164, temp = 20.000000, fitness =  55
-Round  165, temp = 20.000000, fitness =  55
-Round  166, temp = 20.000000, fitness =  55
-Round  167, temp = 20.000000, fitness =  55
-Round  168, temp = 20.000000, fitness =  55
-Round  169, temp = 20.000000, fitness =  55
-Round  170, temp = 20.000000, fitness =  55
-Round  171, temp = 20.000000, fitness =  55
-Round  172, temp = 20.000000, fitness =  55
-Round  173, temp = 20.000000, fitness =  55
-Round  174, temp = 20.000000, fitness =  55
-Round  175, temp = 20.000000, fitness =  55
-Round  176, temp = 20.000000, fitness =  55
-Round  177, temp = 20.000000, fitness =  55
-Round  178, temp = 20.000000, fitness =  55
-Round  179, temp = 20.000000, fitness =  55
-Round  180, temp = 20.000000, fitness =  55
-Round  181, temp = 20.000000, fitness =  55
-Round  182, temp = 20.000000, fitness =  55
-Round  183, temp = 20.000000, fitness =  55
-Round  184, temp = 20.000000, fitness =  55
-Round  185, temp = 20.000000, fitness =  55
-Round  186, temp = 20.000000, fitness =  55
-Round  187, temp = 20.000000, fitness =  55
-Round  188, temp = 20.000000, fitness =  55
-Round  189, temp = 20.000000, fitness =  55
-Round  190, temp = 20.000000, fitness =  55
-Round  191, temp = 20.000000, fitness =  55
-Round  192, temp = 20.000000, fitness =  56
-Round  193, temp = 20.000000, fitness =  56
-Round  194, temp = 20.000000, fitness =  56
-Round  195, temp = 20.000000, fitness =  56
-Round  196, temp = 20.000000, fitness =  56
-Round  197, temp = 20.000000, fitness =  56
-Round  198, temp = 20.000000, fitness =  56
-Round  199, temp = 20.000000, fitness =  56
-Round  200, temp = 20.000000, fitness =  56
-Round  201, temp = 20.000000, fitness =  56
-Round  202, temp = 20.000000, fitness =  56
-Round  203, temp = 20.000000, fitness =  56
-Round  204, temp = 20.000000, fitness =  56
-Round  205, temp = 20.000000, fitness =  56
-Round  206, temp = 20.000000, fitness =  56
-Round  207, temp = 20.000000, fitness =  56
-Round  208, temp = 20.000000, fitness =  56
-Round  209, temp = 20.000000, fitness =  56
-Round  210, temp = 20.000000, fitness =  56
-Round  211, temp = 20.000000, fitness =  56
-Round  212, temp = 20.000000, fitness =  56
-Round  213, temp = 20.000000, fitness =  56
-Round  214, temp = 20.000000, fitness =  56
-Round  215, temp = 20.000000, fitness =  56
-Round  216, temp = 20.000000, fitness =  56
-Round  217, temp = 20.000000, fitness =  56
-Round  218, temp = 20.000000, fitness =  56
-Round  219, temp = 20.000000, fitness =  56
-Round  220, temp = 20.000000, fitness =  56
-Round  221, temp = 20.000000, fitness =  56
-Round  222, temp = 20.000000, fitness =  56
-Round  223, temp = 20.000000, fitness =  56
-Round  224, temp = 20.000000, fitness =  56
-Round  225, temp = 20.000000, fitness =  56
-Round  226, temp = 20.000000, fitness =  56
-Round  227, temp = 20.000000, fitness =  56
-Round  228, temp = 20.000000, fitness =  56
-Round  229, temp = 20.000000, fitness =  56
-Round  230, temp = 20.000000, fitness =  56
-Round  231, temp = 20.000000, fitness =  56
-Round  232, temp = 20.000000, fitness =  56
-Round  233, temp = 20.000000, fitness =  56
-Round  234, temp = 20.000000, fitness =  56
-Round  235, temp = 20.000000, fitness =  56
-Round  236, temp = 20.000000, fitness =  56
-Round  237, temp = 20.000000, fitness =  56
-Round  238, temp = 20.000000, fitness =  56
-Round  239, temp = 20.000000, fitness =  56
-Round  240, temp = 20.000000, fitness =  56
-Round  241, temp = 20.000000, fitness =  56
-Round  242, temp = 20.000000, fitness =  56
-Round  243, temp = 20.000000, fitness =  56
-Round  244, temp = 20.000000, fitness =  56
-Round  245, temp = 20.000000, fitness =  56
-Round  246, temp = 20.000000, fitness =  56
-Round  247, temp = 20.000000, fitness =  56
-Round  248, temp = 20.000000, fitness =  56
-Round  249, temp = 20.000000, fitness =  56
-Round  250, temp = 20.000000, fitness =  56
-Round  251, temp = 20.000000, fitness =  56
-Round  252, temp = 20.000000, fitness =  56
-Round  253, temp = 20.000000, fitness =  56
-Round  254, temp = 20.000000, fitness =  56
-Round  255, temp = 20.000000, fitness =  56
-Round  256, temp = 20.000000, fitness =  56
-Round  257, temp = 20.000000, fitness =  56
-Round  258, temp = 20.000000, fitness =  56
-Round  259, temp = 20.000000, fitness =  56
-Round  260, temp = 20.000000, fitness =  56
-Round  261, temp = 20.000000, fitness =  56
-Round  262, temp = 20.000000, fitness =  56
-Round  263, temp = 20.000000, fitness =  56
-Round  264, temp = 20.000000, fitness =  56
-Round  265, temp = 20.000000, fitness =  56
-Round  266, temp = 20.000000, fitness =  56
-Round  267, temp = 20.000000, fitness =  56
-Round  268, temp = 20.000000, fitness =  56
-Round  269, temp = 20.000000, fitness =  56
-Round  270, temp = 20.000000, fitness =  56
-Round  271, temp = 20.000000, fitness =  56
-Round  272, temp = 20.000000, fitness =  56
-Round  273, temp = 20.000000, fitness =  56
-Round  274, temp = 20.000000, fitness =  56
-Round  275, temp = 20.000000, fitness =  56
-Round  276, temp = 20.000000, fitness =  56
-Round  277, temp = 20.000000, fitness =  56
-Round  278, temp = 20.000000, fitness =  56
-Round  279, temp = 20.000000, fitness =  56
-Round  280, temp = 20.000000, fitness =  56
-Round  281, temp = 20.000000, fitness =  56
-Round  282, temp = 20.000000, fitness =  56
-Round  283, temp = 20.000000, fitness =  56
-Round  284, temp = 20.000000, fitness =  56
-Round  285, temp = 20.000000, fitness =  56
-Round  286, temp = 20.000000, fitness =  56
-Round  287, temp = 20.000000, fitness =  56
-Round  288, temp = 20.000000, fitness =  56
-Round  289, temp = 20.000000, fitness =  56
-Round  290, temp = 20.000000, fitness =  56
-Round  291, temp = 20.000000, fitness =  56
-Round  292, temp = 20.000000, fitness =  56
-Round  293, temp = 20.000000, fitness =  56
-Round  294, temp = 20.000000, fitness =  56
-Round  295, temp = 20.000000, fitness =  56
-Round  296, temp = 20.000000, fitness =  56
-Round  297, temp = 20.000000, fitness =  56
-Round  298, temp = 20.000000, fitness =  56
-Round  299, temp = 20.000000, fitness =  56
-Round  300, temp = 20.000000, fitness =  56
-Round  301, temp = 20.000000, fitness =  56
-Round  302, temp = 20.000000, fitness =  56
-Round  303, temp = 20.000000, fitness =  56
-Round  304, temp = 20.000000, fitness =  56
-Round  305, temp = 20.000000, fitness =  56
-Round  306, temp = 20.000000, fitness =  56
-Round  307, temp = 20.000000, fitness =  56
-Round  308, temp = 20.000000, fitness =  56
-Round  309, temp = 20.000000, fitness =  56
-Round  310, temp = 20.000000, fitness =  56
-Round  311, temp = 20.000000, fitness =  56
-Round  312, temp = 20.000000, fitness =  56
-Round  313, temp = 20.000000, fitness =  56
-Round  314, temp = 20.000000, fitness =  56
-Round  315, temp = 20.000000, fitness =  56
-Round  316, temp = 20.000000, fitness =  56
-Round  317, temp = 20.000000, fitness =  56
-Round  318, temp = 20.000000, fitness =  56
-Round  319, temp = 20.000000, fitness =  56
-Round  320, temp = 20.000000, fitness =  56
-Round  321, temp = 20.000000, fitness =  56
-Round  322, temp = 20.000000, fitness =  56
-Round  323, temp = 20.000000, fitness =  56
-Round  324, temp = 20.000000, fitness =  56
-Round  325, temp = 20.000000, fitness =  56
-Round  326, temp = 20.000000, fitness =  56
-Round  327, temp = 20.000000, fitness =  56
-Round  328, temp = 20.000000, fitness =  56
-Round  329, temp = 20.000000, fitness =  56
-Round  330, temp = 20.000000, fitness =  56
-Round  331, temp = 20.000000, fitness =  56
-Round  332, temp = 20.000000, fitness =  56
-Round  333, temp = 20.000000, fitness =  56
-Round  334, temp = 20.000000, fitness =  56
-Round  335, temp = 20.000000, fitness =  56
-Round  336, temp = 20.000000, fitness =  56
-Round  337, temp = 20.000000, fitness =  56
-Round  338, temp = 20.000000, fitness =  56
-Round  339, temp = 20.000000, fitness =  56
-Round  340, temp = 20.000000, fitness =  56
-Round  341, temp = 20.000000, fitness =  56
-Round  342, temp = 20.000000, fitness =  56
-Round  343, temp = 20.000000, fitness =  56
-Round  344, temp = 20.000000, fitness =  56
-Round  345, temp = 20.000000, fitness =  56
-Round  346, temp = 20.000000, fitness =  56
-Round  347, temp = 20.000000, fitness =  56
-Round  348, temp = 20.000000, fitness =  56
-Round  349, temp = 20.000000, fitness =  56
-Round  350, temp = 20.000000, fitness =  56
-Round  351, temp = 20.000000, fitness =  56
-Round  352, temp = 20.000000, fitness =  56
-Round  353, temp = 20.000000, fitness =  56
-Round  354, temp = 20.000000, fitness =  56
-Round  355, temp = 20.000000, fitness =  56
-Round  356, temp = 20.000000, fitness =  56
-Round  357, temp = 20.000000, fitness =  56
-Round  358, temp = 20.000000, fitness =  56
-Round  359, temp = 20.000000, fitness =  56
-Round  360, temp = 20.000000, fitness =  56
-Round  361, temp = 20.000000, fitness =  56
-Round  362, temp = 20.000000, fitness =  56
-Round  363, temp = 20.000000, fitness =  56
-Round  364, temp = 20.000000, fitness =  56
-Round  365, temp = 20.000000, fitness =  56
-Round  366, temp = 20.000000, fitness =  56
-Round  367, temp = 20.000000, fitness =  56
-Round  368, temp = 20.000000, fitness =  56
-Round  369, temp = 20.000000, fitness =  56
-Round  370, temp = 20.000000, fitness =  56
-Round  371, temp = 20.000000, fitness =  56
-Round  372, temp = 20.000000, fitness =  56
-Round  373, temp = 20.000000, fitness =  56
-Round  374, temp = 20.000000, fitness =  56
-Round  375, temp = 20.000000, fitness =  56
-Round  376, temp = 20.000000, fitness =  56
-Round  377, temp = 20.000000, fitness =  56
-Round  378, temp = 20.000000, fitness =  56
-Round  379, temp = 20.000000, fitness =  56
-Round  380, temp = 20.000000, fitness =  56
-Round  381, temp = 20.000000, fitness =  56
-Round  382, temp = 20.000000, fitness =  56
-Round  383, temp = 20.000000, fitness =  56
-Round  384, temp = 20.000000, fitness =  56
-Round  385, temp = 20.000000, fitness =  56
-Round  386, temp = 20.000000, fitness =  56
-Round  387, temp = 20.000000, fitness =  56
-Round  388, temp = 20.000000, fitness =  56
-Round  389, temp = 20.000000, fitness =  56
-Round  390, temp = 20.000000, fitness =  56
-Round  391, temp = 20.000000, fitness =  56
-Round  392, temp = 20.000000, fitness =  56
-Round  393, temp = 20.000000, fitness =  56
-Round  394, temp = 20.000000, fitness =  56
-Round  395, temp = 20.000000, fitness =  56
-Round  396, temp = 20.000000, fitness =  56
-Round  397, temp = 20.000000, fitness =  56
-Round  398, temp = 20.000000, fitness =  56
-Round  399, temp = 20.000000, fitness =  56
-Round  400, temp = 20.000000, fitness =  56
-Round  401, temp = 20.000000, fitness =  56
-Round  402, temp = 20.000000, fitness =  56
-Round  403, temp = 20.000000, fitness =  56
-Round  404, temp = 20.000000, fitness =  56
-Round  405, temp = 20.000000, fitness =  56
-Round  406, temp = 20.000000, fitness =  56
-Round  407, temp = 20.000000, fitness =  56
-Round  408, temp = 20.000000, fitness =  56
-Round  409, temp = 20.000000, fitness =  56
-Round  410, temp = 20.000000, fitness =  56
-Round  411, temp = 20.000000, fitness =  56
-Round  412, temp = 20.000000, fitness =  56
-Round  413, temp = 20.000000, fitness =  56
-Round  414, temp = 20.000000, fitness =  56
-Round  415, temp = 20.000000, fitness =  56
-Round  416, temp = 20.000000, fitness =  56
-Round  417, temp = 20.000000, fitness =  56
-Round  418, temp = 20.000000, fitness =  56
-Round  419, temp = 20.000000, fitness =  56
-Round  420, temp = 20.000000, fitness =  56
-Round  421, temp = 20.000000, fitness =  56
-Round  422, temp = 20.000000, fitness =  56
-Round  423, temp = 20.000000, fitness =  56
-Round  424, temp = 20.000000, fitness =  56
-Round  425, temp = 20.000000, fitness =  56
-Round  426, temp = 20.000000, fitness =  56
-Round  427, temp = 20.000000, fitness =  56
-Round  428, temp = 20.000000, fitness =  56
-Round  429, temp = 20.000000, fitness =  56
-Round  430, temp = 20.000000, fitness =  56
-Round  431, temp = 20.000000, fitness =  56
-Round  432, temp = 20.000000, fitness =  56
-Round  433, temp = 20.000000, fitness =  56
-Round  434, temp = 20.000000, fitness =  56
-Round  435, temp = 20.000000, fitness =  56
-Round  436, temp = 20.000000, fitness =  56
-Round  437, temp = 20.000000, fitness =  56
-Round  438, temp = 20.000000, fitness =  56
-Round  439, temp = 20.000000, fitness =  56
-Round  440, temp = 20.000000, fitness =  56
-Round  441, temp = 20.000000, fitness =  56
-Round  442, temp = 20.000000, fitness =  56
-Round  443, temp = 20.000000, fitness =  56
-Round  444, temp = 20.000000, fitness =  56
-Round  445, temp = 20.000000, fitness =  56
-Round  446, temp = 20.000000, fitness =  56
-Round  447, temp = 20.000000, fitness =  56
-Round  448, temp = 20.000000, fitness =  56
-Round  449, temp = 20.000000, fitness =  56
-Round  450, temp = 20.000000, fitness =  56
-Round  451, temp = 20.000000, fitness =  56
-Round  452, temp = 20.000000, fitness =  56
-Round  453, temp = 20.000000, fitness =  56
-Round  454, temp = 20.000000, fitness =  56
-Round  455, temp = 20.000000, fitness =  56
-Round  456, temp = 20.000000, fitness =  56
-Round  457, temp = 20.000000, fitness =  56
-Round  458, temp = 20.000000, fitness =  56
-Round  459, temp = 20.000000, fitness =  56
-Round  460, temp = 20.000000, fitness =  56
-Round  461, temp = 20.000000, fitness =  56
-Round  462, temp = 20.000000, fitness =  56
-Round  463, temp = 20.000000, fitness =  56
-Round  464, temp = 20.000000, fitness =  56
-Round  465, temp = 20.000000, fitness =  56
-Round  466, temp = 20.000000, fitness =  56
-Round  467, temp = 20.000000, fitness =  56
-Round  468, temp = 20.000000, fitness =  56
-Round  469, temp = 20.000000, fitness =  56
-Round  470, temp = 20.000000, fitness =  56
-Round  471, temp = 20.000000, fitness =  56
-Round  472, temp = 20.000000, fitness =  56
-Round  473, temp = 20.000000, fitness =  56
-Round  474, temp = 20.000000, fitness =  56
-Round  475, temp = 20.000000, fitness =  56
-Round  476, temp = 20.000000, fitness =  56
-Round  477, temp = 20.000000, fitness =  56
-Round  478, temp = 20.000000, fitness =  56
-Round  479, temp = 20.000000, fitness =  56
-Round  480, temp = 20.000000, fitness =  56
-Round  481, temp = 20.000000, fitness =  56
-Round  482, temp = 20.000000, fitness =  56
-Round  483, temp = 20.000000, fitness =  56
-Round  484, temp = 20.000000, fitness =  56
-Round  485, temp = 20.000000, fitness =  56
-Round  486, temp = 20.000000, fitness =  56
-Round  487, temp = 20.000000, fitness =  56
-Round  488, temp = 20.000000, fitness =  56
-Round  489, temp = 20.000000, fitness =  56
-Round  490, temp = 20.000000, fitness =  56
-Round  491, temp = 20.000000, fitness =  56
-Round  492, temp = 20.000000, fitness =  56
-Round  493, temp = 20.000000, fitness =  56
-Round  494, temp = 20.000000, fitness =  56
-Round  495, temp = 20.000000, fitness =  56
-Round  496, temp = 20.000000, fitness =  56
-Round  497, temp = 20.000000, fitness =  56
-Round  498, temp = 20.000000, fitness =  56
-Round  499, temp = 20.000000, fitness =  56
-Round  500, temp = 20.000000, fitness =  56
-Round  501, temp = 20.000000, fitness =  56
-Round  502, temp = 20.000000, fitness =  56
-Round  503, temp = 20.000000, fitness =  56
-Round  504, temp = 20.000000, fitness =  56
-Round  505, temp = 20.000000, fitness =  56
-Round  506, temp = 20.000000, fitness =  56
-Round  507, temp = 20.000000, fitness =  56
-Round  508, temp = 20.000000, fitness =  56
-Round  509, temp = 20.000000, fitness =  56
-Round  510, temp = 20.000000, fitness =  56
-Round  511, temp = 20.000000, fitness =  56
-Round  512, temp = 20.000000, fitness =  56
-Round  513, temp = 20.000000, fitness =  56
-Round  514, temp = 20.000000, fitness =  56
-Round  515, temp = 20.000000, fitness =  56
-Round  516, temp = 20.000000, fitness =  56
-Round  517, temp = 20.000000, fitness =  56
-Round  518, temp = 20.000000, fitness =  56
-Round  519, temp = 20.000000, fitness =  56
-Round  520, temp = 20.000000, fitness =  56
-Round  521, temp = 20.000000, fitness =  56
-Round  522, temp = 20.000000, fitness =  56
-Round  523, temp = 20.000000, fitness =  56
-Round  524, temp = 20.000000, fitness =  56
-Round  525, temp = 20.000000, fitness =  56
-Round  526, temp = 20.000000, fitness =  56
-Round  527, temp = 20.000000, fitness =  56
-Round  528, temp = 20.000000, fitness =  56
-Round  529, temp = 20.000000, fitness =  56
-Round  530, temp = 20.000000, fitness =  56
-Round  531, temp = 20.000000, fitness =  56
-Round  532, temp = 20.000000, fitness =  56
-Round  533, temp = 20.000000, fitness =  56
-Round  534, temp = 20.000000, fitness =  56
-Round  535, temp = 20.000000, fitness =  56
-Round  536, temp = 20.000000, fitness =  56
-Round  537, temp = 20.000000, fitness =  56
-Round  538, temp = 20.000000, fitness =  56
-Round  539, temp = 20.000000, fitness =  56
-Round  540, temp = 20.000000, fitness =  56
-Round  541, temp = 20.000000, fitness =  56
-Round  542, temp = 20.000000, fitness =  56
-Round  543, temp = 20.000000, fitness =  56
-Round  544, temp = 20.000000, fitness =  56
-Round  545, temp = 20.000000, fitness =  56
-Round  546, temp = 20.000000, fitness =  56
-Round  547, temp = 20.000000, fitness =  56
-Round  548, temp = 20.000000, fitness =  56
-Round  549, temp = 20.000000, fitness =  56
-Round  550, temp = 20.000000, fitness =  56
-Round  551, temp = 20.000000, fitness =  56
-Round  552, temp = 20.000000, fitness =  56
-Round  553, temp = 20.000000, fitness =  56
-Round  554, temp = 20.000000, fitness =  56
-Round  555, temp = 20.000000, fitness =  56
-Round  556, temp = 20.000000, fitness =  56
-Round  557, temp = 20.000000, fitness =  56
-Round  558, temp = 20.000000, fitness =  56
-Round  559, temp = 20.000000, fitness =  56
-Round  560, temp = 20.000000, fitness =  56
-Round  561, temp = 20.000000, fitness =  56
-Round  562, temp = 20.000000, fitness =  56
-Round  563, temp = 20.000000, fitness =  56
-Round  564, temp = 20.000000, fitness =  56
-Round  565, temp = 20.000000, fitness =  56
-Round  566, temp = 20.000000, fitness =  56
-Round  567, temp = 20.000000, fitness =  56
-Round  568, temp = 20.000000, fitness =  56
-Round  569, temp = 20.000000, fitness =  56
-Round  570, temp = 20.000000, fitness =  56
-Round  571, temp = 20.000000, fitness =  56
-Round  572, temp = 20.000000, fitness =  56
-Round  573, temp = 20.000000, fitness =  56
-Round  574, temp = 20.000000, fitness =  56
-Round  575, temp = 20.000000, fitness =  56
-Round  576, temp = 20.000000, fitness =  56
-Round  577, temp = 20.000000, fitness =  56
-Round  578, temp = 20.000000, fitness =  56
-Round  579, temp = 20.000000, fitness =  56
-Round  580, temp = 20.000000, fitness =  56
-Round  581, temp = 20.000000, fitness =  56
-Round  582, temp = 20.000000, fitness =  56
-Round  583, temp = 20.000000, fitness =  56
-Round  584, temp = 20.000000, fitness =  56
-Round  585, temp = 20.000000, fitness =  56
-Round  586, temp = 20.000000, fitness =  56
-Round  587, temp = 20.000000, fitness =  56
-Round  588, temp = 20.000000, fitness =  56
-Round  589, temp = 20.000000, fitness =  56
-Round  590, temp = 20.000000, fitness =  56
-Round  591, temp = 20.000000, fitness =  56
-Round  592, temp = 20.000000, fitness =  56
-Round  593, temp = 20.000000, fitness =  56
-Round  594, temp = 20.000000, fitness =  56
-Round  595, temp = 20.000000, fitness =  56
-Round  596, temp = 20.000000, fitness =  56
-Round  597, temp = 20.000000, fitness =  56
-Round  598, temp = 20.000000, fitness =  56
-Round  599, temp = 20.000000, fitness =  56
-Round  600, temp = 20.000000, fitness =  56
-Round  601, temp = 20.000000, fitness =  56
-Round  602, temp = 20.000000, fitness =  56
-Round  603, temp = 20.000000, fitness =  56
-Round  604, temp = 20.000000, fitness =  56
-Round  605, temp = 20.000000, fitness =  56
-Round  606, temp = 20.000000, fitness =  56
-Round  607, temp = 20.000000, fitness =  56
-Round  608, temp = 20.000000, fitness =  56
-Round  609, temp = 20.000000, fitness =  56
-Round  610, temp = 20.000000, fitness =  56
-Round  611, temp = 20.000000, fitness =  56
-Round  612, temp = 20.000000, fitness =  56
-Round  613, temp = 20.000000, fitness =  56
-Round  614, temp = 20.000000, fitness =  56
-Round  615, temp = 20.000000, fitness =  56
-Round  616, temp = 20.000000, fitness =  56
-Round  617, temp = 20.000000, fitness =  56
-Round  618, temp = 20.000000, fitness =  56
-Round  619, temp = 20.000000, fitness =  56
-Round  620, temp = 20.000000, fitness =  56
-Round  621, temp = 20.000000, fitness =  56
-Round  622, temp = 20.000000, fitness =  56
-Round  623, temp = 20.000000, fitness =  56
-Round  624, temp = 20.000000, fitness =  56
-Round  625, temp = 20.000000, fitness =  56
-Round  626, temp = 20.000000, fitness =  56
-Round  627, temp = 20.000000, fitness =  56
-Round  628, temp = 20.000000, fitness =  56
-Round  629, temp = 20.000000, fitness =  56
-Round  630, temp = 20.000000, fitness =  56
-Round  631, temp = 20.000000, fitness =  56
-Round  632, temp = 20.000000, fitness =  56
-Round  633, temp = 20.000000, fitness =  56
-Round  634, temp = 20.000000, fitness =  56
-Round  635, temp = 20.000000, fitness =  56
-Round  636, temp = 20.000000, fitness =  56
-Round  637, temp = 20.000000, fitness =  56
-Round  638, temp = 20.000000, fitness =  56
-Round  639, temp = 20.000000, fitness =  56
-Round  640, temp = 20.000000, fitness =  56
-Round  641, temp = 20.000000, fitness =  56
-Round  642, temp = 20.000000, fitness =  56
-Round  643, temp = 20.000000, fitness =  56
-Round  644, temp = 20.000000, fitness =  56
-Round  645, temp = 20.000000, fitness =  56
-Round  646, temp = 20.000000, fitness =  56
-Round  647, temp = 20.000000, fitness =  56
-Round  648, temp = 20.000000, fitness =  56
-Round  649, temp = 20.000000, fitness =  56
-Round  650, temp = 20.000000, fitness =  56
-Round  651, temp = 20.000000, fitness =  56
-Round  652, temp = 20.000000, fitness =  56
-Round  653, temp = 20.000000, fitness =  56
-Round  654, temp = 20.000000, fitness =  56
-Round  655, temp = 20.000000, fitness =  56
-Round  656, temp = 20.000000, fitness =  56
-Round  657, temp = 20.000000, fitness =  56
-Round  658, temp = 20.000000, fitness =  56
-Round  659, temp = 20.000000, fitness =  56
-Round  660, temp = 20.000000, fitness =  56
-Round  661, temp = 20.000000, fitness =  56
-Round  662, temp = 20.000000, fitness =  56
-Round  663, temp = 20.000000, fitness =  56
-Round  664, temp = 20.000000, fitness =  56
-Round  665, temp = 20.000000, fitness =  56
-Round  666, temp = 20.000000, fitness =  56
-Round  667, temp = 20.000000, fitness =  56
-Round  668, temp = 20.000000, fitness =  56
-Round  669, temp = 20.000000, fitness =  56
-Round  670, temp = 20.000000, fitness =  56
-Round  671, temp = 20.000000, fitness =  56
-Round  672, temp = 20.000000, fitness =  56
-Round  673, temp = 20.000000, fitness =  56
-Round  674, temp = 20.000000, fitness =  56
-Round  675, temp = 20.000000, fitness =  56
-Round  676, temp = 20.000000, fitness =  56
-Round  677, temp = 20.000000, fitness =  56
-Round  678, temp = 20.000000, fitness =  56
-Round  679, temp = 20.000000, fitness =  56
-Round  680, temp = 20.000000, fitness =  56
-Round  681, temp = 20.000000, fitness =  56
-Round  682, temp = 20.000000, fitness =  56
-Round  683, temp = 20.000000, fitness =  56
-Round  684, temp = 20.000000, fitness =  56
-Round  685, temp = 20.000000, fitness =  56
-Round  686, temp = 20.000000, fitness =  56
-Round  687, temp = 20.000000, fitness =  56
-Round  688, temp = 20.000000, fitness =  56
-Round  689, temp = 20.000000, fitness =  56
-Round  690, temp = 20.000000, fitness =  56
-Round  691, temp = 20.000000, fitness =  56
-Round  692, temp = 20.000000, fitness =  56
-Round  693, temp = 20.000000, fitness =  56
-Round  694, temp = 20.000000, fitness =  56
-Round  695, temp = 20.000000, fitness =  56
-Round  696, temp = 20.000000, fitness =  56
-Round  697, temp = 20.000000, fitness =  56
-Round  698, temp = 20.000000, fitness =  56
-Round  699, temp = 20.000000, fitness =  56
-Round  700, temp = 20.000000, fitness =  56
-Round  701, temp = 20.000000, fitness =  56
-Round  702, temp = 20.000000, fitness =  56
-Round  703, temp = 20.000000, fitness =  56
-Round  704, temp = 20.000000, fitness =  56
-Round  705, temp = 20.000000, fitness =  56
-Round  706, temp = 20.000000, fitness =  56
-Round  707, temp = 20.000000, fitness =  56
-Round  708, temp = 20.000000, fitness =  56
-Round  709, temp = 20.000000, fitness =  56
-Round  710, temp = 20.000000, fitness =  56
-Round  711, temp = 20.000000, fitness =  56
-Round  712, temp = 20.000000, fitness =  56
-Round  713, temp = 20.000000, fitness =  56
-Round  714, temp = 20.000000, fitness =  56
-Round  715, temp = 20.000000, fitness =  56
-Round  716, temp = 20.000000, fitness =  56
-Round  717, temp = 20.000000, fitness =  56
-Round  718, temp = 20.000000, fitness =  56
-Round  719, temp = 20.000000, fitness =  56
-Round  720, temp = 20.000000, fitness =  56
-Round  721, temp = 20.000000, fitness =  56
-Round  722, temp = 20.000000, fitness =  56
-Round  723, temp = 20.000000, fitness =  56
-Round  724, temp = 20.000000, fitness =  56
-Round  725, temp = 20.000000, fitness =  56
-Round  726, temp = 20.000000, fitness =  56
-Round  727, temp = 20.000000, fitness =  56
-Round  728, temp = 20.000000, fitness =  56
-Round  729, temp = 20.000000, fitness =  56
-Round  730, temp = 20.000000, fitness =  56
-Round  731, temp = 20.000000, fitness =  56
-Round  732, temp = 20.000000, fitness =  56
-Round  733, temp = 20.000000, fitness =  56
-Round  734, temp = 20.000000, fitness =  56
-Round  735, temp = 20.000000, fitness =  56
-Round  736, temp = 20.000000, fitness =  56
-Round  737, temp = 20.000000, fitness =  56
-Round  738, temp = 20.000000, fitness =  56
-Round  739, temp = 20.000000, fitness =  56
-Round  740, temp = 20.000000, fitness =  56
-Round  741, temp = 20.000000, fitness =  56
-Round  742, temp = 20.000000, fitness =  56
-Round  743, temp = 20.000000, fitness =  56
-Round  744, temp = 20.000000, fitness =  56
-Round  745, temp = 20.000000, fitness =  56
-Round  746, temp = 20.000000, fitness =  56
-Round  747, temp = 20.000000, fitness =  56
-Round  748, temp = 20.000000, fitness =  56
-Round  749, temp = 20.000000, fitness =  56
-Round  750, temp = 20.000000, fitness =  56
-Round  751, temp = 20.000000, fitness =  56
-Round  752, temp = 20.000000, fitness =  56
-Round  753, temp = 20.000000, fitness =  56
-Round  754, temp = 20.000000, fitness =  56
-Round  755, temp = 20.000000, fitness =  56
-Round  756, temp = 20.000000, fitness =  56
-Round  757, temp = 20.000000, fitness =  56
-Round  758, temp = 20.000000, fitness =  56
-Round  759, temp = 20.000000, fitness =  56
-Round  760, temp = 20.000000, fitness =  56
-Round  761, temp = 20.000000, fitness =  56
-Round  762, temp = 20.000000, fitness =  56
-Round  763, temp = 20.000000, fitness =  56
-Round  764, temp = 20.000000, fitness =  56
-Round  765, temp = 20.000000, fitness =  56
-Round  766, temp = 20.000000, fitness =  56
-Round  767, temp = 20.000000, fitness =  56
-Round  768, temp = 20.000000, fitness =  56
-Round  769, temp = 20.000000, fitness =  56
-Round  770, temp = 20.000000, fitness =  56
-Round  771, temp = 20.000000, fitness =  56
-Round  772, temp = 20.000000, fitness =  56
-Round  773, temp = 20.000000, fitness =  56
-Round  774, temp = 20.000000, fitness =  56
-Round  775, temp = 20.000000, fitness =  56
-Round  776, temp = 20.000000, fitness =  56
-Round  777, temp = 20.000000, fitness =  56
-Round  778, temp = 20.000000, fitness =  56
-Round  779, temp = 20.000000, fitness =  56
-Round  780, temp = 20.000000, fitness =  56
-Round  781, temp = 20.000000, fitness =  56
-Round  782, temp = 20.000000, fitness =  56
-Round  783, temp = 20.000000, fitness =  56
-Round  784, temp = 20.000000, fitness =  56
-Round  785, temp = 20.000000, fitness =  56
-Round  786, temp = 20.000000, fitness =  56
-Round  787, temp = 20.000000, fitness =  56
-Round  788, temp = 20.000000, fitness =  56
-Round  789, temp = 20.000000, fitness =  56
-Round  790, temp = 20.000000, fitness =  56
-Round  791, temp = 20.000000, fitness =  56
-Round  792, temp = 20.000000, fitness =  56
-Round  793, temp = 20.000000, fitness =  56
-Round  794, temp = 20.000000, fitness =  56
-Round  795, temp = 20.000000, fitness =  56
-Round  796, temp = 20.000000, fitness =  56
-Round  797, temp = 20.000000, fitness =  56
-Round  798, temp = 20.000000, fitness =  56
-Round  799, temp = 20.000000, fitness =  56
-Round  800, temp = 20.000000, fitness =  56
-Round  801, temp = 20.000000, fitness =  56
-Round  802, temp = 20.000000, fitness =  56
-Round  803, temp = 20.000000, fitness =  56
-Round  804, temp = 20.000000, fitness =  56
-Round  805, temp = 20.000000, fitness =  56
-Round  806, temp = 20.000000, fitness =  56
-Round  807, temp = 20.000000, fitness =  56
-Round  808, temp = 20.000000, fitness =  56
-Round  809, temp = 20.000000, fitness =  56
-Round  810, temp = 20.000000, fitness =  56
-Round  811, temp = 20.000000, fitness =  56
-Round  812, temp = 20.000000, fitness =  56
-Round  813, temp = 20.000000, fitness =  56
-Round  814, temp = 20.000000, fitness =  56
-Round  815, temp = 20.000000, fitness =  56
-Round  816, temp = 20.000000, fitness =  56
-Round  817, temp = 20.000000, fitness =  56
-Round  818, temp = 20.000000, fitness =  56
-Round  819, temp = 20.000000, fitness =  56
-Round  820, temp = 20.000000, fitness =  56
-Round  821, temp = 20.000000, fitness =  56
-Round  822, temp = 20.000000, fitness =  56
-Round  823, temp = 20.000000, fitness =  56
-Round  824, temp = 20.000000, fitness =  56
-Round  825, temp = 20.000000, fitness =  56
-Round  826, temp = 20.000000, fitness =  56
-Round  827, temp = 20.000000, fitness =  56
-Round  828, temp = 20.000000, fitness =  56
-Round  829, temp = 20.000000, fitness =  56
-Round  830, temp = 20.000000, fitness =  56
-Round  831, temp = 20.000000, fitness =  56
-Round  832, temp = 20.000000, fitness =  56
-Round  833, temp = 20.000000, fitness =  56
-Round  834, temp = 20.000000, fitness =  56
-Round  835, temp = 20.000000, fitness =  56
-Round  836, temp = 20.000000, fitness =  56
-Round  837, temp = 20.000000, fitness =  56
-Round  838, temp = 20.000000, fitness =  56
-Round  839, temp = 20.000000, fitness =  56
-Round  840, temp = 20.000000, fitness =  56
-Round  841, temp = 20.000000, fitness =  56
-Round  842, temp = 20.000000, fitness =  56
-Round  843, temp = 20.000000, fitness =  56
-Round  844, temp = 20.000000, fitness =  56
-Round  845, temp = 20.000000, fitness =  56
-Round  846, temp = 20.000000, fitness =  56
-Round  847, temp = 20.000000, fitness =  56
-Round  848, temp = 20.000000, fitness =  56
-Round  849, temp = 20.000000, fitness =  56
-Round  850, temp = 20.000000, fitness =  56
-Round  851, temp = 20.000000, fitness =  56
-Round  852, temp = 20.000000, fitness =  56
-Round  853, temp = 20.000000, fitness =  56
-Round  854, temp = 20.000000, fitness =  56
-Round  855, temp = 20.000000, fitness =  56
-Round  856, temp = 20.000000, fitness =  56
-Round  857, temp = 20.000000, fitness =  56
-Round  858, temp = 20.000000, fitness =  56
-Round  859, temp = 20.000000, fitness =  56
-Round  860, temp = 20.000000, fitness =  56
-Round  861, temp = 20.000000, fitness =  56
-Round  862, temp = 20.000000, fitness =  56
-Round  863, temp = 20.000000, fitness =  56
-Round  864, temp = 20.000000, fitness =  56
-Round  865, temp = 20.000000, fitness =  56
-Round  866, temp = 20.000000, fitness =  56
-Round  867, temp = 20.000000, fitness =  56
-Round  868, temp = 20.000000, fitness =  56
-Round  869, temp = 20.000000, fitness =  56
-Round  870, temp = 20.000000, fitness =  56
-Round  871, temp = 20.000000, fitness =  56
-Round  872, temp = 20.000000, fitness =  56
-Round  873, temp = 20.000000, fitness =  56
-Round  874, temp = 20.000000, fitness =  56
-Round  875, temp = 20.000000, fitness =  56
-Round  876, temp = 20.000000, fitness =  56
-Round  877, temp = 20.000000, fitness =  56
-Round  878, temp = 20.000000, fitness =  56
-Round  879, temp = 20.000000, fitness =  56
-Round  880, temp = 20.000000, fitness =  56
-Round  881, temp = 20.000000, fitness =  56
-Round  882, temp = 20.000000, fitness =  56
-Round  883, temp = 20.000000, fitness =  56
-Round  884, temp = 20.000000, fitness =  56
-Round  885, temp = 20.000000, fitness =  56
-Round  886, temp = 20.000000, fitness =  56
-Round  887, temp = 20.000000, fitness =  56
-Round  888, temp = 20.000000, fitness =  56
-Round  889, temp = 20.000000, fitness =  56
-Round  890, temp = 20.000000, fitness =  56
-Round  891, temp = 20.000000, fitness =  56
-Round  892, temp = 20.000000, fitness =  56
-Round  893, temp = 20.000000, fitness =  56
-Round  894, temp = 20.000000, fitness =  56
-Round  895, temp = 20.000000, fitness =  56
-Round  896, temp = 20.000000, fitness =  56
-Round  897, temp = 20.000000, fitness =  56
-Round  898, temp = 20.000000, fitness =  56
-Round  899, temp = 20.000000, fitness =  56
-Round  900, temp = 20.000000, fitness =  56
-Round  901, temp = 20.000000, fitness =  56
-Round  902, temp = 20.000000, fitness =  56
-Round  903, temp = 20.000000, fitness =  56
-Round  904, temp = 20.000000, fitness =  56
-Round  905, temp = 20.000000, fitness =  56
-Round  906, temp = 20.000000, fitness =  56
-Round  907, temp = 20.000000, fitness =  56
-Round  908, temp = 20.000000, fitness =  56
-Round  909, temp = 20.000000, fitness =  56
-Round  910, temp = 20.000000, fitness =  56
-Round  911, temp = 20.000000, fitness =  56
-Round  912, temp = 20.000000, fitness =  56
-Round  913, temp = 20.000000, fitness =  56
-Round  914, temp = 20.000000, fitness =  56
-Round  915, temp = 20.000000, fitness =  56
-Round  916, temp = 20.000000, fitness =  56
-Round  917, temp = 20.000000, fitness =  56
-Round  918, temp = 20.000000, fitness =  56
-Round  919, temp = 20.000000, fitness =  56
-Round  920, temp = 20.000000, fitness =  56
-Round  921, temp = 20.000000, fitness =  56
-Round  922, temp = 20.000000, fitness =  56
-Round  923, temp = 20.000000, fitness =  56
-Round  924, temp = 20.000000, fitness =  56
-Round  925, temp = 20.000000, fitness =  56
-Round  926, temp = 20.000000, fitness =  56
-Round  927, temp = 20.000000, fitness =  56
-Round  928, temp = 20.000000, fitness =  56
-Round  929, temp = 20.000000, fitness =  56
-Round  930, temp = 20.000000, fitness =  56
-Round  931, temp = 20.000000, fitness =  56
-Round  932, temp = 20.000000, fitness =  56
-Round  933, temp = 20.000000, fitness =  56
-Round  934, temp = 20.000000, fitness =  56
-Round  935, temp = 20.000000, fitness =  56
-Round  936, temp = 20.000000, fitness =  56
-Round  937, temp = 20.000000, fitness =  56
-Round  938, temp = 20.000000, fitness =  56
-Round  939, temp = 20.000000, fitness =  56
-Round  940, temp = 20.000000, fitness =  56
-Round  941, temp = 20.000000, fitness =  56
-Round  942, temp = 20.000000, fitness =  56
-Round  943, temp = 20.000000, fitness =  56
-Round  944, temp = 20.000000, fitness =  56
-Round  945, temp = 20.000000, fitness =  56
-Round  946, temp = 20.000000, fitness =  56
-Round  947, temp = 20.000000, fitness =  56
-Round  948, temp = 20.000000, fitness =  56
-Round  949, temp = 20.000000, fitness =  56
-Round  950, temp = 20.000000, fitness =  56
-Round  951, temp = 20.000000, fitness =  56
-Round  952, temp = 20.000000, fitness =  56
-Round  953, temp = 20.000000, fitness =  56
-Round  954, temp = 20.000000, fitness =  56
-Round  955, temp = 20.000000, fitness =  56
-Round  956, temp = 20.000000, fitness =  56
-Round  957, temp = 20.000000, fitness =  56
-Round  958, temp = 20.000000, fitness =  56
-Round  959, temp = 20.000000, fitness =  56
-Round  960, temp = 20.000000, fitness =  56
-Round  961, temp = 20.000000, fitness =  56
-Round  962, temp = 20.000000, fitness =  56
-Round  963, temp = 20.000000, fitness =  56
-Round  964, temp = 20.000000, fitness =  56
-Round  965, temp = 20.000000, fitness =  56
-Round  966, temp = 20.000000, fitness =  56
-Round  967, temp = 20.000000, fitness =  56
-Round  968, temp = 20.000000, fitness =  56
-Round  969, temp = 20.000000, fitness =  56
-Round  970, temp = 20.000000, fitness =  56
-Round  971, temp = 20.000000, fitness =  56
-Round  972, temp = 20.000000, fitness =  56
-Round  973, temp = 20.000000, fitness =  56
-Round  974, temp = 20.000000, fitness =  56
-Round  975, temp = 20.000000, fitness =  56
-Round  976, temp = 20.000000, fitness =  56
-Round  977, temp = 20.000000, fitness =  56
-Round  978, temp = 20.000000, fitness =  56
-Round  979, temp = 20.000000, fitness =  56
-Round  980, temp = 20.000000, fitness =  56
-Round  981, temp = 20.000000, fitness =  56
-Round  982, temp = 20.000000, fitness =  56
-Round  983, temp = 20.000000, fitness =  56
-Round  984, temp = 20.000000, fitness =  56
-Round  985, temp = 20.000000, fitness =  56
-Round  986, temp = 20.000000, fitness =  56
-Round  987, temp = 20.000000, fitness =  56
-Round  988, temp = 20.000000, fitness =  56
-Round  989, temp = 20.000000, fitness =  56
-Round  990, temp = 20.000000, fitness =  56
-Round  991, temp = 20.000000, fitness =  56
-Round  992, temp = 20.000000, fitness =  56
-Round  993, temp = 20.000000, fitness =  56
-Round  994, temp = 20.000000, fitness =  56
-Round  995, temp = 20.000000, fitness =  56
-Round  996, temp = 20.000000, fitness =  56
-Round  997, temp = 20.000000, fitness =  56
-Round  998, temp = 20.000000, fitness =  56
-Round  999, temp = 20.000000, fitness =  56
-Round 1000, temp = 20.000000, fitness =  56
+Round    1, temp = 200.000000, fitness =  54
+p : 1.025315
+Round    2, temp = 198.000000, fitness =  49
+p : 0.975064
+Round    3, temp = 196.020000, fitness =  54
+p : 1.005115
+Round    4, temp = 194.059800, fitness =  53
+p : 1.000000
+Round    5, temp = 192.119202, fitness =  53
+p : 1.005219
+Round    6, temp = 190.198010, fitness =  52
+p : 0.994756
+Round    7, temp = 188.296030, fitness =  53
+p : 1.005325
+Round    8, temp = 186.413070, fitness =  52
+p : 0.994650
+Round    9, temp = 184.548939, fitness =  53
+p : 1.005433
+Round   10, temp = 182.703449, fitness =  52
+p : 0.994542
+Round   11, temp = 180.876415, fitness =  53
+p : 1.005544
+Round   12, temp = 179.067651, fitness =  52
+p : 0.994431
+Round   13, temp = 177.276974, fitness =  53
+p : 1.005657
+Round   14, temp = 175.504205, fitness =  52
+p : 0.994318
+Round   15, temp = 173.749163, fitness =  53
+p : 1.000000
+Round   16, temp = 172.011671, fitness =  53
+p : 0.994203
+Round   17, temp = 170.291554, fitness =  54
+p : 1.029797
+Round   18, temp = 168.588639, fitness =  49
+p : 0.994086
+Round   19, temp = 166.902752, fitness =  50
+p : 1.000000
+Round   20, temp = 165.233725, fitness =  50
+p : 1.000000
+Round   21, temp = 163.581388, fitness =  50
+p : 1.000000
+Round   22, temp = 161.945574, fitness =  50
+p : 1.000000
+Round   23, temp = 160.326118, fitness =  50
+p : 1.006257
+Round   24, temp = 158.722857, fitness =  49
+p : 0.968990
+Round   25, temp = 157.135628, fitness =  54
+p : 1.006384
+Round   26, temp = 155.564272, fitness =  53
+p : 1.000000
+Round   27, temp = 154.008629, fitness =  53
+p : 1.000000
+Round   28, temp = 152.468543, fitness =  53
+p : 1.000000
+Round   29, temp = 150.943857, fitness =  53
+p : 1.006647
+Round   30, temp = 149.434419, fitness =  52
+p : 0.993330
+Round   31, temp = 147.940075, fitness =  53
+p : 1.006782
+Round   32, temp = 146.460674, fitness =  52
+p : 0.993195
+Round   33, temp = 144.996067, fitness =  53
+p : 1.006921
+Round   34, temp = 143.546107, fitness =  52
+p : 0.993058
+Round   35, temp = 142.110645, fitness =  53
+p : 1.007062
+Round   36, temp = 140.689539, fitness =  52
+p : 0.992917
+Round   37, temp = 139.282644, fitness =  53
+p : 1.007205
+Round   38, temp = 137.889817, fitness =  52
+p : 0.992774
+Round   39, temp = 136.510919, fitness =  53
+p : 1.007352
+Round   40, temp = 135.145810, fitness =  52
+p : 0.992628
+Round   41, temp = 133.794352, fitness =  53
+p : 1.000000
+Round   42, temp = 132.456408, fitness =  53
+p : 1.000000
+Round   43, temp = 131.131844, fitness =  53
+p : 1.007655
+Round   44, temp = 129.820526, fitness =  52
+p : 0.992327
+Round   45, temp = 128.522320, fitness =  53
+p : 1.007811
+Round   46, temp = 127.237097, fitness =  52
+p : 0.992171
+Round   47, temp = 125.964726, fitness =  53
+p : 1.007970
+Round   48, temp = 124.705079, fitness =  52
+p : 1.000000
+Round   49, temp = 123.458028, fitness =  52
+p : 1.008133
+Round   50, temp = 122.223448, fitness =  51
+p : 0.991852
+Round   51, temp = 121.001213, fitness =  52
+p : 1.000000
+Round   52, temp = 119.791201, fitness =  52
+p : 1.000000
+Round   53, temp = 118.593289, fitness =  52
+p : 1.008468
+Round   54, temp = 117.407356, fitness =  51
+p : 0.991519
+Round   55, temp = 116.233283, fitness =  52
+p : 1.008641
+Round   56, temp = 115.070950, fitness =  51
+p : 0.991347
+Round   57, temp = 113.920240, fitness =  52
+p : 1.008817
+Round   58, temp = 112.781038, fitness =  51
+p : 0.991172
+Round   59, temp = 111.653228, fitness =  52
+p : 1.008997
+Round   60, temp = 110.536695, fitness =  51
+p : 0.990994
+Round   61, temp = 109.431328, fitness =  52
+p : 1.000000
+Round   62, temp = 108.337015, fitness =  52
+p : 1.000000
+Round   63, temp = 107.253645, fitness =  52
+p : 1.009367
+Round   64, temp = 106.181109, fitness =  51
+p : 0.990626
+Round   65, temp = 105.119298, fitness =  52
+p : 1.009558
+Round   66, temp = 104.068105, fitness =  51
+p : 0.990437
+Round   67, temp = 103.027423, fitness =  52
+p : 1.000000
+Round   68, temp = 101.997149, fitness =  52
+p : 1.000000
+Round   69, temp = 100.977178, fitness =  52
+p : 1.000000
+Round   70, temp = 99.967406, fitness =  52
+p : 0.990047
+Round   71, temp = 98.967732, fitness =  53
+p : 1.010156
+Round   72, temp = 97.978055, fitness =  52
+p : 0.989846
+Round   73, temp = 96.998274, fitness =  53
+p : 1.000000
+Round   74, temp = 96.028291, fitness =  53
+p : 1.000000
+Round   75, temp = 95.068008, fitness =  53
+p : 1.000000
+Round   76, temp = 94.117328, fitness =  53
+p : 1.000000
+Round   77, temp = 93.176155, fitness =  53
+p : 1.000000
+Round   78, temp = 92.244393, fitness =  53
+p : 1.000000
+Round   79, temp = 91.321950, fitness =  53
+p : 1.000000
+Round   80, temp = 90.408730, fitness =  53
+p : 0.989000
+Round   81, temp = 89.504643, fitness =  54
+p : 1.057453
+Round   82, temp = 88.609596, fitness =  49
+p : 0.945135
+Round   83, temp = 87.723500, fitness =  54
+p : 1.011465
+Round   84, temp = 86.846265, fitness =  53
+p : 0.988551
+Round   85, temp = 85.977803, fitness =  54
+p : 1.011699
+Round   86, temp = 85.118025, fitness =  53
+p : 1.000000
+Round   87, temp = 84.266844, fitness =  53
+p : 1.011938
+Round   88, temp = 83.424176, fitness =  52
+p : 0.988085
+Round   89, temp = 82.589934, fitness =  53
+p : 1.012182
+Round   90, temp = 81.764035, fitness =  52
+p : 0.987844
+Round   91, temp = 80.946395, fitness =  53
+p : 1.012430
+Round   92, temp = 80.136931, fitness =  52
+p : 0.987599
+Round   93, temp = 79.335561, fitness =  53
+p : 1.012684
+Round   94, temp = 78.542206, fitness =  52
+p : 0.987349
+Round   95, temp = 77.756784, fitness =  53
+p : 1.012944
+Round   96, temp = 76.979216, fitness =  52
+p : 0.987093
+Round   97, temp = 76.209424, fitness =  53
+p : 1.013208
+Round   98, temp = 75.447329, fitness =  52
+p : 1.000000
+Round   99, temp = 74.692856, fitness =  52
+p : 1.000000
+Round  100, temp = 73.945928, fitness =  52
+p : 1.000000
+Round  101, temp = 73.206468, fitness =  52
+p : 1.013754
+Round  102, temp = 72.474404, fitness =  51
+p : 0.972781
+Round  103, temp = 71.749660, fitness =  53
+p : 1.028267
+Round  104, temp = 71.032163, fitness =  51
+p : 0.986021
+Round  105, temp = 70.321841, fitness =  52
+p : 1.000000
+Round  106, temp = 69.618623, fitness =  52
+p : 0.985739
+Round  107, temp = 68.922437, fitness =  53
+p : 1.014615
+Round  108, temp = 68.233212, fitness =  52
+p : 0.985451
+Round  109, temp = 67.550880, fitness =  53
+p : 1.014914
+Round  110, temp = 66.875371, fitness =  52
+p : 0.985158
+Round  111, temp = 66.206618, fitness =  53
+p : 1.015219
+Round  112, temp = 65.544551, fitness =  52
+p : 0.984859
+Round  113, temp = 64.889106, fitness =  53
+p : 1.015530
+Round  114, temp = 64.240215, fitness =  52
+p : 0.984554
+Round  115, temp = 63.597813, fitness =  53
+p : 1.015848
+Round  116, temp = 62.961835, fitness =  52
+p : 0.984243
+Round  117, temp = 62.332216, fitness =  53
+p : 1.016172
+Round  118, temp = 61.708894, fitness =  52
+p : 0.983925
+Round  119, temp = 61.091805, fitness =  53
+p : 1.016504
+Round  120, temp = 60.480887, fitness =  52
+p : 1.000000
+Round  121, temp = 59.876078, fitness =  52
+p : 1.016841
+Round  122, temp = 59.277317, fitness =  51
+p : 0.983272
+Round  123, temp = 58.684544, fitness =  52
+p : 1.000000
+Round  124, temp = 58.097699, fitness =  52
+p : 0.982935
+Round  125, temp = 57.516722, fitness =  53
+p : 1.017538
+Round  126, temp = 56.941555, fitness =  52
+p : 0.982591
+Round  127, temp = 56.372139, fitness =  53
+p : 1.017898
+Round  128, temp = 55.808418, fitness =  52
+p : 0.982241
+Round  129, temp = 55.250334, fitness =  53
+p : 1.018264
+Round  130, temp = 54.697830, fitness =  52
+p : 1.000000
+Round  131, temp = 54.150852, fitness =  52
+p : 1.000000
+Round  132, temp = 53.609343, fitness =  52
+p : 1.000000
+Round  133, temp = 53.073250, fitness =  52
+p : 1.019021
+Round  134, temp = 52.542517, fitness =  51
+p : 0.962651
+Round  135, temp = 52.017092, fitness =  53
+p : 1.019410
+Round  136, temp = 51.496921, fitness =  52
+p : 1.000000
+Round  137, temp = 50.981952, fitness =  52
+p : 1.019808
+Round  138, temp = 50.472133, fitness =  51
+p : 0.980382
+Round  139, temp = 49.967411, fitness =  52
+p : 1.020215
+Round  140, temp = 49.467737, fitness =  51
+p : 0.979988
+Round  141, temp = 48.973060, fitness =  52
+p : 1.000000
+Round  142, temp = 48.483329, fitness =  52
+p : 0.979586
+Round  143, temp = 47.998496, fitness =  53
+p : 1.021053
+Round  144, temp = 47.518511, fitness =  52
+p : 0.979175
+Round  145, temp = 47.043326, fitness =  53
+p : 1.043431
+Round  146, temp = 46.572893, fitness =  51
+p : 0.978757
+Round  147, temp = 46.107164, fitness =  52
+p : 1.000000
+Round  148, temp = 45.646092, fitness =  52
+p : 1.000000
+Round  149, temp = 45.189631, fitness =  52
+p : 1.000000
+Round  150, temp = 44.737735, fitness =  52
+p : 0.977895
+Round  151, temp = 44.290357, fitness =  53
+p : 1.022835
+Round  152, temp = 43.847454, fitness =  52
+p : 0.977452
+Round  153, temp = 43.408979, fitness =  52
+p : 0.977227
+Round  154, temp = 42.974890, fitness =  53
+p : 1.023542
+Round  155, temp = 42.545141, fitness =  52
+p : 0.976770
+Round  156, temp = 42.119689, fitness =  53
+p : 1.024026
+Round  157, temp = 41.698492, fitness =  52
+p : 0.976304
+Round  158, temp = 41.281507, fitness =  53
+p : 1.000000
+Round  159, temp = 40.868692, fitness =  53
+p : 0.975828
+Round  160, temp = 40.460005, fitness =  54
+p : 1.025024
+Round  161, temp = 40.055405, fitness =  53
+p : 1.000000
+Round  162, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  163, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  164, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  165, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  166, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  167, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  168, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  169, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  170, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  171, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  172, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  173, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  174, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  175, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  176, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  177, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  178, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  179, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  180, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  181, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  182, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  183, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  184, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  185, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  186, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  187, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  188, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  189, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  190, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  191, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  192, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  193, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  194, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  195, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  196, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  197, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  198, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  199, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  200, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  201, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  202, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  203, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  204, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  205, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  206, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  207, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  208, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  209, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  210, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  211, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  212, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  213, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  214, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  215, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  216, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  217, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  218, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  219, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  220, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  221, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  222, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  223, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  224, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  225, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  226, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  227, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  228, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  229, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  230, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  231, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  232, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  233, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  234, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  235, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  236, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  237, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  238, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  239, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  240, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  241, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  242, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  243, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  244, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  245, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  246, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  247, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  248, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  249, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  250, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  251, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  252, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  253, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  254, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  255, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  256, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  257, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  258, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  259, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  260, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  261, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  262, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  263, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  264, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  265, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  266, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  267, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  268, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  269, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  270, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  271, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  272, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  273, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  274, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  275, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  276, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  277, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  278, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  279, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  280, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  281, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  282, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  283, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  284, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  285, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  286, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  287, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  288, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  289, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  290, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  291, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  292, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  293, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  294, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  295, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  296, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  297, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  298, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  299, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  300, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  301, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  302, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  303, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  304, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  305, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  306, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  307, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  308, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  309, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  310, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  311, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  312, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  313, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  314, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  315, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  316, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  317, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  318, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  319, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  320, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  321, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  322, temp = 40.000000, fitness =  53
+p : 1.077884
+Round  323, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  324, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  325, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  326, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  327, temp = 40.000000, fitness =  50
+p : 0.927743
+Round  328, temp = 40.000000, fitness =  53
+p : 1.077884
+Round  329, temp = 40.000000, fitness =  50
+p : 0.927743
+Round  330, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  331, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  332, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  333, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  334, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  335, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  336, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  337, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  338, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  339, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  340, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  341, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  342, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  343, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  344, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  345, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  346, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  347, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  348, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  349, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  350, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  351, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  352, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  353, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  354, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  355, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  356, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  357, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  358, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  359, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  360, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  361, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  362, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  363, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  364, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  365, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  366, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  367, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  368, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  369, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  370, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  371, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  372, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  373, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  374, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  375, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  376, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  377, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  378, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  379, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  380, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  381, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  382, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  383, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  384, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  385, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  386, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  387, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  388, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  389, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  390, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  391, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  392, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  393, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  394, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  395, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  396, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  397, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  398, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  399, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  400, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  401, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  402, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  403, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  404, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  405, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  406, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  407, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  408, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  409, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  410, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  411, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  412, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  413, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  414, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  415, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  416, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  417, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  418, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  419, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  420, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  421, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  422, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  423, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  424, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  425, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  426, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  427, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  428, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  429, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  430, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  431, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  432, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  433, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  434, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  435, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  436, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  437, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  438, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  439, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  440, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  441, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  442, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  443, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  444, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  445, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  446, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  447, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  448, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  449, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  450, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  451, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  452, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  453, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  454, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  455, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  456, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  457, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  458, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  459, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  460, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  461, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  462, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  463, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  464, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  465, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  466, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  467, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  468, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  469, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  470, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  471, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  472, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  473, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  474, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  475, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  476, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  477, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  478, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  479, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  480, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  481, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  482, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  483, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  484, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  485, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  486, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  487, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  488, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  489, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  490, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  491, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  492, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  493, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  494, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  495, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  496, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  497, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  498, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  499, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  500, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  501, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  502, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  503, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  504, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  505, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  506, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  507, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  508, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  509, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  510, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  511, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  512, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  513, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  514, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  515, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  516, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  517, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  518, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  519, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  520, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  521, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  522, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  523, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  524, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  525, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  526, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  527, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  528, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  529, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  530, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  531, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  532, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  533, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  534, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  535, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  536, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  537, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  538, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  539, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  540, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  541, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  542, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  543, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  544, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  545, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  546, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  547, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  548, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  549, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  550, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  551, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  552, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  553, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  554, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  555, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  556, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  557, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  558, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  559, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  560, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  561, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  562, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  563, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  564, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  565, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  566, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  567, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  568, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  569, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  570, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  571, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  572, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  573, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  574, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  575, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  576, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  577, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  578, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  579, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  580, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  581, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  582, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  583, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  584, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  585, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  586, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  587, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  588, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  589, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  590, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  591, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  592, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  593, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  594, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  595, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  596, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  597, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  598, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  599, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  600, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  601, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  602, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  603, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  604, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  605, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  606, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  607, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  608, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  609, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  610, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  611, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  612, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  613, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  614, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  615, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  616, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  617, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  618, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  619, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  620, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  621, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  622, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  623, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  624, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  625, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  626, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  627, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  628, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  629, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  630, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  631, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  632, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  633, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  634, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  635, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  636, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  637, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  638, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  639, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  640, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  641, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  642, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  643, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  644, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  645, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  646, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  647, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  648, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  649, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  650, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  651, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  652, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  653, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  654, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  655, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  656, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  657, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  658, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  659, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  660, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  661, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  662, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  663, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  664, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  665, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  666, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  667, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  668, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  669, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  670, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  671, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  672, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  673, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  674, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  675, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  676, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  677, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  678, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  679, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  680, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  681, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  682, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  683, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  684, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  685, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  686, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  687, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  688, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  689, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  690, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  691, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  692, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  693, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  694, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  695, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  696, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  697, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  698, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  699, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  700, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  701, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  702, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  703, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  704, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  705, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  706, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  707, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  708, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  709, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  710, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  711, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  712, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  713, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  714, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  715, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  716, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  717, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  718, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  719, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  720, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  721, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  722, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  723, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  724, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  725, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  726, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  727, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  728, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  729, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  730, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  731, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  732, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  733, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  734, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  735, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  736, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  737, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  738, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  739, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  740, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  741, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  742, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  743, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  744, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  745, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  746, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  747, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  748, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  749, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  750, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  751, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  752, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  753, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  754, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  755, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  756, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  757, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  758, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  759, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  760, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  761, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  762, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  763, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  764, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  765, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  766, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  767, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  768, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  769, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  770, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  771, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  772, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  773, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  774, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  775, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  776, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  777, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  778, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  779, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  780, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  781, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  782, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  783, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  784, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  785, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  786, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  787, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  788, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  789, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  790, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  791, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  792, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  793, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  794, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  795, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  796, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  797, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  798, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  799, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  800, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  801, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  802, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  803, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  804, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  805, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  806, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  807, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  808, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  809, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  810, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  811, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  812, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  813, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  814, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  815, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  816, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  817, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  818, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  819, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  820, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  821, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  822, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  823, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  824, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  825, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  826, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  827, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  828, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  829, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  830, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  831, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  832, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  833, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  834, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  835, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  836, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  837, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  838, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  839, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  840, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  841, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  842, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  843, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  844, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  845, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  846, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  847, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  848, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  849, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  850, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  851, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  852, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  853, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  854, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  855, temp = 40.000000, fitness =  51
+p : 0.951229
+Round  856, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  857, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  858, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  859, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  860, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  861, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  862, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  863, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  864, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  865, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  866, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  867, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  868, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  869, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  870, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  871, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  872, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  873, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  874, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  875, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  876, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  877, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  878, temp = 40.000000, fitness =  53
+p : 1.051271
+Round  879, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  880, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  881, temp = 40.000000, fitness =  51
+p : 0.951229
+Round  882, temp = 40.000000, fitness =  53
+p : 1.051271
+Round  883, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  884, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  885, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  886, temp = 40.000000, fitness =  52
+p : 1.000000
+Round  887, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  888, temp = 40.000000, fitness =  53
+p : 1.025315
+Round  889, temp = 40.000000, fitness =  52
+p : 0.975310
+Round  890, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  891, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  892, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  893, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  894, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  895, temp = 40.000000, fitness =  49
+p : 0.882497
+Round  896, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  897, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  898, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  899, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  900, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  901, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  902, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  903, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  904, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  905, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  906, temp = 40.000000, fitness =  53
+p : 1.000000
+Round  907, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  908, temp = 40.000000, fitness =  54
+p : 1.025315
+Round  909, temp = 40.000000, fitness =  53
+p : 0.975310
+Round  910, temp = 40.000000, fitness =  54
+p : 1.133148
+Round  911, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  912, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  913, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  914, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  915, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  916, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  917, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  918, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  919, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  920, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  921, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  922, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  923, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  924, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  925, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  926, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  927, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  928, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  929, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  930, temp = 40.000000, fitness =  50
+p : 1.025315
+Round  931, temp = 40.000000, fitness =  49
+p : 0.975310
+Round  932, temp = 40.000000, fitness =  50
+p : 1.000000
+Round  933, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  934, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  935, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  936, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  937, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  938, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  939, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  940, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  941, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  942, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  943, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  944, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  945, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  946, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  947, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  948, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  949, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  950, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  951, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  952, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  953, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  954, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  955, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  956, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  957, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  958, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  959, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  960, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  961, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  962, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  963, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  964, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  965, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  966, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  967, temp = 40.000000, fitness =  51
+p : 0.975310
+Round  968, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  969, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  970, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  971, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  972, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  973, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  974, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  975, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  976, temp = 40.000000, fitness =  52
+p : 1.051271
+Round  977, temp = 40.000000, fitness =  50
+p : 0.951229
+Round  978, temp = 40.000000, fitness =  52
+p : 1.025315
+Round  979, temp = 40.000000, fitness =  51
+p : 1.000000
+Round  980, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  981, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  982, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  983, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  984, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  985, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  986, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  987, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  988, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  989, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  990, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  991, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  992, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  993, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  994, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  995, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  996, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  997, temp = 40.000000, fitness =  50
+p : 0.975310
+Round  998, temp = 40.000000, fitness =  51
+p : 1.025315
+Round  999, temp = 40.000000, fitness =  50
+p : 0.975310
+Round 1000, temp = 40.000000, fitness =  51
+p : 1.025315
 
 --------------------------
-Best fitness : 57
+Best fitness : 54

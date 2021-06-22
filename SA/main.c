@@ -6,8 +6,8 @@
 #define BIT_SIZE 100
 #define ITER_MAX 1000
 #define DEFAULTE_TEMP 200
-#define TEMP_LOWER_BOUND 20
-#define TEMP_COLLDOWN_RATE 0.98
+#define TEMP_LOWER_BOUND 40
+#define TEMP_COLLDOWN_RATE 0.99
 
 int Evaluate(int *bitArr) {
     int sum = 0;
@@ -16,9 +16,11 @@ int Evaluate(int *bitArr) {
     return sum;
 }
 double P(int new_sol, int current_sol, double temp) {
-    double p = exp((-1) * (new_sol + current_sol) / temp);
+    double p = exp((-1) * (new_sol - current_sol) / temp);
+    printf("p : %lf\n", p);
     return p;
 }
+
 int *PrevOfAns(int *Arr) {
     static int resArr[BIT_SIZE];
     int bi = BIT_SIZE - 1;
