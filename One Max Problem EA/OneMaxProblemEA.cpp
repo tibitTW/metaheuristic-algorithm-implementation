@@ -26,7 +26,7 @@ int main() {
             tmp2 >>= 1;
         }
 
-        if (sum >= max_of_sum) {
+        if (sum > max_of_sum) {
             max_of_sum = sum;
             tmp = n;
             tmp2 = n_2;
