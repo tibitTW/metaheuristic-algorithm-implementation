@@ -1,10 +1,10 @@
 all: main run
 
 main:
-	g++ "OneMaxProblemEA.cpp" -o onemax-t.exe
+	g++ OneMaxProblemEA.cpp -o ompEA.exe
 
 run:
-	.\onemax-t.exe > result.txt
+	.\ompEA.exe > result.txt
 
 clean:
 	del *.o *.exe
