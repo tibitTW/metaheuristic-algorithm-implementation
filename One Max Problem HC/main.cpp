@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
                 "\n"
                 "options:\n"
                 "-b, -bit-size\t\tbit size, default value = 100\n"
-                "-i, -iter-max\t\tmax iteration of HC algorithm, default value is 51\n"
-                "-r, -run\t\ttimes of HC algorithm runs\n"
+                "-i, -iter-max\t\tmax iteration of HC algorithm, default value is 200\n"
+                "-r, -run\t\ttimes of HC algorithm runs, default value is 51\n"
                 "-n, -neighbor-type\tneighbor type in HC algorithm, default value is 0. Options : \"0\", \"numeric\", \"1\", "
                 "\"random_bit\" (0 equals to numeric and 1 equals to random_bit)\n"
                 "-o, -output-path\tthe path of CSV file records result, default path is \"result.csv\"";
