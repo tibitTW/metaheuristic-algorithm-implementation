@@ -44,7 +44,7 @@ void initPheroRM(vector<vector<double>> &phero_RM, const int CITY_DIM, const dou
 void aco() {
     for (int iter = 0; iter < ITERATION; iter++) {
         for (int ai = 0; ai < ANT_POP; ai++) {
-        ant_path_length_acc[i] = 0;
+            ant_path_length_acc[i] = 0;
         }
     }
 }
