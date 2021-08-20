@@ -41,8 +41,13 @@ void initPheroRM(vector<vector<double>> &phero_RM, const int CITY_DIM, const dou
     }
 }
 
+double calculateExceptedValue(double tau, double eta, const int PHERO_CTRL_FACTOR, const int DISTANCE_CTRL_FACTOR) {
+    double res = pow(tau, PHERO_CTRL_FACTOR) * pow(eta, DISTANCE_CTRL_FACTOR);
+    return res;
+}
+
 void aco(const int ITERATION, const int ANT_POP, const int CITY_DIM, vector<int> ant_path_length_acc, vector<int> ants_current_city,
-         vector<vector<int>> ant_visited_city, vector<vector<int>> ants_visited_city_order) {
+         vector<vector<int>> ant_visited_city, vector<vector<int>> ants_visited_city_order, vector<vector<double>> excepted_value_table) {
     for (int iter = 0; iter < ITERATION; iter++) {
 
         // reset accumulation array to all zero
@@ -56,6 +61,20 @@ void aco(const int ITERATION, const int ANT_POP, const int CITY_DIM, vector<int>
             ants_current_city[ai] = rand() % CITY_DIM;
             ant_visited_city[ai][ants_current_city[ai]] = 1;
             ants_visited_city_order[ai][0] = ants_current_city[ai];
+        }
+
+        for (int ai = 0; ai < ANT_POP; ai++) {
+            for (int city_cnt = 1; city_cnt < CITY_DIM; city_cnt++) {
+                double exp_val_sum = 0, exp_val, p_sum = 0;
+                for (int ci = 0; ci < CITY_DIM; ci++) {
+                    if (ant_visited_city[ai][ci] == 1) {
+                        excepted_value_table[ci][0] = -1;
+                    } else {
+                        // TODO:
+                        exp_val = calculateExceptedValue();
+                    }
+                }
+            }
         }
     }
 }
