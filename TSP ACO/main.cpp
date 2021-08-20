@@ -41,6 +41,14 @@ void initPheroRM(vector<vector<double>> &phero_RM, const int CITY_DIM, const dou
     }
 }
 
+void aco() {
+    for (int iter = 0; iter < ITERATION; iter++) {
+        for (int ai = 0; ai < ANT_POP; ai++) {
+        ant_path_length_acc[i] = 0;
+        }
+    }
+}
+
 int main(int argc, char *argv[]) {
     // load arguments
     const int CITY_DIM = atoi(argv[1]);
@@ -74,5 +82,8 @@ int main(int argc, char *argv[]) {
 
     vector<vector<double>> excepted_value_table(CITY_DIM, vector<double>(3));
 
+    for (int r = 0; r < RUN; r++) {
+        aco();
+    }
     return 0;
 }
