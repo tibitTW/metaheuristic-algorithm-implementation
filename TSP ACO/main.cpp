@@ -46,8 +46,10 @@ double calculateExceptedValue(double tau, double eta, const int PHERO_CTRL_FACTO
     return res;
 }
 
-void aco(const int ITERATION, const int ANT_POP, const int CITY_DIM, vector<int> ant_path_length_acc, vector<int> ants_current_city,
-         vector<vector<int>> ant_visited_city, vector<vector<int>> ants_visited_city_order, vector<vector<double>> excepted_value_table) {
+void aco(const int ITERATION, const int ANT_POP, const int CITY_DIM, const int PHERO_CTRL_FACTOR, const int DISTANCE_CTRL_FACTOR,
+         const double EVAPORATION_FACTOR, const double MIN_PHERO_AMOUNT, const double PHERO_ANT_CARRIED, vector<double> ant_path_length_acc,
+         vector<int> ants_current_city, vector<vector<int>> ant_visited_city, vector<vector<int>> ants_visited_city_order,
+         vector<vector<double>> excepted_value_table, vector<vector<double>> phero_RM, vector<vector<double>> city_distances) {
     for (int iter = 0; iter < ITERATION; iter++) {
 
         // reset accumulation array to all zero
@@ -66,16 +68,80 @@ void aco(const int ITERATION, const int ANT_POP, const int CITY_DIM, vector<int>
         for (int ai = 0; ai < ANT_POP; ai++) {
             for (int city_cnt = 1; city_cnt < CITY_DIM; city_cnt++) {
                 double exp_val_sum = 0, exp_val, p_sum = 0;
+                // calculate excepted value of each city
                 for (int ci = 0; ci < CITY_DIM; ci++) {
                     if (ant_visited_city[ai][ci] == 1) {
                         excepted_value_table[ci][0] = -1;
                     } else {
-                        // TODO:
-                        exp_val = calculateExceptedValue();
+                        exp_val =
+                            calculateExceptedValue(phero_RM[ants_current_city[ai]][ci], 1.0 / city_distances[ants_current_city[ai]][ci],
+                                                   PHERO_CTRL_FACTOR, DISTANCE_CTRL_FACTOR);
+                        excepted_value_table[ci][0] = exp_val;
+                        exp_val_sum += exp_val;
                     }
+                }
+
+                // convert "excepted value" to "probability" and "probability accmulation"
+                for (int ci = 0; ci < CITY_DIM; ci++) {
+                    if (excepted_value_table[ci][0] == -1) {
+                        excepted_value_table[ci][1] = -1;
+                        excepted_value_table[ci][2] = -1;
+                    } else {
+                        excepted_value_table[ci][1] = excepted_value_table[ci][0] / exp_val_sum;
+                        p_sum += excepted_value_table[ci][1];
+                        excepted_value_table[ci][2] = p_sum;
+                    }
+                }
+
+                // generate random number
+                double rdn = rand() / (float)RAND_MAX;
+
+                // use random number to pick next city
+                int next_ci = 0;
+                while (next_ci < CITY_DIM) {
+                    if (excepted_value_table[next_ci][2] > rdn) {
+                        ant_path_length_acc[ai] += city_distances[ants_current_city[ai]][next_ci];
+                        ants_current_city[ai] = next_ci;
+                        ant_visited_city[ai][next_ci] = 1;
+                        ants_visited_city_order[ai][city_cnt] = next_ci;
+                        break;
+                    }
+
+                    next_ci++;
                 }
             }
         }
+
+        /* update pheromone relation matrix */
+
+        // 1. reduce
+        for (int ci = 0; ci < CITY_DIM; ci++) {
+            for (int cj = 0; cj < CITY_DIM; cj++) {
+                if (ci != cj) {
+                    phero_RM[ci][cj] += (1 - EVAPORATION_FACTOR);
+                    phero_RM[ci][cj] = (phero_RM[ci][cj] > MIN_PHERO_AMOUNT) ? phero_RM[ci][cj] : MIN_PHERO_AMOUNT;
+                }
+            }
+        }
+
+        // 2. addup newly pheromone
+        for (int ai = 0; ai < ANT_POP; ai++) {
+            double avg_phero = PHERO_ANT_CARRIED / (double)(CITY_DIM - 1);
+            for (int ci = 0; ci < CITY_DIM - 1; ci++) {
+                phero_RM[ants_visited_city_order[ai][ci]][ants_visited_city_order[ai][ci + 1]] +=
+                    avg_phero / city_distances[ants_visited_city_order[ai][ci]][ants_visited_city_order[ai][ci + 1]];
+                phero_RM[ants_visited_city_order[ai][ci + 1]][ants_visited_city_order[ai][ci]] =
+                    phero_RM[ants_visited_city_order[ai][ci]][ants_visited_city_order[ai][ci + 1]];
+            }
+        }
+
+        // update best(shortest) path
+        double shortest_path = ant_path_length_acc[0];
+        for (int ai = 0; ai < ANT_POP; ai++) {
+            shortest_path = shortest_path < ant_path_length_acc[ai] ? shortest_path : ant_path_length_acc[ai];
+        }
+
+        // TODO: output (or record) best result of this iteration
     }
 }
 
@@ -113,7 +179,9 @@ int main(int argc, char *argv[]) {
     vector<vector<double>> excepted_value_table(CITY_DIM, vector<double>(3));
 
     for (int r = 0; r < RUN; r++) {
-        aco();
+        aco(ITERATION, ANT_POP, CITY_DIM, PHERO_CTRL_FACTOR, DISTANCE_CTRL_FACTOR, EVAPORATION_FACTOR, MIN_PHERO_AMOUNT, PHERO_ANT_CARRIED,
+            ant_path_length_acc, ants_current_city, ant_visited_city, ants_visited_city_order, excepted_value_table, phero_RM,
+            city_distances);
     }
     return 0;
 }
