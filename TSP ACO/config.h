@@ -1,0 +1,8 @@
+#define CITY_DIM 51 // city dimension
+#define ANT_POPULATION 1000
+#define ITERATION_COUNT 50
+#define PHERO_OF_ANT_CARRIED 50
+#define PHERO_CONTROL_FACTOR 2
+#define DISTANCE_CONTROL_FACTOR 1
+#define EVAPORATION_FACTOR 0.6 // between 0.8 ~ 0.9
+#define MIN_PHERO_AMOUNT 0.000167
