@@ -9,8 +9,8 @@
 #define V_UPPER_BOUND 4
 #define X_DIM 2
 #define PTC_AMOUNT 20
-#define MAP_UPPER_BOUND 40
 #define MAP_LOWER_BOUND -40
+#define MAP_UPPER_BOUND 40
 #define ITER_COUNT 50
 #define INERTIA_WEIGHT 1
 #define P_LEARNING_FACTOR 2

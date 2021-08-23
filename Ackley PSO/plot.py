@@ -1,16 +1,22 @@
 # %%
 import matplotlib.pyplot as plt
-import numpy as np
+import pandas as pd
 
 # %%
-with open("out.txt") as f:
-    data = [list(map(float, l.strip().split("\t"))) for l in f.readlines()]
-
-# %%
-for line in data:
-    plt.figure(figsize=(5, 5))
-    plt.xlim(-40, 40)
-    plt.ylim(-40, 40)
-    for i in range(0, len(line), 2):
-        plt.scatter(line[i], line[i + 1], c="k")
+def draw_result(file_name, y_lim=None, y_lim2=None):
+    result = pd.read_csv(file_name)
+    avg = result.loc[result["Run"] == "avg"].drop(["Run"], axis=1)
+    plt.figure(figsize=(8, 6))
+    plt.title(file_name[: file_name.index(".")] + " of 51 run avg")
+    plt.xlabel("Iteration")
+    plt.ylabel("fitness")
+    plt.xlim(0, 1000)
+    if y_lim and y_lim2:
+        plt.ylim(y_lim - 1, y_lim2 + 1)
+    plt.plot(range(1000), avg.values.reshape(1000), lw=2)
+    plt.savefig(f"{file_name[: file_name.index('.')]}.jpg", dpi=300)
     plt.show()
+
+
+# %%
+draw_result("result.csv")
