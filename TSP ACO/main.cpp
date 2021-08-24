@@ -156,17 +156,6 @@ void aco(const int ITERATION, const int ANT_POP, const int CITY_DIM, const int P
             shortest_path = shortest_path < ant_path_length_acc[ai] ? shortest_path : ant_path_length_acc[ai];
         }
 
-        // DEBUG: for test
-        for (int ai = 0; ai < ANT_POP; ai++) {
-            if (ant_path_length_acc[ai] < 426) {
-                cout << "total length: " << ant_path_length_acc[ai] << endl;
-                for (int ci = 0; ci < CITY_DIM; ci++) {
-                    cout << ants_visited_city_order[ai][ci] << endl;
-                }
-                cout << endl;
-            }
-        }
-
         result[iter] = shortest_path;
     }
 }
