@@ -18,7 +18,6 @@ void Crossover(Chromo &c1, Chromo &c2) {
     // 3. order crossover
 }
 
-// ✔ finished
 void Mutation(Chromo &c, const int CITY_DIM) {
     int f1 = rand() % CITY_DIM, f2 = rand() % CITY_DIM;
     while (f1 == f2)

@@ -7,11 +7,9 @@ using namespace std;
 
 namespace tsp {
 
-// ✔
 vector<vector<int>> city_loc;
 vector<vector<double>> city_dis_RM;
 
-// ✔
 void loadCityLocation(vector<vector<int>> &city_loc, const int CITY_DIM) {
     city_loc.clear();
     FILE *city_loc_file;
@@ -22,12 +20,10 @@ void loadCityLocation(vector<vector<int>> &city_loc, const int CITY_DIM) {
         city_loc.push_back(vector<int>{cx, cy});
     }
 }
-// ✔
 double getCityDistance(int cx1, int cy1, int cx2, int cy2) {
     int cx_dis = cx1 - cx2, cy_dis = cy1 - cy2;
     return sqrt(pow(cx_dis, 2) + pow(cy_dis, 2));
 }
-// ✔
 void loadCityDistanceRM(vector<vector<double>> &city_dis_RM, const int CITY_DIM) {
     city_dis_RM.clear();
     vector<double> rm_row;
@@ -49,7 +45,6 @@ void loadCityDistanceRM(vector<vector<double>> &city_dis_RM, const int CITY_DIM)
     }
 }
 
-// ✔
 void initialize(const int CITY_DIM) {
     loadCityLocation(city_loc, CITY_DIM);
     loadCityDistanceRM(city_dis_RM, CITY_DIM);
