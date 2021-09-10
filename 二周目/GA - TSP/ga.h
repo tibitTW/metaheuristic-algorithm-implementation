@@ -6,6 +6,7 @@
 typedef vector<int> Chromo;
 using namespace std;
 
+namespace ga {
 void InitialChromosome(Chromo &c, const int CITY_DIM) {
     c.clear();
     //
@@ -21,7 +22,7 @@ void Mutation(Chromo &c) {
 }
 double Evluation(Chromo &c) {}
 
-int GA(const int POP, const int CITY_DIM, const int ITERATION, const double C_RATE, const double M_RATE) {
+int GA(const int CITY_DIM, const int ITERATION, const int POP, const double C_RATE, const double M_RATE) {
     srand(time(NULL));
     /* ========== Initialization ========== */
     vector<Chromo> P(POP);
@@ -49,3 +50,5 @@ int GA(const int POP, const int CITY_DIM, const int ITERATION, const double C_RA
 
     return -1;
 }
+
+} // namespace ga
