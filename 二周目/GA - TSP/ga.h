@@ -17,9 +17,18 @@ void Crossover(Chromo &c1, Chromo &c2) {
     // 2. cycle crossover
     // 3. order crossover
 }
-void Mutation(Chromo &c) {
-    // TODO: 確認怎麼做TSP的Mutation
+
+// ✔ finished
+void Mutation(Chromo &c, const int CITY_DIM) {
+    int f1 = rand() % CITY_DIM, f2 = rand() % CITY_DIM;
+    while (f1 == f2)
+        f2 = rand() % CITY_DIM;
+
+    int tmp = c[f1];
+    c[f1] = c[f2];
+    c[f2] = tmp;
 }
+
 double Evluation(Chromo &c) {}
 
 int GA(const int CITY_DIM, const int ITERATION, const int POP, const double C_RATE, const double M_RATE) {
@@ -40,7 +49,7 @@ int GA(const int CITY_DIM, const int ITERATION, const int POP, const double C_RA
         // mutation
         for (int ci = 0; ci < POP; ci++) {
             if ((double)rand() < M_RATE)
-                Mutation(P.at(ci));
+                Mutation(P.at(ci), CITY_DIM);
         }
 
         /* ========== Evluation ========== */
