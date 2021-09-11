@@ -73,6 +73,7 @@ double getPathLength(vector<int> path) {
     }
     return path_length;
 }
+
 void initialize() {
     loadCityLocation(city_loc);
     loadCityDistanceRM(city_dis_RM);
