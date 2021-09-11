@@ -80,6 +80,7 @@ int GA() {
             best_fitness = best_fitness > fitness[ci] ? best_fitness : fitness[ci];
         }
 
+        // TODO: selection
         /* ========== Selection ========== */
 
         /* ========== Crossover ========== */
@@ -94,6 +95,7 @@ int GA() {
                 Mutation(P.at(ci));
         }
 
+        // TODO: determination
         /* ========== Determination ========== */
     }
 
