@@ -66,7 +66,7 @@ int GA() {
     /* ========== Initialization ========== */
     vector<Chromo> P(POP);
     vector<double> fitness(POP);
-    double best_fitness;
+    double best_fitness = 0.0;
 
     for (int ci = 0; ci < POP; ci++)
         InitialChromosome(P.at(ci));
@@ -75,6 +75,10 @@ int GA() {
     for (int ii = 0; ii < ITERATION; ii++) {
 
         /* ========== Evaluation ========== */
+        for (int ci = 0; ci < POP; ci++) {
+            fitness[ci] = Evluation(P[ci]);
+            best_fitness = best_fitness > fitness[ci] ? best_fitness : fitness[ci];
+        }
 
         /* ========== Selection ========== */
 
