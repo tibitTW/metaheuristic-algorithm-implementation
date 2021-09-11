@@ -1,3 +1,4 @@
+#include "config.h"
 #include <cstdlib>
 #include <iostream>
 #include <math.h>
@@ -10,7 +11,7 @@ namespace tsp {
 vector<vector<int>> city_loc;
 vector<vector<double>> city_dis_RM;
 
-void loadCityLocation(vector<vector<int>> &city_loc, const int CITY_DIM) {
+void loadCityLocation(vector<vector<int>> &city_loc) {
     city_loc.clear();
     FILE *city_loc_file;
     city_loc_file = fopen("eil51.txt", "r");
@@ -24,7 +25,7 @@ double getCityDistance(int cx1, int cy1, int cx2, int cy2) {
     int cx_dis = cx1 - cx2, cy_dis = cy1 - cy2;
     return sqrt(pow(cx_dis, 2) + pow(cy_dis, 2));
 }
-void loadCityDistanceRM(vector<vector<double>> &city_dis_RM, const int CITY_DIM) {
+void loadCityDistanceRM(vector<vector<double>> &city_dis_RM) {
     city_dis_RM.clear();
     vector<double> rm_row;
     int cx1, cy1, cx2, cy2;
@@ -44,9 +45,36 @@ void loadCityDistanceRM(vector<vector<double>> &city_dis_RM, const int CITY_DIM)
         city_dis_RM.push_back(rm_row);
     }
 }
+vector<int> getRandomPath() {
+    vector<int> num_selected(CITY_DIM, 0), path;
+    int flag, si;
+    for (int ci = 0; ci < CITY_DIM; ci++) {
+        flag = rand() % (CITY_DIM - ci);
+        for (int si = 0; si < CITY_DIM; si++) {
+            if (!flag && !num_selected[si]) {
+                num_selected[si] = 1;
+                path.push_back(si);
+                break;
+            }
+            flag -= num_selected[si] ? 0 : 1;
+        }
+    }
 
-void initialize(const int CITY_DIM) {
-    loadCityLocation(city_loc, CITY_DIM);
-    loadCityDistanceRM(city_dis_RM, CITY_DIM);
+    return path;
+}
+
+double getPathLength(vector<int> path) {
+    double path_length = 0;
+    int c1, c2;
+    for (int i = 0; i < CITY_DIM; i++) {
+        c1 = path[i];
+        c2 = i + 1 == CITY_DIM ? path[0] : path[i + 1];
+        path_length += city_dis_RM[c1][c2];
+    }
+    return path_length;
+}
+void initialize() {
+    loadCityLocation(city_loc);
+    loadCityDistanceRM(city_dis_RM);
 }
 } // namespace tsp

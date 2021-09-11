@@ -1,16 +1,21 @@
+#include "config.h"
 #include "tsp.h"
 #include <cstdlib>
 #include <iostream>
 #include <math.h>
+#include <time.h>
 #include <vector>
+
 
 using namespace std;
 
 int main() {
-    tsp::initialize(51);
-    for (int ci = 0; ci < 51; ci++) {
-        for (int cj = 0; cj < 51; cj++)
-            cout << tsp::city_dis_RM[ci][cj] << " ";
+    srand(time(NULL));
+    vector<int> path;
+    for (int ii = 0; ii < 10; ii++) {
+        path = tsp::getRandomPath(8);
+        for (int ci : path)
+            cout << ci << " ";
         cout << endl;
     }
 

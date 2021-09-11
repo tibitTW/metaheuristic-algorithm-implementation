@@ -1,3 +1,5 @@
+#include "config.h"
+#include "tsp.h"
 #include <cstdlib>
 #include <iostream>
 #include <time.h>
@@ -7,18 +9,22 @@ typedef vector<int> Chromo;
 using namespace std;
 
 namespace ga {
-void InitialChromosome(Chromo &c, const int CITY_DIM) {
+
+void InitialChromosome(Chromo &c) {
     c.clear();
-    //
-}
-void Crossover(Chromo &c1, Chromo &c2) {
-    // TODO: 3 versions of crossover
-    // 1. partially mapped crossover
-    // 2. cycle crossover
-    // 3. order crossover
+    c = tsp::getRandomPath();
 }
 
-void Mutation(Chromo &c, const int CITY_DIM) {
+// TODO: 3 versions of crossover
+// 1. partially mapped crossover
+void PMX() {}
+// 2. cycle crossover
+void CX() {}
+// 3. order crossover
+void OX() {}
+void Crossover(Chromo &c1, Chromo &c2) {}
+
+void Mutation(Chromo &c) {
     int f1 = rand() % CITY_DIM, f2 = rand() % CITY_DIM;
     while (f1 == f2)
         f2 = rand() % CITY_DIM;
@@ -28,35 +34,39 @@ void Mutation(Chromo &c, const int CITY_DIM) {
     c[f2] = tmp;
 }
 
+// TODO: calculate
 double Evluation(Chromo &c) {}
 
-int GA(const int CITY_DIM, const int ITERATION, const int POP, const double C_RATE, const double M_RATE) {
+int GA() {
     srand(time(NULL));
     /* ========== Initialization ========== */
     vector<Chromo> P(POP);
     for (int ci = 0; ci < POP; ci++)
-        InitialChromosome(P.at(ci), CITY_DIM);
+        InitialChromosome(P.at(ci));
 
     /* ========== Iteration ========== */
     for (int ii = 0; ii < ITERATION; ii++) {
-        /* ========== Transition ========== */
-        // crossover
+
+        /* ========== Evaluation ========== */
+
+        /* ========== Selection ========== */
+
+        /* ========== Crossover ========== */
         for (int ci = 0; ci < POP; ci += 2) {
             if ((double)rand() < C_RATE)
                 Crossover(P.at(ci), P.at(ci + 1));
         }
-        // mutation
+
+        /* ========== Mutation ========== */
         for (int ci = 0; ci < POP; ci++) {
             if ((double)rand() < M_RATE)
-                Mutation(P.at(ci), CITY_DIM);
+                Mutation(P.at(ci));
         }
-
-        /* ========== Evluation ========== */
 
         /* ========== Determination ========== */
     }
 
-    return -1;
+    return 0;
 }
 
 } // namespace ga
