@@ -9,14 +9,14 @@
 using namespace std;
 
 int main() {
-    srand(time(NULL));
-    vector<int> path;
-    for (int ii = 0; ii < 10; ii++) {
-        path = tsp::getRandomPath();
-        for (int ci : path)
-            cout << ci << " ";
-        cout << endl;
-    }
+    Chromo c1{1, 3, 9, 7, 5, 4, 6, 2, 8}, c2{4, 6, 2, 1, 7, 8, 9, 3, 5};
+    CX(c1, c2, 9);
+    for (int ci = 0; ci < 9; ci++)
+        cout << c1[ci] << " ";
+    cout << endl;
+    for (int ci = 0; ci < 9; ci++)
+        cout << c2[ci] << " ";
+    cout << endl;
 
     return 0;
 }
