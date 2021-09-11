@@ -15,14 +15,26 @@ void InitialChromosome(Chromo &c) {
     c = tsp::getRandomPath();
 }
 
-// TODO: 3 versions of crossover
-// 1. partially mapped crossover
-void PMX() {}
-// 2. cycle crossover
-void CX() {}
-// 3. order crossover
-void OX() {}
-void Crossover(Chromo &c1, Chromo &c2) {}
+// TODO: partially mapped crossover
+void PMX(Chromo &c1, Chromo &c2) {}
+
+// cycle crossover
+void CX(Chromo &c1, Chromo &c2) {
+    vector<int> mask(CITY_DIM, 1);
+    int b = c1[0], e = c2[0];
+    mask[0] = 0;
+    while (b != e) {
+        int ci = 0;
+        while (e != c1[ci])
+            ci++;
+        mask[ci] = 0;
+        e = c2[ci];
+    }
+}
+
+// TODO: order crossover
+void OX(Chromo &c1, Chromo &c2) {}
+
 void Crossover(Chromo &c1, Chromo &c2) {
     switch (C_TYPE) {
     case 1:
