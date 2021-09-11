@@ -47,6 +47,7 @@ void Mutation(Chromo &c) {
     c[f2] = tmp;
 }
 
+double Evluation(Chromo &c) { return tsp::getPathLength(c); }
 
 int GA() {
     srand(time(NULL));
