@@ -23,6 +23,19 @@ void CX() {}
 // 3. order crossover
 void OX() {}
 void Crossover(Chromo &c1, Chromo &c2) {}
+void Crossover(Chromo &c1, Chromo &c2) {
+    switch (C_TYPE) {
+    case 1:
+        PMX(c1, c2);
+        break;
+    case 2:
+        CX(c1, c2);
+        break;
+    case 3:
+        OX(c1, c2);
+        break;
+    }
+}
 
 void Mutation(Chromo &c) {
     int f1 = rand() % CITY_DIM, f2 = rand() % CITY_DIM;
