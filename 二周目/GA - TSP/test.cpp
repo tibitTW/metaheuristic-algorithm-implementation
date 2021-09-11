@@ -6,14 +6,13 @@
 #include <time.h>
 #include <vector>
 
-
 using namespace std;
 
 int main() {
     srand(time(NULL));
     vector<int> path;
     for (int ii = 0; ii < 10; ii++) {
-        path = tsp::getRandomPath(8);
+        path = tsp::getRandomPath();
         for (int ci : path)
             cout << ci << " ";
         cout << endl;
