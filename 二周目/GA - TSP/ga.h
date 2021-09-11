@@ -41,6 +41,9 @@ int GA() {
     srand(time(NULL));
     /* ========== Initialization ========== */
     vector<Chromo> P(POP);
+    vector<double> fitness(POP);
+    double best_fitness;
+
     for (int ci = 0; ci < POP; ci++)
         InitialChromosome(P.at(ci));
 
