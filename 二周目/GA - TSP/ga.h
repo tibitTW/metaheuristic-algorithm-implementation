@@ -34,8 +34,6 @@ void Mutation(Chromo &c) {
     c[f2] = tmp;
 }
 
-// TODO: calculate
-double Evluation(Chromo &c) {}
 
 int GA() {
     srand(time(NULL));
