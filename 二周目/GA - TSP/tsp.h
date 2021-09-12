@@ -11,6 +11,11 @@ namespace tsp {
 vector<vector<int>> city_loc;
 vector<vector<double>> city_dis_RM;
 
+double getCityDistance(int cx1, int cy1, int cx2, int cy2) {
+    int cx_dis = cx1 - cx2, cy_dis = cy1 - cy2;
+    return sqrt(pow(cx_dis, 2) + pow(cy_dis, 2));
+}
+
 void loadCityLocation(vector<vector<int>> &city_loc) {
     city_loc.clear();
     FILE *city_loc_file;
@@ -20,10 +25,7 @@ void loadCityLocation(vector<vector<int>> &city_loc) {
         fscanf(city_loc_file, "%*d %d %d", &cx, &cy);
         city_loc.push_back(vector<int>{cx, cy});
     }
-}
-double getCityDistance(int cx1, int cy1, int cx2, int cy2) {
-    int cx_dis = cx1 - cx2, cy_dis = cy1 - cy2;
-    return sqrt(pow(cx_dis, 2) + pow(cy_dis, 2));
+    fclose(city_loc_file);
 }
 void loadCityDistanceRM(vector<vector<double>> &city_dis_RM) {
     city_dis_RM.clear();
@@ -45,6 +47,7 @@ void loadCityDistanceRM(vector<vector<double>> &city_dis_RM) {
         city_dis_RM.push_back(rm_row);
     }
 }
+
 vector<int> getRandomPath() {
     vector<int> num_selected(CITY_DIM, 0), path;
     int flag, si;
