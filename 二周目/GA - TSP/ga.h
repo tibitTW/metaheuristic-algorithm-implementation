@@ -6,6 +6,7 @@
 #include <vector>
 
 typedef vector<int> Chromo;
+typedef vector<Chromo> Chromo_P;
 using namespace std;
 
 namespace ga {
@@ -49,6 +50,9 @@ void Crossover(Chromo &c1, Chromo &c2) {
     }
 }
 
+// TODO: selection
+void Selection(Chromo_P &P_next, Chromo_P P) {}
+
 void Mutation(Chromo &c) {
     int f1 = rand() % CITY_DIM, f2 = rand() % CITY_DIM;
     while (f1 == f2)
@@ -61,12 +65,13 @@ void Mutation(Chromo &c) {
 
 double Evluation(Chromo &c) { return tsp::getPathLength(c); }
 
-int GA() {
+vector<double> GA() {
     srand(time(NULL));
     /* ========== Initialization ========== */
-    vector<Chromo> P(POP);
+    vector<Chromo> P(POP), P_next(POP);
     vector<double> fitness(POP);
     double best_fitness = 0.0;
+    vector<double> result_v;
 
     for (int ci = 0; ci < POP; ci++)
         InitialChromosome(P.at(ci));
@@ -78,28 +83,29 @@ int GA() {
         for (int ci = 0; ci < POP; ci++) {
             fitness[ci] = Evluation(P[ci]);
             best_fitness = best_fitness > fitness[ci] ? best_fitness : fitness[ci];
+            result_v.push_back(best_fitness);
         }
 
-        // TODO: selection
         /* ========== Selection ========== */
+        Selection(P_next, P);
 
         /* ========== Crossover ========== */
         for (int ci = 0; ci < POP; ci += 2) {
             if ((double)rand() < C_RATE)
-                Crossover(P.at(ci), P.at(ci + 1));
+                Crossover(P_next.at(ci), P_next.at(ci + 1));
         }
 
         /* ========== Mutation ========== */
         for (int ci = 0; ci < POP; ci++) {
             if ((double)rand() < M_RATE)
-                Mutation(P.at(ci));
+                Mutation(P_next.at(ci));
         }
 
-        // TODO: determination
         /* ========== Determination ========== */
+        P = P_next;
     }
 
-    return 0;
+    return result_v;
 }
 
 } // namespace ga
