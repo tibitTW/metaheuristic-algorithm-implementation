@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     FILE *result_file;
     result_file = fopen("result.csv", "w");
 
-    vector<double> result;
+    vector<double> result, result_sum(ITERATION, 0);
 
     tsp::initialize();
 
