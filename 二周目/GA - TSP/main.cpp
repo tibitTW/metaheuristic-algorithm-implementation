@@ -9,11 +9,13 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
 
+    vector<double> result;
+
     tsp::initialize();
 
     // do ga() for 51 runs
     for (int ri = 0; ri < RUN; ri++) {
-        ga::GA();
+        result = ga::GA();
     }
 
     return 0;
