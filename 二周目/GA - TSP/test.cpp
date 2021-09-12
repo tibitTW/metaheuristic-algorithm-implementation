@@ -1,5 +1,5 @@
 #include "config.h"
-#include "tsp.h"
+#include "ga.h"
 #include <cstdlib>
 #include <iostream>
 #include <math.h>
