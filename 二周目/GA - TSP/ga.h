@@ -47,11 +47,26 @@ void Crossover(Chromo &c1, Chromo &c2) {
     case 3:
         OX(c1, c2);
         break;
+    default:
+        break;
     }
 }
 
-// TODO: selection
-void Selection(Chromo_P &P_next, Chromo_P P) {}
+// TODO: roulette wheel selection
+void RWS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
+// TODO: tournament selection
+void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
+
+void Selection(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
+    switch (S_TYPE) {
+    case 1:
+        RWS(P_next, P, fitness);
+    case 2:
+        TS(P_next, P, fitness);
+    default:
+        break;
+    }
+}
 
 void Mutation(Chromo &c) {
     int f1 = rand() % CITY_DIM, f2 = rand() % CITY_DIM;
@@ -87,7 +102,7 @@ vector<double> GA() {
         }
 
         /* ========== Selection ========== */
-        Selection(P_next, P);
+        Selection(P_next, P, fitness);
 
         /* ========== Crossover ========== */
         for (int ci = 0; ci < POP; ci += 2) {
