@@ -6,15 +6,15 @@
 #include <time.h>
 #include <vector>
 
+using namespace std;
+
 typedef vector<int> Chromo;
 typedef vector<Chromo> Chromo_P;
-using namespace std;
 
 namespace ga {
 
 void InitialChromosome(Chromo &c) { c = tsp::getRandomPath(); }
 
-// TODO
 // partially mapped crossover
 void PMX(Chromo &c1, Chromo &c2) {
 
@@ -76,9 +76,7 @@ void CX(Chromo &c1, Chromo &c2) {
     }
 }
 
-// TODO
 // order crossover
-void OX(Chromo &c1, Chromo &c2) {}
 void OX(Chromo &c1, Chromo &c2) {
     Chromo new_c1, new_c2;
 
@@ -196,9 +194,6 @@ void RWS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
         }
     }
 }
-// TODO
-// tournament selection
-void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
 // TODO: tournament selection
 void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
 
