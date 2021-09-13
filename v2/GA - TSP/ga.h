@@ -199,6 +199,13 @@ void RWS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
 // TODO
 // tournament selection
 void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
+// TODO: tournament selection
+void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
+
+    for (int ci = 0; ci < POP; ci++) {
+        // choose a Chromo
+    }
+}
 void Selection(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
     switch (S_TYPE) {
     case 1:
