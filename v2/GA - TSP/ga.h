@@ -2,6 +2,7 @@
 #include "tsp.h"
 #include <cstdlib>
 #include <iostream>
+#include <set>
 #include <time.h>
 #include <vector>
 
@@ -11,15 +12,48 @@ using namespace std;
 
 namespace ga {
 
-void InitialChromosome(Chromo &c) {
-    c.clear();
-    c = tsp::getRandomPath();
+void InitialChromosome(Chromo &c) { c = tsp::getRandomPath(); }
+
+// TODO
+// partially mapped crossover
+void PMX(Chromo &c1, Chromo &c2) {
+
+    // set start and stop point of substring
+    int flag1 = rand() % CITY_DIM, flag2 = rand() % (CITY_DIM - 1);
+    if (flag1 > flag2) {
+        int tmp = flag1;
+        flag1 = flag2;
+        flag2 = tmp;
+    } else {
+        flag2 += 1;
+    }
+
+    vector<set<int>> pairs;
+    set<int> pair_tmp;
+    vector<int> used(flag2 - flag1 + 1, 0);
+
+    for (int i = flag1; i <= flag2; i++) {
+        if (!used[i - flag1]) {
+            pair_tmp.clear();
+            pair_tmp.insert(c1[i]);
+            pair_tmp.insert(c2[i]);
+            for (int j = i + 1; j <= flag2; j++) {
+                for (int num : pair_tmp) {
+                    if (num == c1[j] || num == c2[j]) {
+                        pair_tmp.insert(c1[j]);
+                        pair_tmp.insert(c2[j]);
+                        used[j - flag1] = 1;
+                    }
+                }
+            }
+            pairs.push_back(pair_tmp);
+        }
+    }
+
+    // TODO: switch substring 以外的部分
 }
 
-// TODO: partially mapped crossover
-void PMX(Chromo &c1, Chromo &c2) {}
-
-// cycle crossover
+// cycle crossover ✔
 void CX(Chromo &c1, Chromo &c2) {
     vector<int> mask(CITY_DIM, 1);
     int b = c1[0], e = c2[0];
@@ -31,9 +65,19 @@ void CX(Chromo &c1, Chromo &c2) {
         mask[ci] = 0;
         e = c2[ci];
     }
+
+    int tmp;
+    for (int ci = 0; ci < CITY_DIM; ci++) {
+        if (mask[ci]) {
+            tmp = c1[ci];
+            c1[ci] = c2[ci];
+            c2[ci] = tmp;
+        }
+    }
 }
 
-// TODO: order crossover
+// TODO
+// order crossover
 void OX(Chromo &c1, Chromo &c2) {}
 
 void Crossover(Chromo &c1, Chromo &c2) {
@@ -52,11 +96,33 @@ void Crossover(Chromo &c1, Chromo &c2) {
     }
 }
 
-// TODO: roulette wheel selection
-void RWS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
-// TODO: tournament selection
-void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
+// roulette wheel selection
+void RWS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
+    double fitness_sum = 0;
+    vector<double> fitness_P_table(POP, 0);
 
+    for (int ci = 0; ci < POP; ci++)
+        fitness_sum += (double)1 / fitness[ci];
+
+    for (int ci = 0; ci < POP; ci++) {
+        fitness_P_table[ci] = (double)1 / fitness[ci] / fitness_sum;
+        if (ci != 0)
+            fitness_P_table[ci] += fitness_P_table[ci - 1];
+    }
+
+    for (int ci = 0; ci < POP; ci++) {
+        double flag = (double)rand() / RAND_MAX;
+        for (int cj = 0; cj < POP; cj++) {
+            if (fitness_P_table[cj] > flag) {
+                P_next[ci] = P[cj];
+                break;
+            }
+        }
+    }
+}
+// TODO
+// tournament selection
+void TS(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {}
 void Selection(Chromo_P &P_next, Chromo_P P, vector<double> fitness) {
     switch (S_TYPE) {
     case 1:
@@ -78,18 +144,17 @@ void Mutation(Chromo &c) {
     c[f2] = tmp;
 }
 
-double Evluation(Chromo &c) { return tsp::getPathLength(c); }
+double Evluation(Chromo c) { return tsp::getPathLength(c); }
 
 vector<double> GA() {
-    srand(time(NULL));
     /* ========== Initialization ========== */
     vector<Chromo> P(POP), P_next(POP);
     vector<double> fitness(POP);
-    double best_fitness = 0.0;
+    double best_fitness = INFINITY;
     vector<double> result_v;
 
     for (int ci = 0; ci < POP; ci++)
-        InitialChromosome(P.at(ci));
+        InitialChromosome(P[ci]);
 
     /* ========== Iteration ========== */
     for (int ii = 0; ii < ITERATION; ii++) {
@@ -97,26 +162,27 @@ vector<double> GA() {
         /* ========== Evaluation ========== */
         for (int ci = 0; ci < POP; ci++) {
             fitness[ci] = Evluation(P[ci]);
-            best_fitness = best_fitness > fitness[ci] ? best_fitness : fitness[ci];
-            result_v.push_back(best_fitness);
+            best_fitness = best_fitness < fitness[ci] ? best_fitness : fitness[ci];
         }
+
+        result_v.push_back(best_fitness);
 
         /* ========== Selection ========== */
         Selection(P_next, P, fitness);
 
-        /* ========== Crossover ========== */
+        /* ========== Crossover ✔ ========== */
         for (int ci = 0; ci < POP; ci += 2) {
-            if ((double)rand() < C_RATE)
+            if ((double)rand() / RAND_MAX < C_RATE)
                 Crossover(P_next.at(ci), P_next.at(ci + 1));
         }
 
-        /* ========== Mutation ========== */
+        /* ========== Mutation ✔ ========== */
         for (int ci = 0; ci < POP; ci++) {
-            if ((double)rand() < M_RATE)
+            if ((double)rand() / RAND_MAX < M_RATE)
                 Mutation(P_next.at(ci));
         }
 
-        /* ========== Determination ========== */
+        /* ========== Determination ✔ ========== */
         P = P_next;
     }
 
