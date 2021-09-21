@@ -44,8 +44,11 @@ int main(int argc, char *argv[]) {
     // output result of 51 run avg
     FILE *avg_51_file;
     avg_51_file = fopen(AVG_51_PATH, "w");
+    fprintf(avg_51_file, "population: %d\n", POP);
+    fprintf(avg_51_file, "crossover rate: %f\n", C_RATE);
+    fprintf(avg_51_file, "mutation rate: %f\n\n", M_RATE);
     for (int ii = 0; ii < ITERATION; ii++) {
-        fprintf(avg_51_file, "%d\t%lf\n", ii + 1, result_sum[ii] / RUN);
+        fprintf(avg_51_file, "%4d\t%lf\n", ii + 1, result_sum[ii] / RUN);
     }
     fclose(avg_51_file);
 
