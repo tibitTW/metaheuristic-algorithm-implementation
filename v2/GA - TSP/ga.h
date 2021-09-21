@@ -2,6 +2,7 @@
 #include "tsp.h"
 #include <cstdlib>
 #include <iostream>
+#include <memory>
 #include <set>
 #include <time.h>
 #include <vector>
@@ -27,22 +28,30 @@ void PMX(Chromo &c1, Chromo &c2) {
     } else {
         flag2 += 1;
     }
+    flag1 = 2;
+    flag2 = 5;
 
     vector<set<int>> pairs;
-    set<int> pair_tmp;
-    vector<int> used(flag2 - flag1 + 1, 0);
+    set<int> pair_tmp, used_num;
+    vector<int> used(CITY_DIM, 0);
+    vector<bool> mask1(CITY_DIM, 0), mask2(CITY_DIM, 0);
 
     for (int i = flag1; i <= flag2; i++) {
-        if (!used[i - flag1]) {
+        if (!mask1[i]) {
             pair_tmp.clear();
             pair_tmp.insert(c1[i]);
             pair_tmp.insert(c2[i]);
+            used_num.insert(c1[i]);
+            used_num.insert(c2[i]);
             for (int j = i + 1; j <= flag2; j++) {
                 for (int num : pair_tmp) {
                     if (num == c1[j] || num == c2[j]) {
                         pair_tmp.insert(c1[j]);
                         pair_tmp.insert(c2[j]);
-                        used[j - flag1] = 1;
+                        used_num.insert(c1[j]);
+                        used_num.insert(c2[j]);
+                        mask1[j] = 1;
+                        mask2[j] = 1;
                     }
                 }
             }
@@ -50,7 +59,32 @@ void PMX(Chromo &c1, Chromo &c2) {
         }
     }
 
-    // TODO: switch substring 以外的部分
+    int tmp;
+    set<int> tmp_pair;
+    for (int i = 0; i < CITY_DIM; i++) {
+        if (i >= flag1 && i <= flag2) {
+            tmp = c1[i];
+            c1[i] = c2[i];
+            c2[i] = tmp;
+
+        } else if (used_num.count(c1[i])) {
+            for (set<int> pair : pairs) {
+                if (pair.count(c1[i])) {
+                    for (int j = 0; j < CITY_DIM; j++) {
+                        if ((j < flag1 || j > flag2) && !mask2[j] && pair.count(c2[j])) {
+                            tmp = c1[i];
+                            c1[i] = c2[j];
+                            c2[j] = tmp;
+                            mask1[i] = 1;
+                            mask2[j] = 1;
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+    }
 }
 
 // cycle crossover ✔
@@ -113,6 +147,7 @@ void OX(Chromo &c1, Chromo &c2) {
             new_c2.push_back(c2[i]);
         }
     }
+
     for (int i = 0; i < flag1; i++) {
         is_in_substring = false;
         for (int fi = flag1; fi <= flag2; fi++) {
