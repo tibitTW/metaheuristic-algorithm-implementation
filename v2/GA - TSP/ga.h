@@ -111,7 +111,7 @@ void CX(Chromo &c1, Chromo &c2) {
 // order crossover
 void OX(Chromo &c1, Chromo &c2) {
     Chromo new_c1, new_c2;
-
+    // set start and stop point of substring
     int flag1 = rand() % CITY_DIM, flag2 = rand() % (CITY_DIM - 1);
     if (flag1 > flag2) {
         int tmp = flag1;
@@ -121,78 +121,31 @@ void OX(Chromo &c1, Chromo &c2) {
         flag2 += 1;
     }
 
-    bool is_in_substring;
-    for (int i = flag2 + 1; i < CITY_DIM; i++) {
-        is_in_substring = false;
-        for (int fi = flag1; fi <= flag2; fi++) {
-            if (c1.at(i) == c2.at(fi)) {
-                is_in_substring = true;
-                break;
-            }
-        }
-        if (!is_in_substring) {
-            new_c1.push_back(c1.at(i));
-        }
-
-        is_in_substring = false;
-        for (int fi = flag1; fi <= flag2; fi++) {
-            if (c2.at(i) == c1.at(fi)) {
-                is_in_substring = true;
-                break;
-            }
-        }
-        if (!is_in_substring) {
-            new_c2.push_back(c2.at(i));
-        }
-    }
-
-    for (int i = 0; i < flag1; i++) {
-        is_in_substring = false;
-        for (int fi = flag1; fi <= flag2; fi++) {
-            if (c1.at(i) == c2.at(fi)) {
-                is_in_substring = true;
-                break;
-            }
-        }
-        if (!is_in_substring) {
-            new_c1.push_back(c1.at(i));
-        }
-        is_in_substring = false;
-        for (int fi = flag1; fi <= flag2; fi++) {
-            if (c2.at(i) == c1.at(fi)) {
-                is_in_substring = true;
-                break;
-            }
-        }
-        if (!is_in_substring) {
-            new_c2.push_back(c2.at(i));
-        }
-    }
-
+    set<int> s1, s2;
     for (int i = flag1; i <= flag2; i++) {
-        new_c1.push_back(c1.at(i));
-        new_c2.push_back(c2.at(i));
-    }
-    for (int i = flag1; i <= flag2; i++) {
-        new_c1.push_back(c2.at(i));
-        new_c2.push_back(c1.at(i));
+        s1.insert(c1.at(i));
+        s2.insert(c2.at(i));
     }
 
-    int ci = flag2 + 1;
     for (int i = 0; i < CITY_DIM; i++) {
-        c1.at(ci) = new_c1.at(i);
-        c2.at(ci) = new_c2.at(i);
-        ci++;
-        ci = (ci == CITY_DIM) ? 0 : ci;
-    }
 
-    for (int n : c1) {
-        if (n < 0 || n >= CITY_DIM)
-            cout << n << endl;
-    }
-    for (int n : c2) {
-        if (n < 0 || n >= CITY_DIM)
-            cout << n << endl;
+        if (!s2.count(c1.at(i))) {
+            new_c2.push_back(c1.at(i));
+        }
+        if (new_c2.size() == flag1) {
+            for (int i2 = flag1; i2 <= flag2; i2++) {
+                new_c2.push_back(c2.at(i2));
+            }
+        }
+
+        if (!s1.count(c2.at(i))) {
+            new_c1.push_back(c2.at(i));
+        }
+        if (new_c1.size() == flag1) {
+            for (int i2 = flag1; i2 <= flag2; i2++) {
+                new_c1.push_back(c1.at(i2));
+            }
+        }
     }
 }
 
