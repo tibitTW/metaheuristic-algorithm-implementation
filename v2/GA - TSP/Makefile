@@ -9,6 +9,9 @@ run:
 test:
 	g++ test.cpp -o test.exe
 	test.exe
-
+debug:
+	g++ -o debug.exe main.cpp -g
+	gdb debug.exe
+	
 clean:
 	del *.o *.exe
