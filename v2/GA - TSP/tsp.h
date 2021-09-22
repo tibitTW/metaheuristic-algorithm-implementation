@@ -37,10 +37,10 @@ void loadCityDistanceRM(vector<vector<double>> &city_dis_RM) {
             if (ci == cj)
                 rm_row.push_back(0);
             else {
-                cx1 = city_loc.at(ci)[0];
-                cy1 = city_loc.at(ci)[1];
-                cx2 = city_loc.at(cj)[0];
-                cy2 = city_loc.at(cj)[1];
+                cx1 = city_loc.at(ci).at(0);
+                cy1 = city_loc.at(ci).at(1);
+                cx2 = city_loc.at(cj).at(0);
+                cy2 = city_loc.at(cj).at(1);
                 rm_row.push_back(getCityDistance(cx1, cy1, cx2, cy2));
             }
         }
@@ -54,12 +54,12 @@ vector<int> getRandomPath() {
     for (int ci = 0; ci < CITY_DIM; ci++) {
         flag = rand() % (CITY_DIM - ci);
         for (int si = 0; si < CITY_DIM; si++) {
-            if (!flag && !num_selected[si]) {
-                num_selected[si] = 1;
+            if (!flag && !num_selected.at(si)) {
+                num_selected.at(si) = 1;
                 path.push_back(si);
                 break;
             }
-            flag -= num_selected[si] ? 0 : 1;
+            flag -= num_selected.at(si) ? 0 : 1;
         }
     }
 
@@ -67,12 +67,16 @@ vector<int> getRandomPath() {
 }
 
 double getPathLength(vector<int> path) {
+    for (auto n : path) {
+        if (n < 0 || n >= CITY_DIM)
+            cout << n << endl;
+    }
     double path_length = 0;
     int c1, c2;
     for (int i = 0; i < CITY_DIM; i++) {
-        c1 = path[i];
-        c2 = i + 1 == CITY_DIM ? path[0] : path[i + 1];
-        path_length += city_dis_RM[c1][c2];
+        c1 = path.at(i);
+        c2 = i + 1 == CITY_DIM ? path.at(0) : path.at(i + 1);
+        path_length += city_dis_RM.at(c1).at(c2);
     }
     return path_length;
 }

@@ -30,9 +30,9 @@ int main(int argc, char *argv[]) {
         result = ga::GA();
         for (int ii = 0; ii < ITERATION; ii++) {
 
-            result_sum[ii] += result[ii];
+            result_sum.at(ii) += result.at(ii);
 
-            fprintf(result_file, "%lf", result[ii]);
+            fprintf(result_file, "%lf", result.at(ii));
             if (ii + 1 != ITERATION)
                 fprintf(result_file, ",");
         }
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     fprintf(avg_51_file, "crossover rate: %f\n", C_RATE);
     fprintf(avg_51_file, "mutation rate: %f\n\n", M_RATE);
     for (int ii = 0; ii < ITERATION; ii++) {
-        fprintf(avg_51_file, "%4d\t%lf\n", ii + 1, result_sum[ii] / RUN);
+        fprintf(avg_51_file, "%4d\t%lf\n", ii + 1, result_sum.at(ii) / RUN);
     }
     fclose(avg_51_file);
 
