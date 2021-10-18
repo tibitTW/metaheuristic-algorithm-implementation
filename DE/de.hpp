@@ -1,3 +1,4 @@
+#include <random>
 #include <vector>
 
 using std::vector;
@@ -6,7 +7,9 @@ using std::vector;
 typedef vector<double> S;
 
 namespace DE {
-void initialization();
+void initialization() {
+    // TODO : initialization random
+}
 void crossover();
 
 /*
@@ -35,11 +38,20 @@ void mutation(int strategy_id) {
     case 3:
         break;
 
+    // current-to-pbest/1
+    case 4:
+        break;
+
     default:
         break;
     }
 }
+
 void selection();
-void DE();
+
+// DE(crossover_rate, scaling_factor, num_of_population)
+double DE(const double CR, const double F, const int NP) { initialization(); }
+// DE(crossover_rate, scaling_factor, num_of_population)
+double SHADE(double) { initialization(); }
 
 } // namespace DE
