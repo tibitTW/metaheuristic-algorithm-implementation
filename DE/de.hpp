@@ -47,7 +47,10 @@ class DE {
     }
 
     // TODO
-    void mutation() {}
+    void mutation() {
+        uniform_int_distribution<int> sol_dt(0, num_NP - 1);
+        double r1, r2;
+    }
     // TODO
     void crossover() {}
     // TODO
