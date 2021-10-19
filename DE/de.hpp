@@ -24,7 +24,7 @@ void initialization(Population &P, const int NP, const int X_DIM, const double X
     }
 }
 
-void crossover();
+void crossover() {}
 
 /*
 strategy_id:
@@ -77,6 +77,7 @@ void selection() {}
 //     }
 // }
 // double SHADE(const double CR, const double F, const int NP, const int ITER, const int X_DIM) { initialization(NP, ITER, X_DIM); }
+
 double L_SHADE(const double CR, const double F, const int NP_init, const int MAX_ITER, const int X_DIM, const int X_MIN, const int X_MAX) {
 
     /* ======== Initialization ======== */
