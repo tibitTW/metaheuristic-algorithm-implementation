@@ -5,15 +5,12 @@
 
 using namespace std;
 
-typedef vector<int> V;
 int main() {
-    vector<V> P(4, V(4, 0));
-    for (auto v : P) {
-        cout << v.size() << endl;
-        for (auto c : v)
-            cout << c << "_";
-        cout << endl;
-    }
+    vector<int> V;
+    V.resize(10);
+    for (auto a : V)
+        cout << a << "-";
+    cout << endl;
 
     return 0;
 }
