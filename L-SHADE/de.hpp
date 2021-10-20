@@ -18,6 +18,8 @@ class DE {
     const double NUM_CR_init = 0.5;
     // initial scaling factor rate
     const double NUM_F_init = 0.5;
+    vector<double> M_CR, M_F;
+
     // initial number of population
     int NUM_NP_INIT;
     int num_NP;
@@ -38,14 +40,15 @@ class DE {
     Population P, V;
 
     /* = = = = = = = = = =   L_SHADE functions   = = = = = = = = = = */
+    // initialize population
     void initialization() {
-        printf("num_NP: %d\n", num_NP);
-        printf("NUM_X_DIM: %d\n", NUM_X_DIM);
-
+        this->M_CR.resize(num_NP);
+        this->M_F.resize(num_NP);
         for (int si = 0; si < this->num_NP; si++) {
-            for (int xi = 0; xi < this->NUM_X_DIM; xi++) {
+            for (int xi = 0; xi < this->NUM_X_DIM; xi++)
                 P.at(si).at(xi) = this->x_distribution(generator);
-            }
+            this->M_CR.at(si) = NUM_CR_init;
+            this->M_F.at(si) = NUM_F_init;
         }
     }
 
@@ -57,14 +60,17 @@ class DE {
     // TODO
     void mutation() {
         uniform_int_distribution<int> sol_dt(0, num_NP - 1);
-        double r1, r2;
+        double r_pb, r1, r2;
+        for (int si = 0; si < num_NP; si++) {
+            this->V.at(si) = this->P.at(si) + this->M_F.at(si) * (x_pbest - x) + this->M_F.at(si) * (x_r1 - x_r2);
+        }
     }
     // TODO
     void crossover() {}
     // TODO
     void selection() {}
 
-    // * functions for debugging * //
+    /* = = = = = = = =   functions for debugging   = = = = = = = = */
     void printP() {
         for (auto sol : this->P) {
             for (auto x : sol)
@@ -109,13 +115,13 @@ class DE {
         // number of population
         int num_NP = NUM_NP_INIT;
         // Population
-        vector<double> M_CR(num_NP, 0.5), M_F(num_NP, 0.5);
 
         initialization();
         printP();
 
         while (g <= NUM_MAX_ITER) {
             for (int si = 0; si < num_NP; si++) {
+                sort();
                 /* ======== Parameter update (CR, F) ======== */
                 /* ======== Mutation ======== */
                 mutation();
