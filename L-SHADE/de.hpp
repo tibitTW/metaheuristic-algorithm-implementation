@@ -199,10 +199,7 @@ class DE {
     }
 
     // test function
-    void test() {
-        cout << &NUM_NP_INIT << endl;
-        cout << &NUM_NP_INIT << endl;
-    }
+    void test() {}
 
     // run L-SHADE algorithm (main structure)
     double run() {
