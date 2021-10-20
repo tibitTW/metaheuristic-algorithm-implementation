@@ -9,7 +9,8 @@ using namespace std;
 
 int main() {
     DE de(100, 1000, 10, -30.0, 30.0);
-    de.run();
+    de.test();
+    // de.run();
 
     return 0;
 }
