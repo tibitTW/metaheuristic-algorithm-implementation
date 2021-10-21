@@ -18,6 +18,9 @@ class DE {
     const double NUM_CR_init = 0.5;
     // initial scaling factor rate
     const double NUM_F_init = 0.5;
+    // terminal value
+    const int tm_val = -1;
+
     vector<double> ARR_CR, ARR_SF;
 
     // initial number of population
@@ -208,21 +211,15 @@ class DE {
 
         while (g <= NUM_MAX_ITER) {
             // sort(0, num_NP);
-            /* ======== Mutation ======== */
             mutation();
-            /* ======== Crossover ======== */
             crossover();
-            /* ======== Selection ======== */
+            // TODO : Evaluation
+
             selection();
 
-            // TODO
-            /* ======== Parameter update (CR, F) ======== */
+            // TODO : Parameter update (CR, F)
 
-            // TODO
-            /* ======== Evaluation ======== */
-
-            // TODO
-            /* ======== LPSR ======== */
+            // TODO : LPSR
 
             g++;
         }
