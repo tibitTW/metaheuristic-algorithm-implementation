@@ -22,6 +22,8 @@ class DE {
     const int tm_val = -1;
 
     vector<double> ARR_CR, ARR_SF;
+    vector<double> S_CR, S_SF;
+    vector<double> M_CR, M_SF;
 
     // initial number of population
     int NUM_NP_INIT;
@@ -53,7 +55,8 @@ class DE {
     double best_fitness = 0;
 
     /* = = = = = = = = = =   L_SHADE functions   = = = = = = = = = = */
-    // ! need to debug
+
+    // FIXME
     // this function sorts both population and fitness array for mutation strategies (pbest) and LPSR (linear population size reduction)
     // the result will sort by fitness (descend) uses quick sort
     void sort(int left, int right) {
@@ -210,14 +213,17 @@ class DE {
         initialization();
 
         while (g <= NUM_MAX_ITER) {
+            // clear S_CR & S_F
+            S_CR.clear();
+            S_F.clear();
+            // TODO : Parameter update (CR, F)
+
             // sort(0, num_NP);
             mutation();
             crossover();
             // TODO : Evaluation
 
             selection();
-
-            // TODO : Parameter update (CR, F)
 
             // TODO : LPSR
 
