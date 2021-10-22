@@ -40,14 +40,14 @@ int main(int argc, char *argv[]) {
     result_file = fopen(result_file_path, "w");
 
     // write column names
-    fprintf(result_file, "runid,");
-    for (int iter = 0; iter <= ITER_MAX; iter++) {
-        fprintf(result_file, "%d", iter);
-        if (iter != ITER_MAX) {
-            fprintf(result_file, ",");
-        }
-    }
-    fprintf(result_file, "\n");
+    // fprintf(result_file, "runid,");
+    // for (int iter = 0; iter <= ITER_MAX; iter++) {
+    //     fprintf(result_file, "%d", iter);
+    //     if (iter != ITER_MAX) {
+    //         fprintf(result_file, ",");
+    //     }
+    // }
+    // fprintf(result_file, "\n");
 
     int *result;
     result = new int(ITER_MAX + 1);

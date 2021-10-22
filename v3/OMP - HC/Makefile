@@ -2,9 +2,9 @@ all: compile run
 
 compile:
 	g++ main.cpp -o main.exe -O3
-
+	
 run:
-	main.exe > result.txt
+	main.exe 100 1000 30 out.txt
 
 clean:
-	rm *.o *.exe
+	del *.o *.exe
