@@ -215,7 +215,7 @@ class DE {
         while (g <= NUM_MAX_ITER) {
             // clear S_CR & S_F
             S_CR.clear();
-            S_F.clear();
+            S_SF.clear();
             // TODO : Parameter update (CR, F)
 
             // sort(0, num_NP);
