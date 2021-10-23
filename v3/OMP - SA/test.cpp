@@ -1,7 +1,4 @@
-#include "hc.hpp"
+#include "sa.hpp"
 #include <iostream>
 
-int main() {
-    hc HC(100, 1000);
-    HC.test();
-}
+int main() { sa SA(100, 1000, 1000, 0.95); }

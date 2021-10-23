@@ -20,9 +20,6 @@ int main(int argc, char *argv[]) {
     for (int r = 0; r < run; r++) {
         res = HC.run();
         update_sum_result(sum_res, res, max_iter);
-        for (int ii = 0; ii < max_iter; ii++)
-            cout << res.at(ii) << "\t";
-        cout << endl;
     }
 
     fstream file;

@@ -1,5 +1,5 @@
-#include <cstdio>
 #include <iostream>
+#include <math.h>
 #include <stdlib.h>
 #include <time.h>
 #include <vector>
@@ -13,6 +13,7 @@ class sa {
 
   private:
     int NUM_X_DIM, NUM_MAX_ITER;
+    double temp, NUM_TEMP_RF;
     solution s, v;
     int best_f;
 
@@ -22,6 +23,8 @@ class sa {
             f += c ? 1 : 0;
         return f;
     }
+
+    double P(int f1, int f2) { return exp((f1 - f2) / temp); }
 
     solution nb_previous(solution s) {
         solution nb(NUM_X_DIM);
@@ -64,16 +67,14 @@ class sa {
         nb = (rand() % 2) ? nb_previous(s) : nb_next(s);
         return nb;
     }
+
     void initial(solution &s) {
         int x;
-        cout << "initial solution: ";
         for (int xi = 0; xi < NUM_X_DIM; xi++) {
-            x = rand() % 2;
-            cout << x;
-            s.at(xi) = x;
+            s.at(xi) = rand() % 2;
         }
-        cout << endl;
     }
+
     void print_solution(solution s) {
         for (int xi = 0; xi < NUM_X_DIM; xi++)
             cout << s.at(xi);
@@ -81,9 +82,11 @@ class sa {
     }
 
   public:
-    sa(int x_dim, int max_iter) {
+    sa(int x_dim, int max_iter, double init_temp, double temp_rf) {
         NUM_X_DIM = x_dim;
         NUM_MAX_ITER = max_iter;
+        temp = init_temp;
+        NUM_TEMP_RF = temp_rf;
 
         srand(time(NULL));
         s.assign(NUM_X_DIM, 0);
@@ -94,17 +97,20 @@ class sa {
         result res(NUM_MAX_ITER);
         initial(s);
         best_f = fitness(s);
+        int v_f;
 
         int ii = 0;
         while (ii < NUM_MAX_ITER) {
             v = neighbor(s);
-
-            if (fitness(v) >= fitness(s)) {
+            v_f = fitness(v);
+            if (v_f >= best_f || (double)rand() / RAND_MAX < P(v_f, best_f)) {
                 s = v;
-                best_f = fitness(v);
+                best_f = v_f;
             }
+
             res.at(ii) = best_f;
             ii++;
+            temp *= NUM_TEMP_RF;
         }
 
         return res;

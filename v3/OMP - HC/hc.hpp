@@ -65,12 +65,8 @@ class hc {
         return nb;
     }
     void initial(solution &s) {
-        int x;
-        cout << "initial solution: ";
         for (int xi = 0; xi < NUM_X_DIM; xi++) {
-            x = rand() % 2;
-            cout << x;
-            s.at(xi) = x;
+            s.at(xi) = rand() % 2;
         }
         cout << endl;
     }
