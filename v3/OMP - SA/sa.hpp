@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class hc {
+class sa {
 
     typedef vector<int> result;
     typedef vector<int> solution;
@@ -81,7 +81,7 @@ class hc {
     }
 
   public:
-    hc(int x_dim, int max_iter) {
+    sa(int x_dim, int max_iter) {
         NUM_X_DIM = x_dim;
         NUM_MAX_ITER = max_iter;
 
