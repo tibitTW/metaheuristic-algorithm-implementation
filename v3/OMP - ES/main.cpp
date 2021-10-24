@@ -3,8 +3,9 @@
 #include <time.h>
 
 #define BIT_SIZE 100
-
 using namespace std;
+
+#define TIME_LIMIT CLOCKS_PER_SEC * 1800
 
 bitset<BIT_SIZE> bs2;
 bitset<BIT_SIZE> next(bitset<BIT_SIZE> bs) {
@@ -24,7 +25,7 @@ int main() {
     int f, best_f = 0;
     clock_t clock_b;
     clock_b = clock();
-    while ((double)(clock() - clock_b) / CLOCKS_PER_SEC < 1800) {
+    while ((double)(clock() - clock_b) < TIME_LIMIT) {
         f = fitness(sol);
         if (f > best_f) {
             best_f = f;
@@ -33,5 +34,5 @@ int main() {
         sol = next(sol);
     }
 
-    cout << best_sol << ": " << best_f << endl;
+    cout << "best sol: " << best_sol << ": " << best_f << endl;
 }
