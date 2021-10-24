@@ -207,22 +207,16 @@ class DE {
         initialization();
 
         while (g <= NUM_MAX_ITER) {
-            // sort(0, num_NP);
-            /* ======== Mutation ======== */
+            sort(0, num_NP);
             mutation();
-            /* ======== Crossover ======== */
             crossover();
-            /* ======== Selection ======== */
             selection();
 
-            // TODO
-            /* ======== Parameter update (CR, F) ======== */
+            // TODO : Parameter update (CR, F)
 
-            // TODO
-            /* ======== Evaluation ======== */
+            // TODO : Evaluation
 
-            // TODO
-            /* ======== LPSR ======== */
+            // TODO : LPSR
 
             g++;
         }
