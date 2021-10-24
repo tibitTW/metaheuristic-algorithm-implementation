@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <iostream>
 #include <math.h>
 #include <stdlib.h>
@@ -13,7 +14,7 @@ class sa {
 
   private:
     int NUM_X_DIM, NUM_MAX_ITER;
-    double temp, NUM_TEMP_RF;
+    double temp, NUM_TEMP_INIT, NUM_TEMP_RF, NUM_TEMP_MIN;
     solution s, v;
     int best_f;
 
@@ -24,7 +25,7 @@ class sa {
         return f;
     }
 
-    double P(int f1, int f2) { return exp((f1 - f2) / temp); }
+    double P(int f1, int f2) { return exp((double)(-1) * (f1 - f2) / temp); }
 
     solution nb_previous(solution s) {
         solution nb(NUM_X_DIM);
@@ -82,11 +83,12 @@ class sa {
     }
 
   public:
-    sa(int x_dim, int max_iter, double init_temp, double temp_rf) {
+    sa(int x_dim, int max_iter, double temp_init, double temp_rf, double temp_min) {
         NUM_X_DIM = x_dim;
         NUM_MAX_ITER = max_iter;
-        temp = init_temp;
+        NUM_TEMP_INIT = temp_init;
         NUM_TEMP_RF = temp_rf;
+        NUM_TEMP_MIN = temp_min;
 
         srand(time(NULL));
         s.assign(NUM_X_DIM, 0);
@@ -98,12 +100,13 @@ class sa {
         initial(s);
         best_f = fitness(s);
         int v_f;
+        temp = NUM_TEMP_INIT;
 
         int ii = 0;
         while (ii < NUM_MAX_ITER) {
             v = neighbor(s);
             v_f = fitness(v);
-            if (v_f >= best_f || (double)rand() / RAND_MAX < P(v_f, best_f)) {
+            if (v_f >= best_f || (double)rand() / RAND_MAX < P(best_f, v_f)) {
                 s = v;
                 best_f = v_f;
             }
@@ -111,6 +114,7 @@ class sa {
             res.at(ii) = best_f;
             ii++;
             temp *= NUM_TEMP_RF;
+            temp = temp > NUM_TEMP_MIN ? temp : NUM_TEMP_MIN;
         }
 
         return res;
