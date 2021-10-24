@@ -16,7 +16,7 @@ class sa {
     int NUM_X_DIM, NUM_MAX_ITER;
     double temp, NUM_TEMP_INIT, NUM_TEMP_RF, NUM_TEMP_MIN;
     solution s, v;
-    int best_f;
+    int f, best_f;
 
     int fitness(solution sol) {
         int f = 0;
@@ -108,9 +108,10 @@ class sa {
             v_f = fitness(v);
             if (v_f >= best_f || (double)rand() / RAND_MAX < P(best_f, v_f)) {
                 s = v;
-                best_f = v_f;
+                f = v_f;
             }
 
+            best_f = best_f > f ? best_f : f;
             res.at(ii) = best_f;
             ii++;
             temp *= NUM_TEMP_RF;
