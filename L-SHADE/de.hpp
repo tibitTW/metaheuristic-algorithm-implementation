@@ -247,7 +247,14 @@ class DE {
             quick_sort(0, num_NP - 1);
 
             num_NP = (int)round((N_MIN - NUM_NP_INIT) / NUM_MAX_NFE * g + NUM_NP_INIT);
-            // TODO : 刪掉超出 num_NP 範圍的個體，從排名最後開始刪
+            // resize
+            P.resize(num_NP);
+            U.resize(num_NP);
+            V.resize(num_NP);
+            ARR_CR.resize(num_NP);
+            ARR_SF.resize(num_NP);
+            ARR_F.resize(num_NP);
+
             g++;
         }
     }
