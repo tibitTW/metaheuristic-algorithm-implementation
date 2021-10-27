@@ -63,11 +63,50 @@ class DE {
     // fitness table of P and U
     vector<double> ARR_F, ARR_F_U;
     double best_fitness = 0;
+    /* = = = = = = = = = =   quick sort   = = = = = = = = = = */
 
+    void swap_idx(int a, int b) {
+        // swap(ARR_CR[a], ARR_CR[b]);
+        double lf_tmp = ARR_CR.at(a);
+        ARR_CR.at(a) = ARR_CR.at(b);
+        ARR_CR.at(b) = lf_tmp;
 
-        }
+        // swap(ARR_SF[a], ARR_SF[b]);
+        lf_tmp = ARR_SF.at(a);
+        ARR_SF.at(a) = ARR_SF.at(b);
+        ARR_SF.at(b) = lf_tmp;
+
+        // swap(P[a], P[b]);
+        Solution sol_tmp = P.at(a);
+        P.at(a) = P.at(b);
+        P.at(b) = sol_tmp;
     }
+    void swap_solution(Solution &s1, Solution &s2) {
+        Solution s_tmp = s1;
+        s1 = s2;
+        s2 = s_tmp;
+    }
+    int partition(int front, int end) {
+        double pivot = ARR_F[end];
+        int i = front - 1;
+        for (int j = front; j < end; j++) {
+            if (ARR_F[j] < pivot) {
+                i++;
+                swap_idx(i, j);
+            }
+        }
+        i++;
+        swap_idx(i, end);
+        return i;
+    }
+    void quick_sort(int front, int end) {
+        if (front >= end)
+            return;
 
+        int pivot_idx = partition(front, end);
+        quick_sort(front, pivot_idx - 1);
+        quick_sort(pivot_idx + 1, end);
+    }
     void initialization() {
         ARR_CR.resize(NUM_NP_INIT);
         ARR_SF.resize(NUM_NP_INIT);
