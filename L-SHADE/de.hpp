@@ -232,13 +232,12 @@ class DE {
                 int ri = si_dt(generator);
             }
 
-            // sort(0, num_NP);
             mutation();
             crossover();
-            // TODO : Evaluation
-            // TODO : sort
-
             selection();
+
+            // TODO : Evaluation
+            quick_sort(0, num_NP - 1);
 
             num_NP = (int)round((N_MIN - NUM_NP_INIT) / NUM_MAX_NFE * g + NUM_NP_INIT);
             // TODO : 刪掉超出 num_NP 範圍的個體，從排名最後開始刪
