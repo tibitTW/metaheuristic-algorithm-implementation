@@ -227,7 +227,6 @@ class DE {
             S_CR.clear();
             S_SF.clear();
 
-            // TODO : Parameter update (CR, F)
             si_dt.param(uniform_int_distribution<int>(0, num_NP - 1).param());
             for (int si = 0; si < num_NP; si++) {
                 int ri = si_dt(generator);
