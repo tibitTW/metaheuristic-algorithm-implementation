@@ -64,7 +64,6 @@ class DE {
     vector<double> ARR_F, ARR_F_U;
     double best_fitness = 0;
 
-    /* = = = = = = = = = =   L_SHADE functions   = = = = = = = = = = */
 
         }
     }
