@@ -119,8 +119,7 @@ class DE {
 
         // initialize number of population
         num_NP = NUM_NP_INIT;
-
-        // TODO : archive A = empty vector
+        A.clear();
 
         for (int si = 0; si < num_NP; si++) {
             // initialize population P
