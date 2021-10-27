@@ -10,14 +10,10 @@
 using namespace std;
 
 int main() {
-    vector<int> v1 = {1, 2, 3, 4, 5};
-    v1.resize(3);
-    for (auto i : v1)
-        cout << i << " ";
-
-    // DE de(100, 1000, 10, -30.0, 30.0);
-    // de.test();
-    // de.run();
+    vector<double> v1 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    double f;
+    cec17_test_func(&v1[0], &f, 10, 1, 1);
+    cout << f << endl;
 
     return 0;
 }
