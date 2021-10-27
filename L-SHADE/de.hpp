@@ -77,6 +77,11 @@ class DE {
         ARR_SF.at(a) = ARR_SF.at(b);
         ARR_SF.at(b) = lf_tmp;
 
+        // swap(ARR_F[a], ARR_F[b]);
+        lf_tmp = ARR_F.at(a);
+        ARR_F.at(a) = ARR_F.at(b);
+        ARR_F.at(b) = lf_tmp;
+
         // swap(P[a], P[b]);
         Solution sol_tmp = P.at(a);
         P.at(a) = P.at(b);
