@@ -66,62 +66,7 @@ class DE {
 
     /* = = = = = = = = = =   L_SHADE functions   = = = = = = = = = = */
 
-    // FIXME
-    // this function sorts both population and fitness array for mutation strategies (pbest) and LPSR (linear population size reduction)
-    // the result will sort by fitness (descend) uses quick sort
-    void sort(int left, int right) {
-        if (right - left < 2)
-            return;
-        uniform_int_distribution<int> rand_dt(left, right);
-
-        // 1. select 3 index from [0, num_NP-1] randomly and choose the center one
-        int r1 = rand_dt(generator), r2 = rand_dt(generator), r3 = rand_dt(generator), rnd;
-        if (ARR_F.at(r1) > ARR_F.at(r2)) {
-            if (ARR_F.at(r2) > ARR_F.at(r3))
-                rnd = r2;
-            else
-                rnd = ARR_F.at(r1) > ARR_F.at(r3) ? r3 : r1;
-
-        } else {
-            if (ARR_F.at(r1) > ARR_F.at(r3))
-                rnd = r1;
-            else
-                rnd = ARR_F.at(r2) > ARR_F.at(r3) ? r3 : r2;
         }
-        // 2. set 2 index, head & tail
-        Solution s_tmp;
-        double f_tmp;
-        int l = left, r = right;
-        while (l < r) {
-            while (ARR_F.at(l) < ARR_F.at(rnd))
-                l++;
-            while (ARR_F.at(rnd) < ARR_F.at(r))
-                r--;
-
-            // swap(F[l], F[r])
-            f_tmp = ARR_F.at(l);
-            ARR_F.at(l) = ARR_F.at(r);
-            ARR_F.at(r) = f_tmp;
-            // swap(P[l], P[r])
-            s_tmp = P.at(l);
-            P.at(l) = P.at(r);
-            P.at(r) = s_tmp;
-
-            l++;
-            r--;
-        }
-        l--;
-        // swap(F[l], F[rnd])
-        f_tmp = ARR_F.at(l);
-        ARR_F.at(l) = ARR_F.at(rnd);
-        ARR_F.at(rnd) = f_tmp;
-        // swap(P[l], P[rnd])
-        s_tmp = P.at(l);
-        P.at(l) = P.at(rnd);
-        P.at(rnd) = s_tmp;
-
-        sort(left, l - 1);
-        sort(r, right);
     }
 
     void initialization() {
