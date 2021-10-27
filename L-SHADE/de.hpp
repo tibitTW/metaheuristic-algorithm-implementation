@@ -230,6 +230,13 @@ class DE {
             si_dt.param(uniform_int_distribution<int>(0, num_NP - 1).param());
             for (int si = 0; si < num_NP; si++) {
                 int ri = si_dt(generator);
+                if (M_CR.at(ri) == TM_VAL) {
+                    ARR_CR.at(si) = 0;
+                } else {
+                    // TODO
+                    // ARR_CR.at(si) = rand_n_i(M_CR.at(ri), 0.1);
+                }
+                // ARR_SF = rand_c_i(M_SF.at(ri), 0.1);
             }
 
             mutation();
