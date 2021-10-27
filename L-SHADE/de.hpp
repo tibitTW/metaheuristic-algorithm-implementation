@@ -171,6 +171,12 @@ class DE {
                 ARR_F.at(si) = ARR_F_U.at(si);
                 P.at(si) = U.at(si);
             }
+
+            if (ARR_F_U.at(si) < ARR_F.at(si)) {
+                A.push_back(P.at(si));
+                S_CR.push_back(ARR_CR.at(si));
+                S_SF.push_back(ARR_SF.at(si));
+            }
         }
     }
 
