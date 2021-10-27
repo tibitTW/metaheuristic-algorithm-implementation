@@ -51,6 +51,11 @@ class DE {
     vector<double> S_CR, S_SF;
     vector<double> M_CR, M_SF;
 
+    Population P, V, U, A;
+
+    // fitness table
+    vector<double> ARR_F, ARR_F_U;
+    double best_fitness = 0;
     /* = = = = = = = = = = =   random objects   = = = = = = = = = = = */
     random_device _rd;
     default_random_engine generator;
@@ -59,10 +64,6 @@ class DE {
     uniform_int_distribution<int> si_dt;
     uniform_int_distribution<int> xi_dt;
 
-    Population P, V, U;
-    // fitness table of P and U
-    vector<double> ARR_F, ARR_F_U;
-    double best_fitness = 0;
     /* = = = = = = = = = =   quick sort   = = = = = = = = = = */
 
     void swap_idx(int a, int b) {
@@ -107,6 +108,8 @@ class DE {
         quick_sort(front, pivot_idx - 1);
         quick_sort(pivot_idx + 1, end);
     }
+
+    /* = = = = = = = = = =   L_SHADE functions   = = = = = = = = = = */
     void initialization() {
         ARR_CR.resize(NUM_NP_INIT);
         ARR_SF.resize(NUM_NP_INIT);
