@@ -45,7 +45,7 @@ class DE {
     // control parameter p (in pbest)
     double ctrl_p;
     // size of M_CR
-    const int H;
+    int H;
 
     vector<double> ARR_CR, ARR_SF;
     vector<double> S_CR, S_SF;
