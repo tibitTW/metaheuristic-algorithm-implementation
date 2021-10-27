@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <ctime>
 #include <iostream>
+#include <math.h>
 #include <random>
 #include <vector>
 
@@ -13,40 +14,49 @@ class DE {
     typedef vector<Solution> Population;
 
   private:
-    /* = = = = = = = = = = =   Attributes   = = = = = = = = = = = */
+    /* = = = = = = = = = = =   Parameters   = = = = = = = = = = = */
     // initial crossover rate
-    const double NUM_CR_init = 0.5;
+    const double NUM_CR_INIT = 0.5;
     // initial scaling factor rate
-    const double NUM_F_init = 0.5;
+    const double NUM_F_INIT = 0.5;
     // terminal value
-    const int tm_val = -1;
-
-    vector<double> ARR_CR, ARR_SF;
-    vector<double> S_CR, S_SF;
-    vector<double> M_CR, M_SF;
+    const int TM_VAL = -1;
+    const int N_MIN = 4;
 
     // initial number of population
     int NUM_NP_INIT;
+    // number of population
     int num_NP;
-    // max iteration
-    int NUM_MAX_ITER;
-    // x dimension
+    // number of x dimension
     int NUM_X_DIM;
-    // min value of x
+    // minimum number of x
     int NUM_X_MIN;
     // max value of x
     int NUM_X_MAX;
+
+    // maximum number of fitness evaluations
+    int NUM_MAX_NFE;
+
+    // current number of fitness evaluations
+    int num_nfe;
 
     // num of generation
     int g;
     // control parameter p (in pbest)
     double ctrl_p;
+    // size of M_CR
+    const int H;
+
+    vector<double> ARR_CR, ARR_SF;
+    vector<double> S_CR, S_SF;
+    vector<double> M_CR, M_SF;
 
     /* = = = = = = = = = = =   random objects   = = = = = = = = = = = */
     random_device _rd;
     default_random_engine generator;
     uniform_real_distribution<double> zero_one_dt;
     uniform_real_distribution<double> x_val_dt;
+    uniform_int_distribution<int> si_dt;
     uniform_int_distribution<int> xi_dt;
 
     Population P, V, U;
@@ -113,19 +123,27 @@ class DE {
         sort(left, l - 1);
         sort(r, right);
     }
+
     void initialization() {
-        // number of generation
+        ARR_CR.resize(NUM_NP_INIT);
+        ARR_SF.resize(NUM_NP_INIT);
+
+        // initialize number of generation
         g = 1;
-        // number of population
+
+        // initialize number of population
         num_NP = NUM_NP_INIT;
 
-        ARR_CR.resize(num_NP);
-        ARR_SF.resize(num_NP);
+        // TODO : archive A = empty vector
+
         for (int si = 0; si < num_NP; si++) {
+            // initialize population P
             for (int xi = 0; xi < NUM_X_DIM; xi++)
                 P.at(si).at(xi) = x_val_dt(generator);
-            ARR_CR.at(si) = NUM_CR_init;
-            ARR_F.at(si) = NUM_F_init;
+
+            // initialize M_CR, M_F
+            M_CR.at(si) = NUM_CR_INIT;
+            M_SF.at(si) = NUM_F_INIT;
         }
     }
     void mutation() {
@@ -182,8 +200,8 @@ class DE {
 
   public:
     // constructor
-    DE(int num_np_init, int num_max_iter, int num_x_dim, int num_x_min, int num_x_max) {
-        NUM_MAX_ITER = num_max_iter;
+    DE(int num_np_init, int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max) {
+        NUM_MAX_NFE = num_max_nfe;
         NUM_X_DIM = num_x_dim;
         NUM_X_MIN = num_x_min;
         NUM_X_MAX = num_x_max;
@@ -212,21 +230,28 @@ class DE {
         /* ======== Initialization ======== */
         initialization();
 
-        while (g <= NUM_MAX_ITER) {
+        // while (the termination criteria are not met)
+        while (num_nfe < NUM_MAX_NFE) {
             // clear S_CR & S_F
             S_CR.clear();
             S_SF.clear();
+
             // TODO : Parameter update (CR, F)
+            si_dt.param(uniform_int_distribution<int>(0, num_NP - 1).param());
+            for (int si = 0; si < num_NP; si++) {
+                int ri = si_dt(generator);
+            }
 
             // sort(0, num_NP);
             mutation();
             crossover();
             // TODO : Evaluation
+            // TODO : sort
 
             selection();
 
-            // TODO : LPSR
-
+            num_NP = (int)round((N_MIN - NUM_NP_INIT) / NUM_MAX_NFE * g + NUM_NP_INIT);
+            // TODO : 刪掉超出 num_NP 範圍的個體，從排名最後開始刪
             g++;
         }
     }
