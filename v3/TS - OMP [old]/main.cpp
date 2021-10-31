@@ -27,35 +27,15 @@ int main(int argc, char *argv[]) {
     fstream result_file;
     result_file.open(result_path, ios::out | ios::trunc);
 
-    result_file << "Run,";
-
-    for (int ii = 0; ii <= ITERATION; ii++) {
-        result_file << ii;
-        if (ii != ITERATION)
-            result_file << ",";
-    }
-    result_file << endl;
-
     for (int r = 1; r <= RUN; r++) {
         TS(BIT_SIZE, ITERATION, TS_TYPE, resultArr);
 
-        result_file << r << ",";
-        for (int ii = 0; ii <= ITERATION; ii++) {
+        for (int ii = 0; ii <= ITERATION; ii++)
             resultSumArr[ii] += resultArr[ii];
-            result_file << resultArr[ii];
-            if (ii != ITERATION)
-                result_file << ",";
-        }
-        result_file << endl;
     }
 
-    result_file << "avg,";
-    for (int ii = 0; ii <= ITERATION; ii++) {
-        result_file << (double)resultSumArr[ii] / RUN;
-        if (ii != ITERATION)
-            result_file << ",";
-    }
-    result_file << endl;
+    for (int ii = 0; ii <= ITERATION; ii++)
+        result_file << (double)resultSumArr[ii] / RUN << endl;
 
     result_file.close();
 
