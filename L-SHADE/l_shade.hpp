@@ -1,3 +1,5 @@
+#include "cec17_test_func.h"
+
 #include <cstdio>
 #include <ctime>
 #include <iostream>
@@ -19,12 +21,14 @@ class DE {
     const double NUM_CR_INIT = 0.5;
     // initial scaling factor rate
     const double NUM_F_INIT = 0.5;
+    // size of M_CR & M_F
+    const int H = 100;
     // terminal value
     const int TM_VAL = -1;
     const int N_MIN = 4;
 
     // initial number of population
-    int NUM_NP_INIT;
+    const int NUM_NP_INIT = 100;
     // number of population
     int num_NP;
     // number of x dimension
@@ -57,8 +61,8 @@ class DE {
     vector<double> ARR_F, ARR_F_U;
     double best_fitness = 0;
     /* = = = = = = = = = = =   random objects   = = = = = = = = = = = */
-    random_device _rd;
-    default_random_engine generator;
+    random_device rd;
+    mt19937 generator{rd()};
     uniform_real_distribution<double> zero_one_dt;
     uniform_real_distribution<double> x_val_dt;
     uniform_int_distribution<int> si_dt;
@@ -196,13 +200,15 @@ class DE {
 
   public:
     // constructor
-    DE(int num_np_init, int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max) {
+    DE(int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max) {
         NUM_MAX_NFE = num_max_nfe;
         NUM_X_DIM = num_x_dim;
         NUM_X_MIN = num_x_min;
         NUM_X_MAX = num_x_max;
-        NUM_NP_INIT = num_np_init;
-        num_NP = num_np_init;
+        num_NP = NUM_NP_INIT;
+
+        M_CR.resize(H);
+        M_SF.resize(H);
 
         P.clear();
         V.clear();
@@ -212,7 +218,7 @@ class DE {
         }
 
         // initialize random generator & distribution
-        generator.seed(_rd());
+        generator.seed(rd());
         x_val_dt.param(uniform_real_distribution<double>(NUM_X_MIN, NUM_X_MAX).param());
         zero_one_dt.param(uniform_real_distribution<double>(0., 1.).param());
         xi_dt.param(uniform_int_distribution<int>(0, NUM_X_DIM - 1).param());
@@ -238,10 +244,18 @@ class DE {
                 if (M_CR.at(ri) == TM_VAL) {
                     ARR_CR.at(si) = 0;
                 } else {
-                    // TODO
-                    // ARR_CR.at(si) = rand_n_i(M_CR.at(ri), 0.1);
+                    normal_distribution<> nm_dt{M_CR.at(ri), 0.1};
+                    ARR_CR.at(si) = nm_dt(generator);
+                    ARR_CR.at(si) = ARR_CR.at(si) > 1 ? 1 : ARR_CR.at(si);
+                    ARR_CR.at(si) = ARR_CR.at(si) < 0 ? 0 : ARR_CR.at(si);
                 }
-                // ARR_SF = rand_c_i(M_SF.at(ri), 0.1);
+                cauchy_distribution<> cc_dt{M_SF.at(ri), 0.1};
+                ARR_SF.at(si) = cc_dt(generator);
+                // re-generate new number until number > 0
+                while (ARR_SF.at(si) <= 0)
+                    ARR_SF.at(si) = cc_dt(generator);
+
+                ARR_SF.at(si) = ARR_SF.at(si) > 1 ? 1 : ARR_SF.at(si);
             }
 
             mutation();
@@ -249,6 +263,8 @@ class DE {
             selection();
 
             // TODO : Evaluation
+
+            // sort
             quick_sort(0, num_NP - 1);
 
             num_NP = (int)round((N_MIN - NUM_NP_INIT) / NUM_MAX_NFE * g + NUM_NP_INIT);
