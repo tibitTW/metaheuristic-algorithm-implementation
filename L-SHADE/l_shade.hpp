@@ -22,7 +22,7 @@ class DE {
     // initial scaling factor rate
     const double NUM_F_INIT = 0.5;
     // size of M_CR & M_F
-    const int H = 100;
+    int H;
     // terminal value
     const int TM_VAL = -1;
     const int N_MIN = 4;
@@ -48,8 +48,9 @@ class DE {
     int g;
     // control parameter p (in pbest)
     double ctrl_p;
-    // size of M_CR
-    int H;
+
+    // cec benchmark fitness function number
+    int FUNC_NUM;
 
     vector<double> ARR_CR, ARR_SF;
     vector<double> S_CR, S_SF;
@@ -189,6 +190,15 @@ class DE {
         }
     }
 
+    void evaluation() {
+        for (int si = 0; si < num_NP; si++)
+            cec17_test_func(&P.at(si).at(0), &ARR_F.at(si), NUM_X_DIM, 1, FUNC_NUM);
+    }
+    void evaluation_U() {
+        for (int si = 0; si < num_NP; si++)
+            cec17_test_func(&U.at(si).at(0), &ARR_F_U.at(si), NUM_X_DIM, 1, FUNC_NUM);
+    }
+
     /* = = = = = = = =   functions for debugging   = = = = = = = = */
     void printP() {
         for (auto sol : P) {
@@ -200,7 +210,7 @@ class DE {
 
   public:
     // constructor
-    DE(int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max) {
+    DE(int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max, int fun_num) {
         NUM_MAX_NFE = num_max_nfe;
         NUM_X_DIM = num_x_dim;
         NUM_X_MIN = num_x_min;
@@ -260,12 +270,15 @@ class DE {
 
             mutation();
             crossover();
+            evaluation_U();
             selection();
-
-            // TODO : Evaluation
 
             // sort
             quick_sort(0, num_NP - 1);
+
+            for (auto f : ARR_F)
+                cout << f << endl;
+            cout << endl;
 
             num_NP = (int)round((N_MIN - NUM_NP_INIT) / NUM_MAX_NFE * g + NUM_NP_INIT);
             // resize
