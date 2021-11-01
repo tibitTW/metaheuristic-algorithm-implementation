@@ -4,19 +4,17 @@
 #include <ctime>
 #include <iostream>
 #include <random>
+#include <string.h>
 #include <vector>
 
 using namespace std;
 
 int main() {
-    random_device rd{};
-    mt19937 gen{rd()};
-
-    normal_distribution<> d{0, 0.1};
-
-    for (int n = 0; n < 10000; n++) {
-        cout << d(gen) << endl;
-    }
+    char c1[] = "abcde";
+    char *c2 = (char *)malloc(5 * sizeof(char));
+    strcpy(c2, c1);
+    printf("%s\n", c1);
+    printf("%s\n", c2);
 
     return 0;
 }
