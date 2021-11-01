@@ -1,6 +1,5 @@
 #include "cec17_test_func.h"
 
-#include "de.hpp"
 #include <cstdio>
 #include <ctime>
 #include <iostream>
@@ -10,14 +9,14 @@
 using namespace std;
 
 int main() {
-    vector<int> v1 = {1, 2, 3, 4, 5};
-    v1.resize(3);
-    for (auto i : v1)
-        cout << i << " ";
+    random_device rd{};
+    mt19937 gen{rd()};
 
-    // DE de(100, 1000, 10, -30.0, 30.0);
-    // de.test();
-    // de.run();
+    normal_distribution<> d{0, 0.1};
+
+    for (int n = 0; n < 10000; n++) {
+        cout << d(gen) << endl;
+    }
 
     return 0;
 }
