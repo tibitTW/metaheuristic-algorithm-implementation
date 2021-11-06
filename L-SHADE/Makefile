@@ -5,8 +5,8 @@ compile:
 #	g++ main.cpp -o main.exe -O3
 
 run:
-	main.exe 10 -100 100 1 51 result.txt
-#	main.exe x_dim x_min x_max fun_num run
+	main.exe 2 	   -100  100   1       1   result.txt > out.txt
+#	main.exe x_dim x_min x_max fun_num run output_file
 
 debug:
 	g++ main.cpp -o debug.exe -g3
