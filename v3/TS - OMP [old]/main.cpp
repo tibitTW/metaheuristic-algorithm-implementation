@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
     cout << "iteration: " << ITERATION << endl;
     cout << "run: " << RUN << endl;
     cout << "transition type: " << TS_TYPE << endl;
+    cout << "======================================================" << endl;
 
     fstream result_file;
     result_file.open(result_path, ios::out | ios::trunc);
