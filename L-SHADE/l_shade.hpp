@@ -2,6 +2,7 @@
 
 #include <cstdio>
 #include <ctime>
+#include <iomanip>
 #include <iostream>
 #include <math.h>
 #include <random>
@@ -189,7 +190,6 @@ class DE {
             }
         }
     }
-
     void evaluation() {
         for (int si = 0; si < num_NP; si++)
             cec17_test_func(&P.at(si).at(0), &ARR_F.at(si), NUM_X_DIM, 1, FUNC_NUM);
@@ -239,11 +239,25 @@ class DE {
 
     // run L-SHADE algorithm (main structure)
     double run() {
-        /* ======== Initialization ======== */
         initialization();
+        // DEBUG
+        cout << "==========    Initialization     ==========\n";
+        cout << "size of ARR_CR: " << ARR_CR.size() << endl;
+        cout << "size of ARR_SF: " << ARR_SF.size() << endl;
+        cout << "g: " << g << endl;
+        cout << "size of archive: " << A.size() << endl;
+        cout << "population:" << endl;
+        for (int si = 0; si < num_NP; si++) {
+            for (int xi = 0; xi < NUM_X_DIM; xi++)
+                cout << setw(8) << fixed << setprecision(4) << P.at(si).at(xi) << "\t";
+            cout << endl;
+        }
 
         // while (the termination criteria are not met)
         while (num_nfe < NUM_MAX_NFE) {
+            // DEBUG
+            cout << "iteration: " << g << endl;
+
             // clear S_CR & S_F
             S_CR.clear();
             S_SF.clear();

@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     printf("function number: %d\n", FUN_NUM);
     printf("x run:\t%d\n", RUN);
     printf("result file path: %s\n", output_file_path);
-    cout << endl;
+    printf("\n");
 
     vector<double> result(RUN, 0);
     DE de(MAX_NFE, X_DIM, X_MIN, X_MAX, FUN_NUM);
