@@ -22,7 +22,7 @@ class DE {
     const double NUM_CR_INIT = 0.5;
     // initial scaling factor rate
     const double NUM_F_INIT = 0.5;
-    // size of M_CR & M_F
+    // parameter memory size
     int H;
     // terminal value
     const int TM_VAL = -1;
@@ -122,14 +122,20 @@ class DE {
 
     /* = = = = = = = = = =   L_SHADE functions   = = = = = = = = = = */
     void initialization() {
+
         ARR_CR.resize(NUM_NP_INIT);
         ARR_SF.resize(NUM_NP_INIT);
 
-        // initialize number of generation
-        g = 1;
+        ARR_F.resize(NUM_NP_INIT);
+        ARR_F_U.resize(NUM_NP_INIT);
 
-        // initialize number of population
+        // number of generation
+        g = 1;
+        // number of evaluation
+        num_nfe = 0;
+        // number of population
         num_NP = NUM_NP_INIT;
+        // archive
         A.clear();
 
         for (int si = 0; si < num_NP; si++) {
@@ -191,19 +197,23 @@ class DE {
         }
     }
     void evaluation() {
-        for (int si = 0; si < num_NP; si++)
+        for (int si = 0; si < num_NP; si++) {
             cec17_test_func(&P.at(si).at(0), &ARR_F.at(si), NUM_X_DIM, 1, FUNC_NUM);
+            num_nfe++;
+        }
     }
     void evaluation_U() {
-        for (int si = 0; si < num_NP; si++)
+        for (int si = 0; si < num_NP; si++) {
             cec17_test_func(&U.at(si).at(0), &ARR_F_U.at(si), NUM_X_DIM, 1, FUNC_NUM);
+            num_nfe++;
+        }
     }
 
     /* = = = = = = = =   functions for debugging   = = = = = = = = */
-    void printP() {
-        for (auto sol : P) {
+    void printP(Population Pop) {
+        for (auto sol : Pop) {
             for (auto x : sol)
-                cout << x << "\t";
+                cout << setw(8) << fixed << setprecision(4) << x << "\t";
             cout << endl;
         }
     }
@@ -216,15 +226,18 @@ class DE {
         NUM_X_MIN = num_x_min;
         NUM_X_MAX = num_x_max;
         num_NP = NUM_NP_INIT;
+        FUNC_NUM = fun_num;
 
         M_CR.resize(H);
         M_SF.resize(H);
 
         P.clear();
         V.clear();
+        U.clear();
         for (int si = 0; si < NUM_NP_INIT; si++) {
             P.push_back(Solution(NUM_X_DIM, 0));
             V.push_back(Solution(NUM_X_DIM, 0));
+            U.push_back(Solution(NUM_X_DIM, 0));
         }
 
         // initialize random generator & distribution
@@ -247,22 +260,21 @@ class DE {
         cout << "g: " << g << endl;
         cout << "size of archive: " << A.size() << endl;
         cout << "population:" << endl;
-        for (int si = 0; si < num_NP; si++) {
-            for (int xi = 0; xi < NUM_X_DIM; xi++)
-                cout << setw(8) << fixed << setprecision(4) << P.at(si).at(xi) << "\t";
-            cout << endl;
-        }
+        printP(P);
+        // DEBUG END
 
         // while (the termination criteria are not met)
         while (num_nfe < NUM_MAX_NFE) {
             // DEBUG
             cout << "iteration: " << g << endl;
+            // DEBUG END
 
             // clear S_CR & S_F
             S_CR.clear();
             S_SF.clear();
 
-            si_dt.param(uniform_int_distribution<int>(0, num_NP - 1).param());
+            // control parameters update
+            si_dt.param(uniform_int_distribution<int>(0, H - 1).param());
             for (int si = 0; si < num_NP; si++) {
                 int ri = si_dt(generator);
                 if (M_CR.at(ri) == TM_VAL) {
@@ -284,6 +296,7 @@ class DE {
 
             mutation();
             crossover();
+            evaluation();
             evaluation_U();
             selection();
 

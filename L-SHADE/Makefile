@@ -16,5 +16,9 @@ test:
 	g++ test.cpp -o test.exe -O3
 	test.exe > out.txt
 
+cectest:
+	g++ run_cec17.cpp -o cec_test.exe -O3
+	cec_test.exe
+
 clean:
 	del *.o *.exe
