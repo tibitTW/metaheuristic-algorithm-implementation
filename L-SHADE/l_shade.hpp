@@ -47,8 +47,10 @@ class DE {
 
     // num of generation
     int g;
+
+    // FIXME
     // control parameter p (in pbest)
-    double ctrl_p;
+    const double ctrl_p = 0.1;
 
     // cec benchmark fitness function number
     int FUNC_NUM;
@@ -261,7 +263,6 @@ class DE {
         cout << "size of archive: " << A.size() << endl;
         cout << "population:" << endl;
         printP(P);
-        // DEBUG END
 
         // while (the termination criteria are not met)
         while (num_nfe < NUM_MAX_NFE) {
@@ -294,20 +295,44 @@ class DE {
                 ARR_SF.at(si) = ARR_SF.at(si) > 1 ? 1 : ARR_SF.at(si);
             }
 
+            // DEBUG
+            // cout << "control parameters updated." << endl;
+
             mutation();
+
+            // DEBUG
+            // cout << "mutation completed." << endl;
+
             crossover();
+
+            // DEBUG
+            // cout << "crossover completed." << endl;
+
             evaluation();
+
+            // DEBUG
+            // cout << "evaluation completed." << endl;
+
             evaluation_U();
+
+            // DEBUG
+            // cout << "evaluation_U completed." << endl;
+
             selection();
+
+            // DEBUG
+            // cout << "selection completed." << endl;
 
             // sort
             quick_sort(0, num_NP - 1);
 
+            // DEBUG
             for (auto f : ARR_F)
                 cout << f << endl;
             cout << endl;
 
-            num_NP = (int)round((N_MIN - NUM_NP_INIT) / NUM_MAX_NFE * g + NUM_NP_INIT);
+            num_NP = (int)round((double)(N_MIN - NUM_NP_INIT) * num_nfe / NUM_MAX_NFE + NUM_NP_INIT);
+
             // resize
             P.resize(num_NP);
             U.resize(num_NP);
