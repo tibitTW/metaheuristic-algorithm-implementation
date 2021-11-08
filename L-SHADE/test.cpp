@@ -1,5 +1,3 @@
-#include "cec17_test_func.h"
-
 #include <cstdio>
 #include <ctime>
 #include <iostream>
@@ -9,11 +7,9 @@
 
 using namespace std;
 
-int main() {
-    vector<double> sol1 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-    double *f;
-    cec17_test_func(&sol1.at(0), f, 10, 1, 1);
-    cout << *f << endl;
-
+int main(int argc, char *argv[]) {
+    for (int i = 1; i <= argc; i++) {
+        cout << argv[i] << endl;
+    }
     return 0;
 }

@@ -2,6 +2,7 @@
 
 #include <cstdio>
 #include <ctime>
+#include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <math.h>
@@ -17,6 +18,9 @@ class DE {
     typedef vector<Solution> Population;
 
   private:
+    // DEBUG
+    fstream check_file;
+
     /* = = = = = = = = = = =   Parameters   = = = = = = = = = = = */
     // initial crossover rate
     const double NUM_CR_INIT = 0.5;
@@ -215,14 +219,17 @@ class DE {
     void printP(Population Pop) {
         for (auto sol : Pop) {
             for (auto x : sol)
-                cout << setw(8) << fixed << setprecision(4) << x << "\t";
-            cout << endl;
+                check_file << setw(8) << fixed << setprecision(4) << x << "\t";
+            check_file << endl;
         }
     }
 
   public:
     // constructor
     DE(int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max, int fun_num) {
+        // DEBUG
+        check_file.open("check.txt", ios::out | ios::trunc);
+
         NUM_MAX_NFE = num_max_nfe;
         NUM_X_DIM = num_x_dim;
         NUM_X_MIN = num_x_min;
@@ -256,18 +263,18 @@ class DE {
     double run() {
         initialization();
         // DEBUG
-        cout << "==========    Initialization     ==========\n";
-        cout << "size of ARR_CR: " << ARR_CR.size() << endl;
-        cout << "size of ARR_SF: " << ARR_SF.size() << endl;
-        cout << "g: " << g << endl;
-        cout << "size of archive: " << A.size() << endl;
-        cout << "population:" << endl;
+        check_file << "==========    Initialization     ==========\n";
+        check_file << "size of ARR_CR: " << ARR_CR.size() << endl;
+        check_file << "size of ARR_SF: " << ARR_SF.size() << endl;
+        check_file << "g: " << g << endl;
+        check_file << "size of archive: " << A.size() << endl;
+        check_file << "population:" << endl;
         printP(P);
 
         // while (the termination criteria are not met)
         while (num_nfe < NUM_MAX_NFE) {
             // DEBUG
-            cout << "iteration: " << g << endl;
+            check_file << "iteration: " << g << endl;
             // DEBUG END
 
             // clear S_CR & S_F
@@ -296,40 +303,40 @@ class DE {
             }
 
             // DEBUG
-            // cout << "control parameters updated." << endl;
+            // check_file << "control parameters updated." << endl;
 
             mutation();
 
             // DEBUG
-            // cout << "mutation completed." << endl;
+            // check_file << "mutation completed." << endl;
 
             crossover();
 
             // DEBUG
-            // cout << "crossover completed." << endl;
+            // check_file << "crossover completed." << endl;
 
             evaluation();
 
             // DEBUG
-            // cout << "evaluation completed." << endl;
+            // check_file << "evaluation completed." << endl;
 
             evaluation_U();
 
             // DEBUG
-            // cout << "evaluation_U completed." << endl;
+            // check_file << "evaluation_U completed." << endl;
 
             selection();
 
             // DEBUG
-            // cout << "selection completed." << endl;
+            // check_file << "selection completed." << endl;
 
             // sort
             quick_sort(0, num_NP - 1);
 
             // DEBUG
-            for (auto f : ARR_F)
-                cout << f << endl;
-            cout << endl;
+            // for (auto f : ARR_F)
+            //     check_file << f << endl;
+            // check_file << endl;
 
             num_NP = (int)round((double)(N_MIN - NUM_NP_INIT) * num_nfe / NUM_MAX_NFE + NUM_NP_INIT);
 
@@ -343,5 +350,7 @@ class DE {
 
             g++;
         }
+        cout << ARR_F.at(0);
+        return ARR_F.at(0);
     }
 };

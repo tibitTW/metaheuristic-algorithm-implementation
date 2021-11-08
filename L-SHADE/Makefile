@@ -14,10 +14,10 @@ debug:
 
 test:
 	g++ test.cpp -o test.exe -O3
-	test.exe > out.txt
+	test.exe test1 "test2" test3
 
 cectest:
-	g++ run_cec17.cpp -o cec_test.exe -O3
+	g++ cec_test.cpp -o cec_test.exe -O3
 	cec_test.exe
 
 clean:
