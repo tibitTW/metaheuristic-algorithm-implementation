@@ -302,6 +302,9 @@ class DE {
                 ARR_SF.at(si) = ARR_SF.at(si) > 1 ? 1 : ARR_SF.at(si);
             }
 
+            // sort
+            quick_sort(0, num_NP - 1);
+
             // DEBUG
             // check_file << "control parameters updated." << endl;
 
@@ -329,9 +332,6 @@ class DE {
 
             // DEBUG
             // check_file << "selection completed." << endl;
-
-            // sort
-            quick_sort(0, num_NP - 1);
 
             // DEBUG
             // for (auto f : ARR_F)
