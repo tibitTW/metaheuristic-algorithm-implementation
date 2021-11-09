@@ -135,6 +135,15 @@ class DE {
         ARR_F.resize(NUM_NP_INIT);
         ARR_F_U.resize(NUM_NP_INIT);
 
+        P.clear();
+        V.clear();
+        U.clear();
+        for (int si = 0; si < NUM_NP_INIT; si++) {
+            P.push_back(Solution(NUM_X_DIM, 0));
+            V.push_back(Solution(NUM_X_DIM, 0));
+            U.push_back(Solution(NUM_X_DIM, 0));
+        }
+
         // number of generation
         g = 1;
         // number of evaluation
@@ -240,15 +249,6 @@ class DE {
         M_CR.resize(H);
         M_SF.resize(H);
 
-        P.clear();
-        V.clear();
-        U.clear();
-        for (int si = 0; si < NUM_NP_INIT; si++) {
-            P.push_back(Solution(NUM_X_DIM, 0));
-            V.push_back(Solution(NUM_X_DIM, 0));
-            U.push_back(Solution(NUM_X_DIM, 0));
-        }
-
         // initialize random generator & distribution
         generator.seed(rd());
         x_val_dt.param(uniform_real_distribution<double>(NUM_X_MIN, NUM_X_MAX).param());
@@ -350,7 +350,6 @@ class DE {
 
             g++;
         }
-        cout << ARR_F.at(0);
         return ARR_F.at(0);
     }
 };
