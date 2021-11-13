@@ -1,13 +1,3 @@
-CITY DIM: 51
-ANT POP: 100
-MAX ITER: 1000
-PHERO ANT CARRIED: 51
-PHERO CTRL FACTOR: 2
-DISTANCE CTRL FACTOR: 1
-EVAPORATION FACTOR: 0.9
-MIN PHERO AMOUNT: 0.000167
-RUN: 1
-good path:
 37
 3
 43
@@ -60,7 +50,6 @@ good path:
 34
 2
 
-good path:
 30
 12
 23
@@ -113,7 +102,6 @@ good path:
 9
 38
 
-good path:
 49
 33
 0
@@ -166,7 +154,6 @@ good path:
 43
 32
 
-good path:
 40
 12
 26
@@ -219,7 +206,6 @@ good path:
 17
 2
 
-good path:
 29
 24
 48
@@ -272,7 +258,6 @@ good path:
 39
 42
 
-good path:
 21
 27
 4
@@ -325,7 +310,6 @@ good path:
 33
 34
 
-good path:
 46
 13
 36
@@ -378,7 +362,6 @@ good path:
 2
 38
 
-good path:
 44
 9
 48
@@ -431,7 +414,6 @@ good path:
 25
 42
 
-good path:
 45
 2
 31
@@ -484,7 +466,6 @@ good path:
 23
 42
 
-good path:
 35
 34
 19
@@ -537,7 +518,6 @@ good path:
 47
 42
 
-good path:
 26
 47
 45
@@ -590,7 +570,6 @@ good path:
 50
 39
 
-good path:
 24
 13
 23
@@ -643,7 +622,6 @@ good path:
 46
 42
 
-good path:
 37
 10
 45
@@ -696,7 +674,6 @@ good path:
 7
 25
 
-good path:
 36
 16
 3
@@ -749,7 +726,6 @@ good path:
 5
 43
 
-good path:
 36
 43
 14
@@ -802,7 +778,6 @@ good path:
 50
 31
 
-good path:
 6
 22
 23
@@ -855,7 +830,6 @@ good path:
 25
 42
 
-good path:
 25
 7
 47
@@ -908,7 +882,6 @@ good path:
 34
 35
 
-good path:
 36
 16
 3
@@ -961,7 +934,6 @@ good path:
 34
 35
 
-good path:
 39
 41
 18
@@ -1014,7 +986,6 @@ good path:
 35
 34
 
-good path:
 39
 41
 18
@@ -1067,7 +1038,6 @@ good path:
 19
 2
 
-good path:
 35
 34
 19
@@ -1120,7 +1090,6 @@ good path:
 41
 39
 
-good path:
 19
 34
 35
@@ -1173,7 +1142,6 @@ good path:
 41
 39
 
-good path:
 39
 41
 18
@@ -1226,7 +1194,6 @@ good path:
 34
 35
 
-good path:
 35
 34
 19
@@ -1279,7 +1246,6 @@ good path:
 41
 39
 
-good path:
 35
 34
 19
