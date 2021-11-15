@@ -1,18 +1,11 @@
+#include <iomanip>
 #include <iostream>
-#include <random>
+
+using namespace std;
+
 int main() {
-    /* 隨機設備 */
-    std::random_device rd;
 
-    /* 亂數產生器 */
-    std::default_random_engine generator(rd());
-
-    /* 亂數的機率分布 */
-    std::uniform_real_distribution<float> unif(0.0, 1.0);
-
-    /* 產生亂數 */
-    float x = unif(generator);
-
-    std::cout << "x = " << x << std::endl;
+    double a = 123.456789;
+    cout << fixed << setprecision(3) << a << endl;
     return 0;
 }

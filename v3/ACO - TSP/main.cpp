@@ -1,4 +1,5 @@
 #include <fstream>
+#include <iomanip>
 #include <iostream>
 #include <math.h>
 #include <random>
@@ -30,7 +31,7 @@ double getDistance(int x1, int y1, int x2, int y2) {
 }
 void output_result(fstream &output_file, d1d result) {
     for (int i = 0; i < result.size(); i++) {
-        output_file << result.at(i);
+        output_file << fixed << setprecision(3) << result.at(i);
         if (i != result.size() - 1)
             output_file << ",";
     }
@@ -53,10 +54,12 @@ double calculateExceptedValue(double tau, double eta, const int PHERO_CTRL_FACTO
 }
 
 d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHERO_CTRL_FACTOR, const int DISTANCE_CTRL_FACTOR,
-        const double EVAPORATION_FACTOR, const double MIN_PHERO_AMOUNT, const double PHERO_ANT_CARRIED, d2d city_distances) {
+        const double EVAPORATION_FACTOR, const double MIN_PHERO_AMOUNT, const double PHERO_ANT_CARRIED, const double BONUS_WEIGHT,
+        d2d city_distances) {
 
     d1d result;
     double shortest_path = 9999.9;
+    i1d best_path;
 
     i1d ants_current_city(ANT_POP);
     d1d ant_path_length_acc(ANT_POP);
@@ -129,7 +132,7 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
                 }
             }
 
-            ant_path_length_acc.at(ai) += city_distances.at(ants_current_city.at(CITY_DIM - 1)).at(ants_visited_city_order.at(ai).at(0));
+            ant_path_length_acc.at(ai) += city_distances.at(ants_current_city.at(ai)).at(ants_visited_city_order.at(ai).at(0));
         }
 
         /* update pheromone relation matrix */
@@ -146,30 +149,47 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
 
         // 2. addup newly pheromone
         for (int ai = 0; ai < ANT_POP; ai++) {
-            double avg_phero = PHERO_ANT_CARRIED / CITY_DIM;
 
             int c1, c2;
             for (int ci = 0; ci < CITY_DIM - 1; ci++) {
                 c1 = ants_visited_city_order.at(ai).at(ci);
                 c2 = ants_visited_city_order.at(ai).at(ci + 1);
-                phero_RM.at(c2).at(c1) = phero_RM.at(c1).at(c2) += avg_phero / city_distances.at(c1).at(c2);
+                phero_RM.at(c2).at(c1) = phero_RM.at(c1).at(c2) +=
+                    PHERO_ANT_CARRIED * city_distances.at(c1).at(c2) / ant_path_length_acc.at(ai);
             }
             c1 = ants_visited_city_order.at(ai).at(CITY_DIM - 1);
             c2 = ants_visited_city_order.at(ai).at(0);
-            phero_RM.at(c2).at(c1) = phero_RM.at(c1).at(c2) += avg_phero / city_distances.at(c1).at(c2);
+            phero_RM.at(c2).at(c1) = phero_RM.at(c1).at(c2) +=
+                PHERO_ANT_CARRIED * city_distances.at(c1).at(c2) / ant_path_length_acc.at(ai);
         }
 
         // update best(shortest) path
         for (int ai = 0; ai < ANT_POP; ai++) {
             if (shortest_path > ant_path_length_acc.at(ai)) {
                 shortest_path = ant_path_length_acc.at(ai);
+                best_path = ants_visited_city_order.at(ai);
+            }
 
-                cout << "good path:" << endl;
+            // output path
+            if (shortest_path == ant_path_length_acc.at(ai) && shortest_path <= 500) {
+                cout << "good path: " << ant_path_length_acc.at(ai) << endl;
                 for (int ci = 0; ci < CITY_DIM; ci++)
                     cout << ants_visited_city_order.at(ai).at(ci) << endl;
                 cout << endl;
             }
         }
+
+        // 最好路徑有加權分數， *= 權重
+        int c1, c2;
+        for (int ci = 0; ci < CITY_DIM - 1; ci++) {
+            c1 = best_path.at(ci);
+            c2 = best_path.at(ci + 1);
+            phero_RM.at(c1).at(c2) = phero_RM.at(c2).at(c1) *= BONUS_WEIGHT;
+        }
+        c1 = best_path.at(CITY_DIM - 1);
+        c2 = best_path.at(0);
+        phero_RM.at(c1).at(c2) = phero_RM.at(c2).at(c1) *= BONUS_WEIGHT;
+
         result.push_back(shortest_path);
     }
 
@@ -186,7 +206,8 @@ int main(int argc, char *argv[]) {
     const int DISTANCE_CTRL_FACTOR = atoi(argv[6]);
     const double EVAPORATION_FACTOR = atof(argv[7]);
     const double MIN_PHERO_AMOUNT = atof(argv[8]);
-    const int RUN = atoi(argv[9]);
+    const double BONUS_WEIGHT = atof(argv[9]);
+    const int RUN = atoi(argv[10]);
 
     cout << "CITY DIM: " << CITY_DIM << endl;
     cout << "ANT POP: " << ANT_POP << endl;
@@ -196,6 +217,7 @@ int main(int argc, char *argv[]) {
     cout << "DISTANCE CTRL FACTOR: " << DISTANCE_CTRL_FACTOR << endl;
     cout << "EVAPORATION FACTOR: " << EVAPORATION_FACTOR << endl;
     cout << "MIN PHERO AMOUNT: " << MIN_PHERO_AMOUNT << endl;
+    cout << "BONUS WEIGHT: " << BONUS_WEIGHT << endl;
     cout << "RUN: " << RUN << endl;
 
     /* =================== load city locations =================== */
@@ -225,7 +247,7 @@ int main(int argc, char *argv[]) {
     d1d result;
     for (int r = 0; r < RUN; r++) {
         result = aco(MAX_ITER, ANT_POP, CITY_DIM, PHERO_CTRL_FACTOR, DISTANCE_CTRL_FACTOR, EVAPORATION_FACTOR, MIN_PHERO_AMOUNT,
-                     PHERO_ANT_CARRIED, city_distances);
+                     PHERO_ANT_CARRIED, BONUS_WEIGHT, city_distances);
 
         ex_detail_file << r + 1 << ",";
         output_result(ex_detail_file, result);

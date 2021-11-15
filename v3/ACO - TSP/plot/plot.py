@@ -89,14 +89,35 @@ def display_graph(path):
 
 
 # %%
-path_opt = load_city_path("./path/path_opt.txt")
-display_graph(path_opt)
+
 
 # %%
-with open("./path/paths.txt") as f:
-    paths = f.read()
-paths = [tuple(map(int, p.split("\n"))) for p in paths.strip().split("\n\n")]
 
-display_graph(paths[-1])
+
+# %%
+path_421 = load_city_path("./path/path_421.txt")
+display_graph(path_421)
+# %%
+def get_path_length(path) -> int:
+
+    # sum
+    s = 0
+
+    if max(path) == CITY_DIM:
+        path = [pi - 1 for pi in path]
+
+    for i in range(CITY_DIM):
+        c1 = locations[path[i]]
+        if i == CITY_DIM - 1:
+            c2 = locations[path[0]]
+        else:
+            c2 = locations[path[i + 1]]
+
+        s += ((c1[0] - c2[0]) ** 2 + (c1[1] - c2[1]) ** 2) ** 0.5
+        print(s)
+    return s
+
+
+# %%
 
 # %%
