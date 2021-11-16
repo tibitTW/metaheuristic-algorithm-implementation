@@ -322,58 +322,37 @@ class DE {
                 ARR_SF.at(si) = ARR_SF.at(si) > 1 ? 1 : ARR_SF.at(si);
             }
 
-            // sort
+            // sort population, CR & F array
             quick_sort(0, num_NP - 1);
 
-            // // DEBUG
-            // check_file << "control parameters updated." << endl;
-
             mutation();
-
-            // // DEBUG
-            // check_file << "mutation completed." << endl;
-
             crossover();
-
-            // // DEBUG
-            // check_file << "crossover completed." << endl;
-
             evaluation();
-
-            // // DEBUG
-            // check_file << "evaluation completed." << endl;
-
             evaluation_U();
-
-            // // DEBUG
-            // check_file << "evaluation_U completed." << endl;
-
             selection();
 
-            // // DEBUG
-            // check_file << "selection completed." << endl;
-
-            // // DEBUG
-            // for (auto f : ARR_F)
-            //     check_file << f << endl;
-            // check_file << endl;
-
+            // update value of population size
             num_NP = (int)round((double)(N_MIN - NUM_NP_INIT) * num_nfe / NUM_MAX_NFE + NUM_NP_INIT);
-            num_A_SIZE = (int)(num_NP * 2.6);
 
+            // update value of archive size
+            num_A_SIZE = (int)(num_NP * 2.6);
+            // randomly remove element in archive untile attach the setted size
             while (A.size() > num_A_SIZE) {
                 uniform_int_distribution<int> unif(0, A.size() - 1);
                 int rd = unif(generator);
                 A.erase(A.begin() + rd);
             }
 
-            // resize
+            // resize population(s)
             P.resize(num_NP);
             U.resize(num_NP);
             V.resize(num_NP);
+            // resize fitness array
+            ARR_F.resize(num_NP);
+
+            // resize CR and F array(s)
             ARR_CR.resize(num_NP);
             ARR_SF.resize(num_NP);
-            ARR_F.resize(num_NP);
 
             g++;
         }
