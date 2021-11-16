@@ -9,11 +9,22 @@
 #include <random>
 #include <vector>
 
+/* ================== control parameters ================== */
+// population size scaling factor (to the dimensions)
+#define r__n_init 18
+// archive size scaling factor (to the population size)
+#define r_arc 2.6
+// p value in p_best
+#define p 0.11
+// parameter memory size
+#define H 6
+
 using namespace std;
 
 class DE {
     // solution datatype
-    typedef vector<double> Solution;
+    typedef vector<double> d1d;
+    typedef d1d Solution;
     typedef vector<double> Mutated_V;
     typedef vector<Solution> Population;
 
@@ -26,16 +37,16 @@ class DE {
     const double NUM_CR_INIT = 0.5;
     // initial scaling factor rate
     const double NUM_F_INIT = 0.5;
-    // parameter memory size
-    int H;
     // terminal value
     const int TM_VAL = -1;
     const int N_MIN = 4;
 
     // initial number of population
-    const int NUM_NP_INIT = 100;
+    int NUM_NP_INIT;
     // number of population
     int num_NP;
+    // number of archive size
+    int num_A_SIZE;
     // number of x dimension
     int NUM_X_DIM;
     // minimum number of x
@@ -51,10 +62,6 @@ class DE {
 
     // num of generation
     int g;
-
-    // FIXME
-    // control parameter p (in pbest)
-    const double ctrl_p = 0.1;
 
     // cec benchmark fitness function number
     int FUNC_NUM;
@@ -157,29 +164,36 @@ class DE {
             // initialize population P
             for (int xi = 0; xi < NUM_X_DIM; xi++)
                 P.at(si).at(xi) = x_val_dt(generator);
-
+        }
+        for (int hi = 0; hi < H; hi++) {
             // initialize M_CR, M_F
-            M_CR.at(si) = NUM_CR_INIT;
-            M_SF.at(si) = NUM_F_INIT;
+            M_CR.at(hi) = NUM_CR_INIT;
+            M_SF.at(hi) = NUM_F_INIT;
         }
     }
     void mutation() {
         uniform_int_distribution<int> s_dt(0, num_NP - 1);
-        uniform_int_distribution<int> ps_dt(0, (int)ctrl_p * num_NP);
-        double r_pb, r1, r2;
+        uniform_int_distribution<int> ps_dt(0, (int)p * num_NP);
+        uniform_int_distribution<int> r2_dt(0, num_NP + A.size() - 1);
+        int r_pb, r1, r2;
         for (int si = 0; si < num_NP; si++) {
 
             // choose pbest random solution
             r_pb = ps_dt(generator);
             // choose 2 random solution differently
             r1 = s_dt(generator);
-            r2 = s_dt(generator);
+            r2 = r2_dt(generator);
             while (r1 == r2)
                 r2 = s_dt(generator);
 
+            Solution s_r1, s_r2;
+            s_r1 = P.at(r1);
+            if (r2 >= num_NP)
+                s_r2 = A.at(r2 - num_NP);
+            else
+                s_r2 = P.at(r2);
             for (int xi = 0; xi < NUM_X_DIM; xi++) {
-                V.at(si).at(xi) =
-                    P.at(si).at(xi) + ARR_SF.at(si) * (P.at(r_pb).at(xi) - P.at(si).at(xi) + P.at(r1).at(xi) - P.at(r2).at(xi));
+                V.at(si).at(xi) = P.at(si).at(xi) + ARR_SF.at(si) * (P.at(r_pb).at(xi) - P.at(si).at(xi) + s_r1.at(xi) - s_r2.at(xi));
                 if (V.at(si).at(xi) < NUM_X_MIN)
                     V.at(si).at(xi) = (NUM_X_MIN + P.at(si).at(xi)) / 2;
                 if (V.at(si).at(xi) > NUM_X_MAX)
@@ -205,6 +219,11 @@ class DE {
             }
 
             if (ARR_F_U.at(si) < ARR_F.at(si)) {
+                while (A.size() >= num_A_SIZE) {
+                    uniform_int_distribution<int> unid(0, A.size() - 1);
+                    int rd = unid(generator);
+                    A.erase(A.begin() + rd);
+                }
                 A.push_back(P.at(si));
                 S_CR.push_back(ARR_CR.at(si));
                 S_SF.push_back(ARR_SF.at(si));
@@ -236,15 +255,17 @@ class DE {
   public:
     // constructor
     DE(int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max, int fun_num) {
-        // DEBUG
-        check_file.open("check.txt", ios::out | ios::trunc);
+        // // DEBUG
+        // check_file.open("check.txt", ios::out | ios::trunc);
 
         NUM_MAX_NFE = num_max_nfe;
         NUM_X_DIM = num_x_dim;
+
         NUM_X_MIN = num_x_min;
         NUM_X_MAX = num_x_max;
         num_NP = NUM_NP_INIT;
         FUNC_NUM = fun_num;
+        NUM_NP_INIT = num_x_dim * r__n_init;
 
         M_CR.resize(H);
         M_SF.resize(H);
@@ -262,20 +283,19 @@ class DE {
     // run L-SHADE algorithm (main structure)
     double run() {
         initialization();
-        // DEBUG
-        check_file << "==========    Initialization     ==========\n";
-        check_file << "size of ARR_CR: " << ARR_CR.size() << endl;
-        check_file << "size of ARR_SF: " << ARR_SF.size() << endl;
-        check_file << "g: " << g << endl;
-        check_file << "size of archive: " << A.size() << endl;
-        check_file << "population:" << endl;
-        printP(P);
+        // // DEBUG
+        // check_file << "==========    Initialization     ==========\n";
+        // check_file << "size of ARR_CR: " << ARR_CR.size() << endl;
+        // check_file << "size of ARR_SF: " << ARR_SF.size() << endl;
+        // check_file << "g: " << g << endl;
+        // check_file << "size of archive: " << A.size() << endl;
+        // check_file << "population:" << endl;
+        // printP(P);
 
         // while (the termination criteria are not met)
         while (num_nfe < NUM_MAX_NFE) {
-            // DEBUG
-            check_file << "iteration: " << g << endl;
-            // DEBUG END
+            // // DEBUG
+            // check_file << "iteration: " << g << endl;
 
             // clear S_CR & S_F
             S_CR.clear();
@@ -305,40 +325,47 @@ class DE {
             // sort
             quick_sort(0, num_NP - 1);
 
-            // DEBUG
+            // // DEBUG
             // check_file << "control parameters updated." << endl;
 
             mutation();
 
-            // DEBUG
+            // // DEBUG
             // check_file << "mutation completed." << endl;
 
             crossover();
 
-            // DEBUG
+            // // DEBUG
             // check_file << "crossover completed." << endl;
 
             evaluation();
 
-            // DEBUG
+            // // DEBUG
             // check_file << "evaluation completed." << endl;
 
             evaluation_U();
 
-            // DEBUG
+            // // DEBUG
             // check_file << "evaluation_U completed." << endl;
 
             selection();
 
-            // DEBUG
+            // // DEBUG
             // check_file << "selection completed." << endl;
 
-            // DEBUG
+            // // DEBUG
             // for (auto f : ARR_F)
             //     check_file << f << endl;
             // check_file << endl;
 
             num_NP = (int)round((double)(N_MIN - NUM_NP_INIT) * num_nfe / NUM_MAX_NFE + NUM_NP_INIT);
+            num_A_SIZE = (int)(num_NP * 2.6);
+
+            while (A.size() > num_A_SIZE) {
+                uniform_int_distribution<int> unif(0, A.size() - 1);
+                int rd = unif(generator);
+                A.erase(A.begin() + rd);
+            }
 
             // resize
             P.resize(num_NP);

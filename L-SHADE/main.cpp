@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
         sum += result.at(i);
     }
     sum /= RUN;
-    cout << sum;
+    printf("%.2e", sum);
 
     return 0;
 }
