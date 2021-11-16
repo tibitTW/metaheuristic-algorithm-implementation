@@ -8,8 +8,6 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    for (int i = 1; i <= argc; i++) {
-        cout << argv[i] << endl;
-    }
-    return 0;
+    double n1 = 1234.5678;
+    printf("%.2e", n1);
 }
