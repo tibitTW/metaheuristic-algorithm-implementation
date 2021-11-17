@@ -1,4 +1,4 @@
-#include "cec17_test_func.h"
+#include "cec14_test_func.hpp"
 
 #include <cstdio>
 #include <ctime>
@@ -78,10 +78,7 @@ class DE {
     /* = = = = = = = = = = =   random objects   = = = = = = = = = = = */
     random_device rd;
     mt19937 generator{rd()};
-    uniform_real_distribution<double> zero_one_dt;
-    uniform_real_distribution<double> x_val_dt;
-    uniform_int_distribution<int> si_dt;
-    uniform_int_distribution<int> xi_dt;
+    uniform_real_distribution<double> unif{0.0, 1.0};
 
     /* = = = = = = = = = =   quick sort   = = = = = = = = = = */
 
@@ -163,7 +160,7 @@ class DE {
         for (int si = 0; si < num_NP; si++) {
             // initialize population P
             for (int xi = 0; xi < NUM_X_DIM; xi++)
-                P.at(si).at(xi) = x_val_dt(generator);
+                P.at(si).at(xi) = unif(generator) * (NUM_X_MAX - NUM_X_MIN) + NUM_X_MIN;
         }
         for (int hi = 0; hi < H; hi++) {
             // initialize M_CR, M_F
@@ -172,19 +169,16 @@ class DE {
         }
     }
     void mutation() {
-        uniform_int_distribution<int> s_dt(0, num_NP - 1);
-        uniform_int_distribution<int> ps_dt(0, (int)p * num_NP);
-        uniform_int_distribution<int> r2_dt(0, num_NP + A.size() - 1);
         int r_pb, r1, r2;
         for (int si = 0; si < num_NP; si++) {
 
             // choose pbest random solution
-            r_pb = ps_dt(generator);
+            r_pb = (int)(unif(generator) * p * num_NP);
             // choose 2 random solution differently
-            r1 = s_dt(generator);
-            r2 = r2_dt(generator);
+            r1 = (int)(unif(generator) * num_NP);
+            r2 = (int)(unif(generator) * (num_NP + A.size()));
             while (r1 == r2)
-                r2 = s_dt(generator);
+                r2 = (int)(unif(generator) * (num_NP + A.size()));
 
             Solution s_r1, s_r2;
             s_r1 = P.at(r1);
@@ -204,7 +198,7 @@ class DE {
     void crossover() {
         for (int si = 0; si < num_NP; si++) {
             for (int xi = 0; xi < NUM_X_DIM; xi++) {
-                if (zero_one_dt(generator) <= ARR_CR.at(si) || xi == xi_dt(generator))
+                if (unif(generator) <= ARR_CR.at(si) || xi == (int)(unif(generator) * NUM_X_DIM))
                     U.at(si).at(xi) = V.at(si).at(xi);
                 else
                     U.at(si).at(xi) = P.at(si).at(xi);
@@ -219,9 +213,9 @@ class DE {
             }
 
             if (ARR_F_U.at(si) < ARR_F.at(si)) {
+                int rd;
                 while (A.size() >= num_A_SIZE) {
-                    uniform_int_distribution<int> unid(0, A.size() - 1);
-                    int rd = unid(generator);
+                    rd = (int)(unif(generator) * A.size());
                     A.erase(A.begin() + rd);
                 }
                 A.push_back(P.at(si));
@@ -232,13 +226,13 @@ class DE {
     }
     void evaluation() {
         for (int si = 0; si < num_NP; si++) {
-            cec17_test_func(&P.at(si).at(0), &ARR_F.at(si), NUM_X_DIM, 1, FUNC_NUM);
+            cec14_test_func(&P.at(si).at(0), &ARR_F.at(si), NUM_X_DIM, 1, FUNC_NUM);
             num_nfe++;
         }
     }
     void evaluation_U() {
         for (int si = 0; si < num_NP; si++) {
-            cec17_test_func(&U.at(si).at(0), &ARR_F_U.at(si), NUM_X_DIM, 1, FUNC_NUM);
+            cec14_test_func(&U.at(si).at(0), &ARR_F_U.at(si), NUM_X_DIM, 1, FUNC_NUM);
             num_nfe++;
         }
     }
@@ -254,27 +248,23 @@ class DE {
 
   public:
     // constructor
-    DE(int num_max_nfe, int num_x_dim, int num_x_min, int num_x_max, int fun_num) {
+    DE(int num_x_dim, int num_x_min, int num_x_max, int fun_num) {
         // // DEBUG
         // check_file.open("check.txt", ios::out | ios::trunc);
 
-        NUM_MAX_NFE = num_max_nfe;
+        NUM_MAX_NFE = num_x_dim * 10000;
         NUM_X_DIM = num_x_dim;
-
         NUM_X_MIN = num_x_min;
         NUM_X_MAX = num_x_max;
-        num_NP = NUM_NP_INIT;
         FUNC_NUM = fun_num;
         NUM_NP_INIT = num_x_dim * r__n_init;
+        num_NP = NUM_NP_INIT;
 
         M_CR.resize(H);
         M_SF.resize(H);
 
         // initialize random generator & distribution
         generator.seed(rd());
-        x_val_dt.param(uniform_real_distribution<double>(NUM_X_MIN, NUM_X_MAX).param());
-        zero_one_dt.param(uniform_real_distribution<double>(0., 1.).param());
-        xi_dt.param(uniform_int_distribution<int>(0, NUM_X_DIM - 1).param());
     }
 
     // test function
@@ -302,9 +292,9 @@ class DE {
             S_SF.clear();
 
             // control parameters update
-            si_dt.param(uniform_int_distribution<int>(0, H - 1).param());
             for (int si = 0; si < num_NP; si++) {
-                int ri = si_dt(generator);
+                int ri = (int)(unif(generator) * H);
+                ri = ri == H ? H - 1 : ri;
                 if (M_CR.at(ri) == TM_VAL) {
                     ARR_CR.at(si) = 0;
                 } else {
@@ -338,8 +328,7 @@ class DE {
             num_A_SIZE = (int)(num_NP * 2.6);
             // randomly remove element in archive untile attach the setted size
             while (A.size() > num_A_SIZE) {
-                uniform_int_distribution<int> unif(0, A.size() - 1);
-                int rd = unif(generator);
+                int rd = (int)(unif(generator) * A.size());
                 A.erase(A.begin() + rd);
             }
 

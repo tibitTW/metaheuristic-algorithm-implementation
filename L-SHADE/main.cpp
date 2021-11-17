@@ -15,17 +15,15 @@ int main(int argc, char *argv[]) {
     const int FUN_NUM = atoi(argv[4]);
     const int RUN = atoi(argv[5]);
 
-    const int MAX_NFE = X_DIM * 10000;
-
     bool is_output = argc >= 6;
 
     char *output_file_path = (char *)malloc(strlen(argv[6]) * sizeof(char));
     strcpy(output_file_path, argv[6]);
 
-    vector<double> result(RUN, 0);
-    DE de(MAX_NFE, X_DIM, X_MIN, X_MAX, FUN_NUM);
+    double result[RUN];
+    DE de(X_DIM, X_MIN, X_MAX, FUN_NUM);
     for (int i = 0; i < RUN; i++) {
-        result.at(i) = de.run();
+        result[i] = de.run();
     }
 
     if (is_output) {
@@ -33,15 +31,16 @@ int main(int argc, char *argv[]) {
         result_file.open(output_file_path, ios::out | ios::trunc);
 
         for (int i = 0; i < RUN; i++)
-            result_file << result.at(i) << endl;
+            result_file << result[i] << endl;
 
         result_file.close();
     }
 
     double sum = 0;
-    for (int i = 0; i < RUN; i++) {
-        sum += result.at(i);
-    }
+
+    for (int i = 0; i < RUN; i++)
+        sum += result[i];
+
     sum /= RUN;
     printf("%.2e", sum);
 
