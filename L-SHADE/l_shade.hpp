@@ -103,6 +103,7 @@ class DE {
         P.at(a) = P.at(b);
         P.at(b) = sol_tmp;
     }
+    // ! this function never used !
     void swap_solution(Solution &s1, Solution &s2) {
         Solution s_tmp = s1;
         s1 = s2;
@@ -187,7 +188,9 @@ class DE {
             else
                 s_r2 = P.at(r2);
             for (int xi = 0; xi < NUM_X_DIM; xi++) {
-                V.at(si).at(xi) = P.at(si).at(xi) + ARR_SF.at(si) * (P.at(r_pb).at(xi) - P.at(si).at(xi) + s_r1.at(xi) - s_r2.at(xi));
+                V.at(si).at(xi) =
+                    P.at(si).at(xi) + ARR_SF.at(si) * (P.at(r_pb).at(xi) - P.at(si).at(xi) +
+                                                       s_r1.at(xi) - s_r2.at(xi));
                 if (V.at(si).at(xi) < NUM_X_MIN)
                     V.at(si).at(xi) = (NUM_X_MIN + P.at(si).at(xi)) / 2;
                 if (V.at(si).at(xi) > NUM_X_MAX)
@@ -322,7 +325,8 @@ class DE {
             selection();
 
             // update value of population size
-            num_NP = (int)round((double)(N_MIN - NUM_NP_INIT) * num_nfe / NUM_MAX_NFE + NUM_NP_INIT);
+            num_NP =
+                (int)round((double)(N_MIN - NUM_NP_INIT) * num_nfe / NUM_MAX_NFE + NUM_NP_INIT);
 
             // update value of archive size
             num_A_SIZE = (int)(num_NP * 2.6);

@@ -37,7 +37,8 @@ void output_result(fstream &output_file, d1d result) {
     }
     output_file << endl;
 }
-void loadLocations(i2d &city_locations, d2d &city_distances, fstream &loc_file, const int CITY_DIM) {
+void loadLocations(i2d &city_locations, d2d &city_distances, fstream &loc_file,
+                   const int CITY_DIM) {
     // load locations from file
     int tmp;
     for (int i = 0; i < CITY_DIM; i++)
@@ -46,15 +47,18 @@ void loadLocations(i2d &city_locations, d2d &city_distances, fstream &loc_file, 
     for (int i = 0; i < CITY_DIM; i++) {
         city_distances.at(i).at(i) = 0;
         for (int j = i + 1; j < CITY_DIM; j++)
-            city_distances.at(j).at(i) = city_distances.at(i).at(j) = getDistance(city_locations.at(i), city_locations.at(j));
+            city_distances.at(j).at(i) = city_distances.at(i).at(j) =
+                getDistance(city_locations.at(i), city_locations.at(j));
     }
 }
-double calculateExceptedValue(double tau, double eta, const int PHERO_CTRL_FACTOR, const int DISTANCE_CTRL_FACTOR) {
+double calculateExceptedValue(double tau, double eta, const int PHERO_CTRL_FACTOR,
+                              const int DISTANCE_CTRL_FACTOR) {
     return pow(tau, PHERO_CTRL_FACTOR) * pow(eta, DISTANCE_CTRL_FACTOR);
 }
 
-d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHERO_CTRL_FACTOR, const int DISTANCE_CTRL_FACTOR,
-        const double EVAPORATION_FACTOR, const double MIN_PHERO_AMOUNT, const double PHERO_ANT_CARRIED, const double BONUS_WEIGHT,
+d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHERO_CTRL_FACTOR,
+        const int DISTANCE_CTRL_FACTOR, const double EVAPORATION_FACTOR,
+        const double MIN_PHERO_AMOUNT, const double PHERO_ANT_CARRIED, const double BONUS_WEIGHT,
         d2d city_distances) {
 
     d1d result;
@@ -95,9 +99,10 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
                     if (ant_visited_city.at(ai).at(ci) == 1) {
                         excepted_value_table.at(ci).at(0) = -1;
                     } else {
-                        exp_val = calculateExceptedValue(phero_RM.at(ants_current_city.at(ai)).at(ci),
-                                                         1.0 / city_distances.at(ants_current_city.at(ai)).at(ci), PHERO_CTRL_FACTOR,
-                                                         DISTANCE_CTRL_FACTOR);
+                        exp_val = calculateExceptedValue(
+                            phero_RM.at(ants_current_city.at(ai)).at(ci),
+                            1.0 / city_distances.at(ants_current_city.at(ai)).at(ci),
+                            PHERO_CTRL_FACTOR, DISTANCE_CTRL_FACTOR);
                         excepted_value_table.at(ci).at(0) = exp_val;
                         exp_val_sum += exp_val;
                     }
@@ -108,7 +113,8 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
                     if (excepted_value_table.at(ci).at(0) == -1) {
                         excepted_value_table.at(ci).at(1) = excepted_value_table.at(ci).at(2) = -1;
                     } else {
-                        excepted_value_table.at(ci).at(1) = excepted_value_table.at(ci).at(0) / exp_val_sum;
+                        excepted_value_table.at(ci).at(1) =
+                            excepted_value_table.at(ci).at(0) / exp_val_sum;
                         p_sum += excepted_value_table.at(ci).at(1);
                         excepted_value_table.at(ci).at(2) = p_sum;
                     }
@@ -121,7 +127,8 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
                 int next_ci = 0;
                 while (next_ci < CITY_DIM) {
                     if (excepted_value_table.at(next_ci).at(2) > rdn) {
-                        ant_path_length_acc.at(ai) += city_distances.at(ants_current_city.at(ai)).at(next_ci);
+                        ant_path_length_acc.at(ai) +=
+                            city_distances.at(ants_current_city.at(ai)).at(next_ci);
                         ants_current_city.at(ai) = next_ci;
                         ant_visited_city.at(ai).at(next_ci) = 1;
                         ants_visited_city_order.at(ai).at(city_cnt) = next_ci;
@@ -132,7 +139,8 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
                 }
             }
 
-            ant_path_length_acc.at(ai) += city_distances.at(ants_current_city.at(ai)).at(ants_visited_city_order.at(ai).at(0));
+            ant_path_length_acc.at(ai) += city_distances.at(ants_current_city.at(ai))
+                                              .at(ants_visited_city_order.at(ai).at(0));
         }
 
         /* update pheromone relation matrix */
@@ -142,7 +150,9 @@ d1d aco(const int MAX_ITER, const int ANT_POP, const int CITY_DIM, const int PHE
             for (int cj = 0; cj < CITY_DIM; cj++) {
                 if (ci != cj) {
                     phero_RM.at(ci).at(cj) *= (1 - EVAPORATION_FACTOR);
-                    phero_RM.at(ci).at(cj) = (phero_RM.at(ci).at(cj) > MIN_PHERO_AMOUNT) ? phero_RM.at(ci).at(cj) : MIN_PHERO_AMOUNT;
+                    phero_RM.at(ci).at(cj) = (phero_RM.at(ci).at(cj) > MIN_PHERO_AMOUNT)
+                                                 ? phero_RM.at(ci).at(cj)
+                                                 : MIN_PHERO_AMOUNT;
                 }
             }
         }
@@ -246,8 +256,9 @@ int main(int argc, char *argv[]) {
     d1d result_sum(MAX_ITER, 0.0);
     d1d result;
     for (int r = 0; r < RUN; r++) {
-        result = aco(MAX_ITER, ANT_POP, CITY_DIM, PHERO_CTRL_FACTOR, DISTANCE_CTRL_FACTOR, EVAPORATION_FACTOR, MIN_PHERO_AMOUNT,
-                     PHERO_ANT_CARRIED, BONUS_WEIGHT, city_distances);
+        result = aco(MAX_ITER, ANT_POP, CITY_DIM, PHERO_CTRL_FACTOR, DISTANCE_CTRL_FACTOR,
+                     EVAPORATION_FACTOR, MIN_PHERO_AMOUNT, PHERO_ANT_CARRIED, BONUS_WEIGHT,
+                     city_distances);
 
         ex_detail_file << r + 1 << ",";
         output_result(ex_detail_file, result);
