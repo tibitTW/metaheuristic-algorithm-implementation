@@ -31,7 +31,6 @@ int main(int argc, char *argv[]) {
     cout << "EVAPORATION_FACTOR: " << EVAPORATION_FACTOR << endl;
     cout << "MIN_PHERO_AMOUNT: " << MIN_PHERO_AMOUNT << endl;
     cout << "NUM_2OPT_AMOUNT: " << NUM_2OPT_AMOUNT << endl;
-    cout << "NUM_PBEST: " << NUM_PBEST << endl;
     cout << "==================\n";
 
     aco ACO(CITY_DIM, ANT_POP, MAX_ITER, PHERO_ANT_CARRIED, PHERO_CTRL_FACTOR, DIST_CTRL_FACTOR,

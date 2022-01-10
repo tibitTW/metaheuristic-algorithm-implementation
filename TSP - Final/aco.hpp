@@ -23,6 +23,7 @@ class aco {
     random_device rd;
     mt19937 mt{rd()};
     uniform_real_distribution<double> dist{0.0, 1.0};
+    normal_distribution<double> ndist{5.0, 1.0};
 
     int num_city_dim, num_ant_pop, num_max_iter, num_phero_ctrl_factor, num_dis_ctrl_factor,
         num_2opt_amount;
@@ -193,19 +194,13 @@ i1d aco::get_path_v2() {
     // choose random path from archive
     int pi = dist(mt) * paths_archive.size();
     // choose random piece and put in path
-    int ci1 = dist(mt) * num_city_dim, ci2;
-    do
-        ci2 = dist(mt) * num_city_dim;
-    while (ci1 == ci2);
-    if (ci2 < ci1)
-        swap(ci1, ci2);
+    int length = ndist(mt), ci = dist(mt) * num_city_dim;
 
-    // cout << "pi : " << pi << endl;
-    // cout << "ci1 : " << ci1 << " ci2 : " << ci2 << endl;
-
-    for (int i = ci1; i <= ci2; i++) {
+    int i = ci;
+    while (i < length) {
         path.push_back(paths_archive.at(pi).at(i));
         ants_visited_city.at(path.back()) = 1;
+        i++;
     }
 
     // update 剩下的 path
@@ -384,13 +379,13 @@ d1d aco::run() {
     for (int ii = 0; ii < num_max_iter; ii++) {
         // ========== generate path for each ant ========== //
         for (int ai = 0; ai < num_ant_pop; ai++) {
-            // // generate a path
-            // if (paths_archive.size() != 0)
-            //     paths.at(ai) = get_path_v2();
-            // else
-            //     paths.at(ai) = get_path();
+            // generate a path
+            if (paths_archive.size() != 0)
+                paths.at(ai) = get_path_v2();
+            else
+                paths.at(ai) = get_path();
 
-            paths.at(ai) = get_path();
+            // paths.at(ai) = get_path();
 
             // calculate path length
             path_length.at(ai) = get_path_len(paths.at(ai));
@@ -446,11 +441,29 @@ d1d aco::run() {
         // ***************************************** //
     }
 
-    // fout.open("./path.txt", ios::out | ios::app);
-    // for (int i = 0; i < num_city_dim; i++)
-    //     fout << best_path.at(i) << " ";
-    // fout << endl;
-    // fout.close();
+    // local search 2opt
+    for (int ai = 0; ai < num_ant_pop; ai++) {
+        for (int li = 0; li < 100; li++) {
+            tmp_2opt_path = get_2opt_path(paths.at(ai));
+
+            tmp_2opt_path_len = get_path_len(tmp_2opt_path);
+            if (tmp_2opt_path_len < path_length.at(ai)) {
+                paths.at(ai) = tmp_2opt_path;
+                path_length.at(ai) = tmp_2opt_path_len;
+            }
+        }
+        // update best solution
+        if (path_length.at(ai) < best_result)
+            best_result = path_length.at(ai);
+        best_path = paths.at(ai);
+    }
+
+    fout.open("./path.txt", ios::out | ios::trunc);
+    fout << "path " << result.back() << " : ";
+    for (int i = 0; i < num_city_dim; i++)
+        fout << best_path.at(i) << " ";
+    fout << endl;
+    fout.close();
 
     return result;
 }

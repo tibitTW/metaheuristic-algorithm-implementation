@@ -11,6 +11,7 @@ using namespace std;
 random_device rd;
 mt19937 mt(rd());
 uniform_real_distribution<double> dist(0.0, 1.0);
+normal_distribution<double> n_dist{5.0, 1};
 
 typedef vector<int> i1d;
 int main() {
@@ -26,14 +27,7 @@ int main() {
     // aco aco(CITY_DIM, ANT_POP, MAX_ITER, PHERO_ANT_CARRIED, PHERO_CTRL_FACTOR, DIST_CTRL_FACTOR,
     //         EVAPORATION_FACTOR, MIN_PHERO_AMOUNT);
 
-    i1d v1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    for (auto i : v1)
-        cout << i << " ";
-    cout << endl;
-    v1.resize(5);
-    for (auto i : v1)
-        cout << i << " ";
-    cout << endl;
-
+    for (int i = 0; i < 1000; i++)
+        cout << n_dist(mt) << endl;
     return 0;
 }
