@@ -1,6 +1,7 @@
 #include <iomanip>
 #include <iostream>
 #include <stdlib.h>
+#include <vector>
 
 #include "de.hpp"
 
@@ -17,10 +18,12 @@ int main(int argc, char *argv[]) {
     const int RUN = atoi(argv[8]);
     de DE(NP, CR, F, MAX_FES, X_DIM, X_MIN, X_MAX);
 
+    double res_sum = 0;
     for (int ri = 0; ri < RUN; ri++) {
-        double res = DE.run();
-        cout << res << endl;
+        res_sum += DE.run();
     }
+
+    cout << res_sum / RUN << endl;
 
     return 0;
 }
