@@ -25,7 +25,7 @@ class DE {
     // solution datatype
     typedef vector<double> d1d;
     typedef d1d Solution;
-    typedef vector<double> Mutated_V;
+    typedef d1d Mutated_V;
     typedef vector<Solution> Population;
 
   private:
@@ -66,14 +66,14 @@ class DE {
     // cec benchmark fitness function number
     int FUNC_NUM;
 
-    vector<double> ARR_CR, ARR_SF;
-    vector<double> S_CR, S_SF;
-    vector<double> M_CR, M_SF;
+    d1d ARR_CR, ARR_SF;
+    d1d S_CR, S_SF;
+    d1d M_CR, M_SF;
 
     Population P, V, U, A;
 
     // fitness table
-    vector<double> ARR_F, ARR_F_U;
+    d1d ARR_F, ARR_F_U;
     double best_fitness = 0;
     /* = = = = = = = = = = =   random objects   = = = = = = = = = = = */
     random_device rd;
