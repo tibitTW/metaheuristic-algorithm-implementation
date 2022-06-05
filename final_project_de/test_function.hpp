@@ -1,3 +1,6 @@
+#ifndef TEST_FUNCTION_HPP
+#define TEST_FUNCTION_HPP
+
 #include <cmath>
 #include <vector>
 
@@ -150,3 +153,5 @@ double test_func(d1d x, const int TEST_FUNC_ID) {
 
     return 0;
 }
+
+#endif
