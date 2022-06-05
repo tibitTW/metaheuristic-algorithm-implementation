@@ -11,11 +11,10 @@ debug:
 	$(CC) main.cpp -o debug.out -g3
 	gdb degub.out
 
-test:
-	$(CC) test.cpp -o test.out -O3
-	./test.out
+.PHONY: test run clean
 
-.PHONY: run clean
+test:
+	./main.out DE 1 1 2 -600 600 30 0.9 0.6 20000 >./de_griewank_2d_1r.txt
 
 run:
 	./ex.sh

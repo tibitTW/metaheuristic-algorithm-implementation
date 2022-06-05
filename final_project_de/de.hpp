@@ -69,6 +69,12 @@ void DE::Initialization() {
         best_fitness_arr.push_back(best_fitness);
     }
 
+    // * debug
+    for (int pi = 0; pi < NP; pi++) {
+        cout << X_fitness.at(pi) << endl;
+    }
+    cout << "\n";
+
     FES += NP;
 }
 
@@ -118,11 +124,16 @@ void DE::Evaluation(int test_func_id) {
         best_fitness_arr.push_back(best_fitness);
     }
 
+    // * debug
+    for (int pi = 0; pi < NP; pi++) {
+        cout << X_fitness.at(pi) << endl;
+    }
+    cout << "\n";
+
     FES += NP;
 }
 
 d1d DE::run(int RUN_NUM) {
-
     d1d best_fitness_sum_arr(MAX_FES, 0);
 
     for (int ri = 0; ri < RUN_NUM; ri++) {

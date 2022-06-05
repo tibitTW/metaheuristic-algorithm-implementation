@@ -83,7 +83,7 @@ double zakharov(d1d x) {
 double rosenbrock(d1d x) {
     double res = 0;
     for (int i = 0; i < x.size() - 1; i++)
-        res += 100 * (x.at(i + 1) - x.at(i) * x.at(i)) + (x.at(i) - 1) * (x.at(i) - 1);
+        res += 100 * pow(x.at(i + 1) - x.at(i) * x.at(i), 2) + pow(x.at(i) - 1, 2);
 
     return res;
 }

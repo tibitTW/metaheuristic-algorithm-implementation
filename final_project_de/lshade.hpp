@@ -174,6 +174,14 @@ void LSHADE::Initialization() {
         for (int xi = 0; xi < NUM_X_DIM; xi++)
             P.at(si).at(xi) = unif(generator) * (NUM_X_MAX - NUM_X_MIN) + NUM_X_MIN;
     }
+
+    for (int pi = 0; pi < num_NP; pi++) {
+        for (int xi = 0; xi < NUM_X_DIM; xi++) {
+            cout << P.at(pi).at(xi) << " ";
+        }
+        cout << endl;
+    }
+
     for (int hi = 0; hi < H; hi++) {
         // initialize M_CR, M_F
         M_CR.at(hi) = NUM_CR_INIT;
