@@ -60,10 +60,10 @@ int main(int argc, char *argv[]) {
     cout << "X_MIN:          " << X_MIN << endl;
     cout << "X_MAX:          " << X_MAX << endl;
     if (ALGO_TYPE.compare("DE") == 0) {
-        cout << "NP:         " << NP << endl;
-        cout << "CR:         " << CR << endl;
-        cout << "F:          " << F << endl;
-        cout << "MAX_FES:    " << MAX_FES << endl;
+        cout << "NP:             " << NP << endl;
+        cout << "CR:             " << CR << endl;
+        cout << "F:              " << F << endl;
+        cout << "MAX_FES:        " << MAX_FES << endl;
     }
 
     return 0;

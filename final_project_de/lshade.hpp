@@ -1,4 +1,4 @@
-// #include "test_function.hpp"
+#include "test_function.hpp"
 
 #include <limits>
 #include <math.h>
@@ -15,6 +15,7 @@
 // parameter memory size
 #define H 6
 
+#include <iostream>
 using namespace std;
 
 class LSHADE {
@@ -55,7 +56,7 @@ class LSHADE {
     // num of generation
     int g;
 
-    // cec benchmark fitness function number
+    // test function id
     int FUNC_NUM;
 
     d1d ARR_CR, ARR_SF;
@@ -173,13 +174,6 @@ void LSHADE::Initialization() {
         // initialize population P
         for (int xi = 0; xi < NUM_X_DIM; xi++)
             P.at(si).at(xi) = unif(generator) * (NUM_X_MAX - NUM_X_MIN) + NUM_X_MIN;
-    }
-
-    for (int pi = 0; pi < num_NP; pi++) {
-        for (int xi = 0; xi < NUM_X_DIM; xi++) {
-            cout << P.at(pi).at(xi) << " ";
-        }
-        cout << endl;
     }
 
     for (int hi = 0; hi < H; hi++) {

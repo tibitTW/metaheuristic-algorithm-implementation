@@ -30,7 +30,7 @@ class DE {
     void Initialization();
     void Mutation();
     void Crossover();
-    void Evaluation(int test_func_id);
+    void Evaluation();
 
   public:
     DE(int NP, double CR, double F, double MAX_FES, int X_DIM, double X_MIN, double X_MAX,
@@ -47,6 +47,7 @@ DE::DE(int NP, double CR, double F, double MAX_FES, int X_DIM, double X_MIN, dou
     this->X_DIM = X_DIM;
     this->X_MIN = X_MIN;
     this->X_MAX = X_MAX;
+    this->TEST_FUNC_ID = TEST_FUNC_ID;
 
     X.assign(NP, d1d(X_DIM, 0));
     V.assign(NP, d1d(X_DIM, 0));
@@ -69,12 +70,6 @@ void DE::Initialization() {
         best_fitness_arr.push_back(best_fitness);
     }
 
-    // * debug
-    for (int pi = 0; pi < NP; pi++) {
-        cout << X_fitness.at(pi) << endl;
-    }
-    cout << "\n";
-
     FES += NP;
 }
 
@@ -95,15 +90,22 @@ void DE::Mutation() {
             r3++;
             r3 = r3 == NP ? 0 : r3;
         }
-        for (int xi = 0; xi < X_DIM; xi++)
+        for (int xi = 0; xi < X_DIM; xi++) {
             V.at(pi).at(xi) = X.at(r1).at(xi) + F * (X.at(r2).at(xi) - X.at(r3).at(xi));
+            if (V.at(pi).at(xi) < X_MIN)
+                V.at(pi).at(xi) *= -1;
+            if (V.at(pi).at(xi) > X_MAX)
+                V.at(pi).at(xi) = 2 * X_MAX - V.at(pi).at(xi);
+        }
     }
 }
 
 void DE::Crossover() {
+    int rnd;
     for (int pi = 0; pi < NP; pi++) {
+        rnd = (int)(unif(generator)) * X_DIM;
         for (int xi = 0; xi < X_DIM; xi++) {
-            if (unif(generator) <= CR || xi == (int)(unif(generator)))
+            if (unif(generator) <= CR || xi == rnd)
                 U.at(pi).at(xi) = V.at(pi).at(xi);
             else
                 U.at(pi).at(xi) = X.at(pi).at(xi);
@@ -111,9 +113,9 @@ void DE::Crossover() {
     }
 }
 
-void DE::Evaluation(int test_func_id) {
+void DE::Evaluation() {
     for (int pi = 0; pi < NP; pi++) {
-        double fitness = test_func(U.at(pi), test_func_id);
+        double fitness = test_func(U.at(pi), TEST_FUNC_ID);
 
         if (fitness <= X_fitness.at(pi)) {
 
@@ -125,10 +127,10 @@ void DE::Evaluation(int test_func_id) {
     }
 
     // * debug
-    for (int pi = 0; pi < NP; pi++) {
-        cout << X_fitness.at(pi) << endl;
-    }
-    cout << "\n";
+    // for (int pi = 0; pi < NP; pi++) {
+    //     cout << X_fitness.at(pi) << endl;
+    // }
+    // cout << "\n";
 
     FES += NP;
 }
@@ -143,7 +145,7 @@ d1d DE::run(int RUN_NUM) {
         while (FES < MAX_FES) {
             Mutation();
             Crossover();
-            Evaluation(TEST_FUNC_ID);
+            Evaluation();
 
             G++;
         }
